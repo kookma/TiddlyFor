@@ -27,7 +27,7 @@ No installation is requird. Simply download the html file (TiddlyFor.html) open 
 
 * Sample Tiddler
 
-![Sample Tiddler](doc/sample_tiddler.png)
+![Sample Tiddler](images/sample_tiddler.png)
 
 * Sample Fortran syntax highlight
 

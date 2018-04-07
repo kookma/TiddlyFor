@@ -2,52 +2,57 @@
 
 TiddlyFor is a flavor of [TiddlyWiki](http://tiddlywiki.com). It is actually a new [edition](https://tiddlywiki.com/#Editions)
 
-TiddlyFor is a single file, self-content wiki for fortran programmer but can be used for any other purposes. It can be put on the web, sent as an email attachment, or put on a thumb drive. Its main feature is:
+TiddlyFor is a single file, self-contained wiki for fortran programmer but can be used for any other purposes. It can be put on the web, sent as an email attachment, or put on a thumb drive. Its main features are:
 
-### Features
+## Features
 
 * Syntax highlighting for modern Fortran
-* Support math formula through katex
+* Support math formula through [katex](https://github.com/khan/katex/wiki)
 * Colorful notebox (Classic Note, Notebox, Framedbox)
-* Customized stylesheets (Custom Styles, Native TW box)
+* Customized stylesheets
 * Export a tiddler as a JSON or static html file
 * Table of contents
 * Tags
 * Powerful search box
 * Tiddler manager
 * List, filters and advanced search
-* Can be used for Github project documentation [Github projecy](https://tiddlywiki.com/#Using%20TiddlyWiki%20for%20GitHub%20project%20documentation)
+* Can be used for Github project documentation [Github project](https://tiddlywiki.com/#Using%20TiddlyWiki%20for%20GitHub%20project%20documentation)
 * Refined to be suitable for research and education
 
-### How to use
+## How to use
 No installation is requird. Simply download the html file (TiddlyFor.html) open it in your favorite browser!
 
 * For more help see [TiddlyWiki](http://tiddlywiki.com)
-* For editing it is recommneded to use TiddlyDesktop or similar. See [TiddlyWiki](http://tiddlywiki.com)
+* For editing the contents, it is recommneded to use TiddlyDesktop or similar, or use on Node.js. See [TiddlyWiki](http://tiddlywiki.com) for more details
 
 
 ## Exporting tiddlers
-For documentation purpose, note taking and sharing any chunk of rich data, you can export a tidller as a single static html file, attach it to an email, put on the web, or distribute with your software, code, etc. See this wonderful capability on: [How to export tiddlers](https://tiddlywiki.com/#Using%20TiddlyWiki%20for%20GitHub%20project%20documentation)
+For documentation purpose, note taking and sharing any chunk of rich data, tddlers can be exported as a single static html file. Later, It can be used as an attachment to an email, a single page on the web, or distributed with  software, codes, etc.
+
+See this wonderful capability on: [How to export tiddlers](https://tiddlywiki.com/#Using%20TiddlyWiki%20for%20GitHub%20project%20documentation)
 
 
 ## Documentation
 
 * Wiki syntax can be learned in a fraction of hour through this page: [WikiText - TiddlyWiki](https://tiddlywiki.com/static/WikiText.html)
-* Also see tiddlers with **tutorial** tag for customized syntax can be read
+* Also in TiddlyFor look for tiddlers with **tutorial** tag
 * For math formula typing see [katex wiki](https://github.com/khan/katex/wiki)
 
 * More learning resources on [TiddlyWiki Learning](https://tiddlywiki.com/)
 
 ## Sample Contents
 
-* Sample Tiddler
+* **Sample tiddler**
 
 
-![Sample Tiddler](images/sample_tiddler.png)
+![Sample Tiddler](images/complete_tiddler.png)
 
-* Sample Fortran syntax highlight
+* **Sample Fortran syntax highlight**
 
-![Fortran Syntax Highlight](images/fortran_syntax_highlight.png)
+![Fortran Syntax Highlight](images/sample_tiddler_p1.png)
+![Fortran Syntax Highlight](images/sample_tiddler_p2.png)
+
+* **Sample export tiddler**
 
 ### Note
 * TiddlyFor can be customized through plugins

@@ -7,7 +7,11 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="application-name" content="TiddlyWiki" />
 <meta name="generator" content="TiddlyWiki" />
+<<<<<<< HEAD
+<meta name="tiddlywiki-version" content="5.1.17" />
+=======
 <meta name="tiddlywiki-version" content="5.1.16" />
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -44,7 +48,11 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<<<<<<< HEAD
+<title>TiddlyFor — fortran wiki and notes, TW 5.1.17</title>
+=======
 <title>TiddlyFor — fortran wiki and notes, TW 5.1.16</title>
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 
@@ -60,35 +68,48 @@ Basic styles used before we boot up the parsing engine
 Error message and password prompt
 */
 
-.tc-password-wrapper, .tc-error-form {
+.tc-error-form {
+	font-family: sans-serif;
+	color: #fff;
+	z-index: 20000;
+	position: fixed;
+	background-color: rgb(255, 75, 75);
+	border: 8px solid rgb(255, 0, 0);
+	border-radius: 8px;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 4em;
+	padding: 0 2em 1em 2em;
+}
+
+.tc-error-form h1 {
+	text-align: center;
+}
+
+.tc-error-prompt {
+	text-align: center;
+	color: #000;
+}
+
+.tc-error-message {
+	overflow: auto;
+	max-height: 40em;
+	padding-right: 1em;
+	margin: 1em 0;
+	white-space: pre-line;
+}
+
+.tc-password-wrapper {
     font-family: sans-serif;
 	z-index: 20000;
 	position: fixed;
 	text-align: center;
 	width: 200px;
 	top: 4em;
-    left: 50%;
-    margin-left: -144px; /* - width/2 - paddingHorz/2 - border */
+	left: 50%;
+	margin-left: -144px; /* - width/2 - paddingHorz/2 - border */
 	padding: 16px 16px 16px 16px;
 	border-radius: 8px;
-}
-
-.tc-error-form {
-	color: #fff;
-	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
-	background-color: rgb(255, 75, 75);
-	border: 8px solid rgb(255, 0, 0);
-	width: 480px;
-    margin-left: -244px; /* - width/2 - paddingHorz/2 - border */
-}
-
-.tc-error-form div {
-	padding-bottom: 1em;
-}
-
-.tc-error-prompt {
-	color: #000;
-	text-shadow: none;
 }
 
 .tc-password-wrapper {
@@ -172,16 +193,22 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<<<<<<< HEAD
+=======
 <li>$:/state/sidebar</li>
 
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <li>$:/state/tab/sidebar--1835078512</li>
 
 <li>$:/status/UserName</li>
 
 <li>$:/StoryList</li>
 
+<<<<<<< HEAD
+=======
 <li>$:/temp/delete-filter</li>
 
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <li>$:/temp/info-plugin</li>
 
 <li>$:/temp/search</li>
@@ -271,6 +298,7 @@ Error message and password prompt
 <li>myMacros</li>
 
 <li>New Tiddler from a Template</li>
+<<<<<<< HEAD
 
 <li>Notebox</li>
 
@@ -288,6 +316,25 @@ Error message and password prompt
 
 <li>StylesheetNoteBox</li>
 
+=======
+
+<li>Notebox</li>
+
+<li>practice</li>
+
+<li>Quick Start</li>
+
+<li>Revision History</li>
+
+<li>Stylesheet Footnote</li>
+
+<li>StylesheetFrames</li>
+
+<li>StylesheetFrames2</li>
+
+<li>StylesheetNoteBox</li>
+
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <li>StylesheetNoteClassic</li>
 
 <li>StylesheetTables</li>
@@ -301,6 +348,8 @@ Error message and password prompt
 <li>Tables</li>
 
 <li>task</li>
+
+<li>tiddlyfor</li>
 
 <li>TiddlyFor</li>
 
@@ -351,6 +400,13 @@ Error message and password prompt
 </div>
 <div created="20180413033312423" creator="Mohammad" modified="20180414043528839" modifier="Mohammad" title="$:/config/Manager/Show">
 <pre>tiddlers</pre>
+<<<<<<< HEAD
+</div>
+<div created="20180408174459790" creator="Mohammad" modified="20180414043550369" modifier="Mohammad" title="$:/config/Manager/Sort">
+<pre>created</pre>
+</div>
+<div created="20170625112250278" creator="Mohammad" modified="20180830075907028" modifier="Mohammad" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
+=======
 </div>
 <div created="20180408174459790" creator="Mohammad" modified="20180414043550369" modifier="Mohammad" title="$:/config/Manager/Sort">
 <pre>created</pre>
@@ -362,10 +418,28 @@ Error message and password prompt
 <pre>hide</pre>
 </div>
 <div created="20180415182918851" creator="Mohammad" modified="20180415182918851" modifier="Mohammad" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/full-screen">
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <pre>show</pre>
 </div>
+<div created="20180412084243306" creator="Mohammad" modified="20180412084533928" modifier="Mohammad" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/encryption">
+<pre>hide</pre>
+</div>
+<div created="20180415182918851" creator="Mohammad" modified="20180415182918851" modifier="Mohammad" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/full-screen">
+<pre>show</pre>
+</div>
+<<<<<<< HEAD
 <div created="20170625112248525" modified="20170625112248525" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
+=======
+<div created="20180413080521679" creator="Mohammad" modified="20180426193550822" modifier="Mohammad" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh">
+<pre>hide</pre>
+</div>
+<div created="20180421022029952" creator="Mohammad" modified="20180426193549815" modifier="Mohammad" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview">
+<pre>hide</pre>
+</div>
+<div created="20180128202314657" creator="Mohammad" modified="20180412084247033" modifier="Mohammad" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager">
+<pre>hide</pre>
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 </div>
 <div created="20180413080521679" creator="Mohammad" modified="20180426193550822" modifier="Mohammad" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh">
 <pre>hide</pre>
@@ -388,7 +462,11 @@ Error message and password prompt
 <div created="20180416143056503" creator="Mohammad" modified="20180416143104958" modifier="Mohammad" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/info">
 <pre>hide</pre>
 </div>
+<<<<<<< HEAD
+<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.17">
+=======
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.16">
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/Acknowledgements&quot;: {
@@ -4244,7 +4322,7 @@ Error message and password prompt
         },
         &quot;$:/language/ThemeTweaks/Options/StickyTitles/Hint&quot;: {
             &quot;title&quot;: &quot;$:/language/ThemeTweaks/Options/StickyTitles/Hint&quot;,
-            &quot;text&quot;: &quot;Causes tiddler titles to \&quot;stick\&quot; to the top of the browser window. Caution: Does not work at all with Chrome, and causes some layout issues in Firefox&quot;
+            &quot;text&quot;: &quot;Causes tiddler titles to \&quot;stick\&quot; to the top of the browser window&quot;
         },
         &quot;$:/language/ThemeTweaks/Options/CodeWrapping&quot;: {
             &quot;title&quot;: &quot;$:/language/ThemeTweaks/Options/CodeWrapping&quot;,
@@ -5012,7 +5090,11 @@ Error message and password prompt
         },
         &quot;$:/core/modules/filters/is.js&quot;: {
             &quot;title&quot;: &quot;$:/core/modules/filters/is.js&quot;,
+<<<<<<< HEAD
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/core/modules/filters/is.js\ntype: application/javascript\nmodule-type: filteroperator\n\nFilter operator for checking tiddler properties\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\nvar isFilterOperators;\n\nfunction getIsFilterOperators() {\n\tif(!isFilterOperators) {\n\t\tisFilterOperators = {};\n\t\t$tw.modules.applyMethods(\&quot;isfilteroperator\&quot;,isFilterOperators);\n\t}\n\treturn isFilterOperators;\n}\n\n/*\nExport our filter function\n*/\nexports.is = function(source,operator,options) {\n\t// Dispatch to the correct isfilteroperator\n\tvar isFilterOperators = getIsFilterOperators();\n\tif(operator.operand) {\n\t\tvar isFilterOperator = isFilterOperators[operator.operand];\n\t\tif(isFilterOperator) {\n\t\t\treturn isFilterOperator(source,operator.prefix,options);\n\t\t} else {\n\t\t\treturn [$tw.language.getString(\&quot;Error/IsFilterOperator\&quot;)];\n\t\t}\n\t} else {\n\t\t// Return all tiddlers if the operand is missing\n\t\tvar results = [];\n\t\tsource(function(tiddler,title) {\n\t\t\tresults.push(title);\n\t\t});\n\t\treturn results;\n\t}\n};\n\n})();&quot;,
+=======
             &quot;text&quot;: &quot;/*\\\ntitle: $:/core/modules/filters/is.js\ntype: application/javascript\nmodule-type: filteroperator\n\nFilter operator for checking tiddler properties\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\nvar isFilterOperators;\n\nfunction getIsFilterOperators() {\n\tif(!isFilterOperators) {\n\t\tisFilterOperators = {};\n\t\t$tw.modules.applyMethods(\&quot;isfilteroperator\&quot;,isFilterOperators);\n\t}\n\treturn isFilterOperators;\n}\n\n/*\nExport our filter function\n*/\nexports.is = function(source,operator,options) {\n\n\n\tif( !operator.operand) {\n\t\t// Return all tiddlers if the operand is missing\n\t\tvar results = [];\n\t\tsource(function(tiddler,title) {\n\t\t\tresults.push(title);\n\t\t});\n\t\treturn results;\n\t}\n\n\t// Get our isfilteroperators\n\tvar isFilterOperators = getIsFilterOperators(),\n\t    subops = operator.operand.split(\&quot;+\&quot;),\n\t\tfilteredResults = {},\n\t\tresults = [];\n\tfor (var t=0; t&lt;subops.length; t++) {\n\t\tvar subop = isFilterOperators[subops[t]];\n\t\tif(subop) {\n\t\t\tfilteredResults[subops[t]] = subop(source,operator.prefix,options);\n\t\t} else {\n\t\t\treturn [$tw.language.getString(\&quot;Error/IsFilterOperator\&quot;)];\n\t\t}\n\t\t\n\t}\n\t\n    source(function(tiddler,title) {\n        for (var t=0; t&lt;subops.length; t++) {\n            if (filteredResults[subops[t]].indexOf(title) != -1){\n                results.push(title);\n                break;\n            }\n        }\n    });\n\treturn results;\n};\n\n})();\n&quot;,
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
             &quot;type&quot;: &quot;application/javascript&quot;,
             &quot;module-type&quot;: &quot;filteroperator&quot;
         },
@@ -5600,7 +5682,7 @@ Error message and password prompt
         },
         &quot;$:/core/modules/savers/beaker.js&quot;: {
             &quot;title&quot;: &quot;$:/core/modules/savers/beaker.js&quot;,
-            &quot;text&quot;: &quot;/*\\\ntitle: $:/core/modules/savers/beaker.js\ntype: application/javascript\nmodule-type: saver\n\nSaves files using the Beaker browser's (https://beakerbrowser.com) Dat protocol (https://datproject.org/)\nCompatible with beaker &gt;= V0.7.2\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n/*\nSet up the saver\n*/\nvar BeakerSaver = function(wiki) {\n\tthis.wiki = wiki;\n};\n\nBeakerSaver.prototype.save = function(text,method,callback) {\n\tvar dat = new DatArchive(\&quot;\&quot; + window.location),\n\t\tpathname = (\&quot;\&quot; + window.location.pathname).split(\&quot;#\&quot;)[0];\n\tdat.stat(pathname).then(function(value) {\n\t\tif(value.isDirectory()) {\n\t\t\tpathname = pathname + \&quot;/index.html\&quot;;\n\t\t}\n\t\tdat.writeFile(pathname,text,\&quot;utf8\&quot;).then(function(value) {\n\t\t\tcallback(null);\n\t\t},function(reason) {\n\t\t\tcallback(\&quot;Beaker Saver Write Error: \&quot; + reason);\n\t\t});\n\t},function(reason) {\n\t\tcallback(\&quot;Beaker Saver Stat Error: \&quot; + reason);\n\t});\n\treturn true;\n};\n\n/*\nInformation about this saver\n*/\nBeakerSaver.prototype.info = {\n\tname: \&quot;beaker\&quot;,\n\tpriority: 3000,\n\tcapabilities: [\&quot;save\&quot;, \&quot;autosave\&quot;]\n};\n\n/*\nStatic method that returns true if this saver is capable of working\n*/\nexports.canSave = function(wiki) {\n\treturn !!window.DatArchive;\n};\n\n/*\nCreate an instance of this saver\n*/\nexports.create = function(wiki) {\n\treturn new BeakerSaver(wiki);\n};\n\n})();\n&quot;,
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/core/modules/savers/beaker.js\ntype: application/javascript\nmodule-type: saver\n\nSaves files using the Beaker browser's (https://beakerbrowser.com) Dat protocol (https://datproject.org/)\nCompatible with beaker &gt;= V0.7.2\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n/*\nSet up the saver\n*/\nvar BeakerSaver = function(wiki) {\n\tthis.wiki = wiki;\n};\n\nBeakerSaver.prototype.save = function(text,method,callback) {\n\tvar dat = new DatArchive(\&quot;\&quot; + window.location),\n\t\tpathname = (\&quot;\&quot; + window.location.pathname).split(\&quot;#\&quot;)[0];\n\tdat.stat(pathname).then(function(value) {\n\t\tif(value.isDirectory()) {\n\t\t\tpathname = pathname + \&quot;/index.html\&quot;;\n\t\t}\n\t\tdat.writeFile(pathname,text,\&quot;utf8\&quot;).then(function(value) {\n\t\t\tcallback(null);\n\t\t},function(reason) {\n\t\t\tcallback(\&quot;Beaker Saver Write Error: \&quot; + reason);\n\t\t});\n\t},function(reason) {\n\t\tcallback(\&quot;Beaker Saver Stat Error: \&quot; + reason);\n\t});\n\treturn true;\n};\n\n/*\nInformation about this saver\n*/\nBeakerSaver.prototype.info = {\n\tname: \&quot;beaker\&quot;,\n\tpriority: 3000,\n\tcapabilities: [\&quot;save\&quot;, \&quot;autosave\&quot;]\n};\n\n/*\nStatic method that returns true if this saver is capable of working\n*/\nexports.canSave = function(wiki) {\n\treturn !!window.DatArchive &amp;&amp; location.protocol===\&quot;dat:\&quot;;\n};\n\n/*\nCreate an instance of this saver\n*/\nexports.create = function(wiki) {\n\treturn new BeakerSaver(wiki);\n};\n\n})();\n&quot;,
             &quot;type&quot;: &quot;application/javascript&quot;,
             &quot;module-type&quot;: &quot;saver&quot;
         },
@@ -5630,7 +5712,11 @@ Error message and password prompt
         },
         &quot;$:/core/modules/savers/put.js&quot;: {
             &quot;title&quot;: &quot;$:/core/modules/savers/put.js&quot;,
+<<<<<<< HEAD
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/core/modules/savers/put.js\ntype: application/javascript\nmodule-type: saver\n\nSaves wiki by performing a PUT request to the server\n\nWorks with any server which accepts a PUT request\nto the current URL, such as a WebDAV server.\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n/*\nRetrieve ETag if available\n*/\nvar RetrieveETag = function(self) {\n\tvar headers = { \&quot;Accept\&quot;: \&quot;*/*;charset=UTF-8\&quot; };\n\t$tw.utils.httpRequest({\n\t\turl: self.uri(),\n\t\ttype: \&quot;HEAD\&quot;,\n\t\theaders: headers,\n\t\tcallback: function(err, data, xhr) {\n\t\t\tif(err) return;\n\t\t\tvar etag = xhr.getResponseHeader(\&quot;ETag\&quot;);\n\t\t\tif(!etag) return;\n\t\t\tself.etag = etag.replace(/^W\\//,\&quot;\&quot;);\n\t\t}\n\t});\n};\n\n\n/*\nSelect the appropriate saver module and set it up\n*/\nvar PutSaver = function(wiki) {\n\tthis.wiki = wiki;\n\tvar self = this;\n\tvar uri = this.uri();\n\t// Async server probe. Until probe finishes, save will fail fast\n\t// See also https://github.com/Jermolene/TiddlyWiki5/issues/2276\n\t$tw.utils.httpRequest({\n\t\turl: uri,\n\t\ttype: \&quot;OPTIONS\&quot;,\n\t\tcallback: function(err, data, xhr) {\n\t\t\t// Check DAV header http://www.webdav.org/specs/rfc2518.html#rfc.section.9.1\n\t\t\tif(!err) {\n\t\t\t\tself.serverAcceptsPuts = xhr.status === 200 &amp;&amp; !!xhr.getResponseHeader(\&quot;dav\&quot;);\n\t\t\t}\n\t\t}\n\t});\n\tRetrieveETag(this);\n};\n\nPutSaver.prototype.uri = function() {\n\treturn document.location.toString().split(\&quot;#\&quot;)[0];\n};\n\n// TODO: in case of edit conflict\n// Prompt: Do you want to save over this? Y/N\n// Merging would be ideal, and may be possible using future generic merge flow\nPutSaver.prototype.save = function(text, method, callback) {\n\tif(!this.serverAcceptsPuts) {\n\t\treturn false;\n\t}\n\tvar self = this;\n\tvar headers = { \&quot;Content-Type\&quot;: \&quot;text/html;charset=UTF-8\&quot; };\n\tif(this.etag) {\n\t\theaders[\&quot;If-Match\&quot;] = this.etag;\n\t}\n\t$tw.utils.httpRequest({\n\t\turl: this.uri(),\n\t\ttype: \&quot;PUT\&quot;,\n\t\theaders: headers,\n\t\tdata: text,\n\t\tcallback: function(err, data, xhr) {\n\t\t\tif(err) {\n\t\t\t\t// response is textual: \&quot;XMLHttpRequest error code: 412\&quot;\n\t\t\t\tconst status = Number(err.substring(err.indexOf(':') + 2, err.length))\n\t\t\t\tif(status === 412) { // edit conflict\n\t\t\t\t\tvar message = $tw.language.getString(\&quot;Error/EditConflict\&quot;);\n\t\t\t\t\tcallback(message);\n\t\t\t\t} else {\n\t\t\t\t\tcallback(err); // fail\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\tself.etag = xhr.getResponseHeader(\&quot;ETag\&quot;);\n\t\t\t\tif (self.etag == null) {\n\t\t\t\t\tRetrieveETag(self);\n\t\t\t\t}\n\t\t\t\tcallback(null); // success\n\t\t\t}\n\t\t}\n\t});\n\treturn true;\n};\n\n/*\nInformation about this saver\n*/\nPutSaver.prototype.info = {\n\tname: \&quot;put\&quot;,\n\tpriority: 2000,\n\tcapabilities: [\&quot;save\&quot;, \&quot;autosave\&quot;]\n};\n\n/*\nStatic method that returns true if this saver is capable of working\n*/\nexports.canSave = function(wiki) {\n\treturn /^https?:/.test(location.protocol);\n};\n\n/*\nCreate an instance of this saver\n*/\nexports.create = function(wiki) {\n\treturn new PutSaver(wiki);\n};\n\n})();\n&quot;,
+=======
             &quot;text&quot;: &quot;/*\\\ntitle: $:/core/modules/savers/put.js\ntype: application/javascript\nmodule-type: saver\n\nSaves wiki by performing a PUT request to the server\n\nWorks with any server which accepts a PUT request\nto the current URL, such as a WebDAV server.\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n/*\nSelect the appropriate saver module and set it up\n*/\nvar PutSaver = function(wiki) {\n\tthis.wiki = wiki;\n\tvar self = this;\n\tvar uri = this.uri();\n\t// Async server probe. Until probe finishes, save will fail fast\n\t// See also https://github.com/Jermolene/TiddlyWiki5/issues/2276\n\t$tw.utils.httpRequest({\n\t\turl: uri,\n\t\ttype: \&quot;OPTIONS\&quot;,\n\t\tcallback: function(err, data, xhr) {\n\t\t\t// Check DAV header http://www.webdav.org/specs/rfc2518.html#rfc.section.9.1\n\t\t\tif(!err) {\n\t\t\t\tself.serverAcceptsPuts = xhr.status === 200 &amp;&amp; !!xhr.getResponseHeader(\&quot;dav\&quot;);\n\t\t\t}\n\t\t}\n\t});\n\t// Retrieve ETag if available\n\t$tw.utils.httpRequest({\n\t\turl: uri,\n\t\ttype: \&quot;HEAD\&quot;,\n\t\tcallback: function(err, data, xhr) {\n\t\t\tif(!err) {\n\t\t\t\tself.etag = xhr.getResponseHeader(\&quot;ETag\&quot;);\n\t\t\t}\n\t\t}\n\t});\n};\n\nPutSaver.prototype.uri = function() {\n\treturn document.location.toString().split(\&quot;#\&quot;)[0];\n};\n\n// TODO: in case of edit conflict\n// Prompt: Do you want to save over this? Y/N\n// Merging would be ideal, and may be possible using future generic merge flow\nPutSaver.prototype.save = function(text, method, callback) {\n\tif(!this.serverAcceptsPuts) {\n\t\treturn false;\n\t}\n\tvar self = this;\n\tvar headers = { \&quot;Content-Type\&quot;: \&quot;text/html;charset=UTF-8\&quot; };\n\tif(this.etag) {\n\t\theaders[\&quot;If-Match\&quot;] = this.etag;\n\t}\n\t$tw.utils.httpRequest({\n\t\turl: this.uri(),\n\t\ttype: \&quot;PUT\&quot;,\n\t\theaders: headers,\n\t\tdata: text,\n\t\tcallback: function(err, data, xhr) {\n\t\t\tif(err) {\n\t\t\t\tcallback(err);\n\t\t\t} else if(xhr.status === 200 || xhr.status === 201) {\n\t\t\t\tself.etag = xhr.getResponseHeader(\&quot;ETag\&quot;);\n\t\t\t\tcallback(null); // success\n\t\t\t} else if(xhr.status === 412) { // edit conflict\n\t\t\t\tvar message = $tw.language.getString(\&quot;Error/EditConflict\&quot;);\n\t\t\t\tcallback(message);\n\t\t\t} else {\n\t\t\t\tcallback(xhr.responseText); // fail\n\t\t\t}\n\t\t}\n\t});\n\treturn true;\n};\n\n/*\nInformation about this saver\n*/\nPutSaver.prototype.info = {\n\tname: \&quot;put\&quot;,\n\tpriority: 2000,\n\tcapabilities: [\&quot;save\&quot;, \&quot;autosave\&quot;]\n};\n\n/*\nStatic method that returns true if this saver is capable of working\n*/\nexports.canSave = function(wiki) {\n\treturn /^https?:/.test(location.protocol);\n};\n\n/*\nCreate an instance of this saver\n*/\nexports.create = function(wiki) {\n\treturn new PutSaver(wiki);\n};\n\n})();\n&quot;,
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
             &quot;type&quot;: &quot;application/javascript&quot;,
             &quot;module-type&quot;: &quot;saver&quot;
         },
@@ -5750,7 +5836,7 @@ Error message and password prompt
         },
         &quot;$:/core/modules/syncer.js&quot;: {
             &quot;title&quot;: &quot;$:/core/modules/syncer.js&quot;,
-            &quot;text&quot;: &quot;/*\\\ntitle: $:/core/modules/syncer.js\ntype: application/javascript\nmodule-type: global\n\nThe syncer tracks changes to the store. If a syncadaptor is used then individual tiddlers are synchronised through it. If there is no syncadaptor then the entire wiki is saved via saver modules.\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n/*\nDefaults\n*/\nSyncer.prototype.titleIsLoggedIn = \&quot;$:/status/IsLoggedIn\&quot;;\nSyncer.prototype.titleUserName = \&quot;$:/status/UserName\&quot;;\nSyncer.prototype.titleSyncFilter = \&quot;$:/config/SyncFilter\&quot;;\nSyncer.prototype.titleSavedNotification = \&quot;$:/language/Notifications/Save/Done\&quot;;\nSyncer.prototype.taskTimerInterval = 1 * 1000; // Interval for sync timer\nSyncer.prototype.throttleInterval = 1 * 1000; // Defer saving tiddlers if they've changed in the last 1s...\nSyncer.prototype.fallbackInterval = 10 * 1000; // Unless the task is older than 10s\nSyncer.prototype.pollTimerInterval = 60 * 1000; // Interval for polling for changes from the adaptor\n\n/*\nInstantiate the syncer with the following options:\nsyncadaptor: reference to syncadaptor to be used\nwiki: wiki to be synced\n*/\nfunction Syncer(options) {\n\tvar self = this;\n\tthis.wiki = options.wiki;\n\tthis.syncadaptor = options.syncadaptor;\n\tthis.disableUI = !!options.disableUI;\n\tthis.titleIsLoggedIn = options.titleIsLoggedIn || this.titleIsLoggedIn;\n\tthis.titleUserName = options.titleUserName || this.titleUserName;\n\tthis.titleSyncFilter = options.titleSyncFilter || this.titleSyncFilter;\n\tthis.titleSavedNotification = options.titleSavedNotification || this.titleSavedNotification;\n\tthis.taskTimerInterval = options.taskTimerInterval || this.taskTimerInterval;\n\tthis.throttleInterval = options.throttleInterval || this.throttleInterval;\n\tthis.fallbackInterval = options.fallbackInterval || this.fallbackInterval;\n\tthis.pollTimerInterval = options.pollTimerInterval || this.pollTimerInterval;\n\tthis.logging = \&quot;logging\&quot; in options ? options.logging : true;\n\t// Make a logger\n\tthis.logger = new $tw.utils.Logger(\&quot;syncer\&quot; + ($tw.browser ? \&quot;-browser\&quot; : \&quot;\&quot;) + ($tw.node ? \&quot;-server\&quot; : \&quot;\&quot;)  + (this.syncadaptor.name ? (\&quot;-\&quot; + this.syncadaptor.name) : \&quot;\&quot;),{\n\t\t\tcolour: \&quot;cyan\&quot;,\n\t\t\tenable: this.logging\n\t\t});\n\t// Compile the dirty tiddler filter\n\tthis.filterFn = this.wiki.compileFilter(this.wiki.getTiddlerText(this.titleSyncFilter));\n\t// Record information for known tiddlers\n\tthis.readTiddlerInfo();\n\t// Tasks are {type: \&quot;load\&quot;/\&quot;save\&quot;/\&quot;delete\&quot;, title:, queueTime:, lastModificationTime:}\n\tthis.taskQueue = {}; // Hashmap of tasks yet to be performed\n\tthis.taskInProgress = {}; // Hash of tasks in progress\n\tthis.taskTimerId = null; // Timer for task dispatch\n\tthis.pollTimerId = null; // Timer for polling server\n\t// Listen out for changes to tiddlers\n\tthis.wiki.addEventListener(\&quot;change\&quot;,function(changes) {\n\t\tself.syncToServer(changes);\n\t});\n\t// Browser event handlers\n\tif($tw.browser &amp;&amp; !this.disableUI) {\n\t\t// Set up our beforeunload handler\n\t\t$tw.addUnloadTask(function(event) {\n\t\t\tvar confirmationMessage;\n\t\t\tif(self.isDirty()) {\n\t\t\t\tconfirmationMessage = $tw.language.getString(\&quot;UnsavedChangesWarning\&quot;);\n\t\t\t\tevent.returnValue = confirmationMessage; // Gecko\n\t\t\t}\n\t\t\treturn confirmationMessage;\n\t\t});\n\t\t// Listen out for login/logout/refresh events in the browser\n\t\t$tw.rootWidget.addEventListener(\&quot;tm-login\&quot;,function() {\n\t\t\tself.handleLoginEvent();\n\t\t});\n\t\t$tw.rootWidget.addEventListener(\&quot;tm-logout\&quot;,function() {\n\t\t\tself.handleLogoutEvent();\n\t\t});\n\t\t$tw.rootWidget.addEventListener(\&quot;tm-server-refresh\&quot;,function() {\n\t\t\tself.handleRefreshEvent();\n\t\t});\n\t}\n\t// Listen out for lazyLoad events\n\tif(!this.disableUI) {\n\t\tthis.wiki.addEventListener(\&quot;lazyLoad\&quot;,function(title) {\n\t\t\tself.handleLazyLoadEvent(title);\n\t\t});\t\t\n\t}\n\t// Get the login status\n\tthis.getStatus(function(err,isLoggedIn) {\n\t\t// Do a sync from the server\n\t\tself.syncFromServer();\n\t});\n}\n\n/*\nRead (or re-read) the latest tiddler info from the store\n*/\nSyncer.prototype.readTiddlerInfo = function() {\n\t// Hashmap by title of {revision:,changeCount:,adaptorInfo:}\n\tthis.tiddlerInfo = {};\n\t// Record information for known tiddlers\n\tvar self = this,\n\t\ttiddlers = this.filterFn.call(this.wiki);\n\t$tw.utils.each(tiddlers,function(title) {\n\t\tvar tiddler = self.wiki.getTiddler(title);\n\t\tself.tiddlerInfo[title] = {\n\t\t\trevision: tiddler.fields.revision,\n\t\t\tadaptorInfo: self.syncadaptor &amp;&amp; self.syncadaptor.getTiddlerInfo(tiddler),\n\t\t\tchangeCount: self.wiki.getChangeCount(title),\n\t\t\thasBeenLazyLoaded: false\n\t\t};\n\t});\n};\n\n/*\nCreate an tiddlerInfo structure if it doesn't already exist\n*/\nSyncer.prototype.createTiddlerInfo = function(title) {\n\tif(!$tw.utils.hop(this.tiddlerInfo,title)) {\n\t\tthis.tiddlerInfo[title] = {\n\t\t\trevision: null,\n\t\t\tadaptorInfo: {},\n\t\t\tchangeCount: -1,\n\t\t\thasBeenLazyLoaded: false\n\t\t};\n\t}\n};\n\n/*\nChecks whether the wiki is dirty (ie the window shouldn't be closed)\n*/\nSyncer.prototype.isDirty = function() {\n\treturn (this.numTasksInQueue() &gt; 0) || (this.numTasksInProgress() &gt; 0);\n};\n\n/*\nUpdate the document body with the class \&quot;tc-dirty\&quot; if the wiki has unsaved/unsynced changes\n*/\nSyncer.prototype.updateDirtyStatus = function() {\n\tif($tw.browser &amp;&amp; !this.disableUI) {\n\t\t$tw.utils.toggleClass(document.body,\&quot;tc-dirty\&quot;,this.isDirty());\n\t}\n};\n\n/*\nSave an incoming tiddler in the store, and updates the associated tiddlerInfo\n*/\nSyncer.prototype.storeTiddler = function(tiddlerFields,hasBeenLazyLoaded) {\n\t// Save the tiddler\n\tvar tiddler = new $tw.Tiddler(this.wiki.getTiddler(tiddlerFields.title),tiddlerFields);\n\tthis.wiki.addTiddler(tiddler);\n\t// Save the tiddler revision and changeCount details\n\tthis.tiddlerInfo[tiddlerFields.title] = {\n\t\trevision: tiddlerFields.revision,\n\t\tadaptorInfo: this.syncadaptor.getTiddlerInfo(tiddler),\n\t\tchangeCount: this.wiki.getChangeCount(tiddlerFields.title),\n\t\thasBeenLazyLoaded: hasBeenLazyLoaded !== undefined ? hasBeenLazyLoaded : true\n\t};\n};\n\nSyncer.prototype.getStatus = function(callback) {\n\tvar self = this;\n\t// Check if the adaptor supports getStatus()\n\tif(this.syncadaptor &amp;&amp; this.syncadaptor.getStatus) {\n\t\t// Mark us as not logged in\n\t\tthis.wiki.addTiddler({title: this.titleIsLoggedIn,text: \&quot;no\&quot;});\n\t\t// Get login status\n\t\tthis.syncadaptor.getStatus(function(err,isLoggedIn,username) {\n\t\t\tif(err) {\n\t\t\t\tself.logger.alert(err);\n\t\t\t\treturn;\n\t\t\t}\n\t\t\t// Set the various status tiddlers\n\t\t\tself.wiki.addTiddler({title: self.titleIsLoggedIn,text: isLoggedIn ? \&quot;yes\&quot; : \&quot;no\&quot;});\n\t\t\tif(isLoggedIn) {\n\t\t\t\tself.wiki.addTiddler({title: self.titleUserName,text: username || \&quot;\&quot;});\n\t\t\t} else {\n\t\t\t\tself.wiki.deleteTiddler(self.titleUserName);\n\t\t\t}\n\t\t\t// Invoke the callback\n\t\t\tif(callback) {\n\t\t\t\tcallback(err,isLoggedIn,username);\n\t\t\t}\n\t\t});\n\t} else {\n\t\tcallback(null,true,\&quot;UNAUTHENTICATED\&quot;);\n\t}\n};\n\n/*\nSynchronise from the server by reading the skinny tiddler list and queuing up loads for any tiddlers that we don't already have up to date\n*/\nSyncer.prototype.syncFromServer = function() {\n\tif(this.syncadaptor &amp;&amp; this.syncadaptor.getSkinnyTiddlers) {\n\t\tthis.logger.log(\&quot;Retrieving skinny tiddler list\&quot;);\n\t\tvar self = this;\n\t\tif(this.pollTimerId) {\n\t\t\tclearTimeout(this.pollTimerId);\n\t\t\tthis.pollTimerId = null;\n\t\t}\n\t\tthis.syncadaptor.getSkinnyTiddlers(function(err,tiddlers) {\n\t\t\t// Trigger the next sync\n\t\t\tself.pollTimerId = setTimeout(function() {\n\t\t\t\tself.pollTimerId = null;\n\t\t\t\tself.syncFromServer.call(self);\n\t\t\t},self.pollTimerInterval);\n\t\t\t// Check for errors\n\t\t\tif(err) {\n\t\t\t\tself.logger.alert($tw.language.getString(\&quot;Error/RetrievingSkinny\&quot;) + \&quot;:\&quot;,err);\n\t\t\t\treturn;\n\t\t\t}\n\t\t\t// Process each incoming tiddler\n\t\t\tfor(var t=0; t&lt;tiddlers.length; t++) {\n\t\t\t\t// Get the incoming tiddler fields, and the existing tiddler\n\t\t\t\tvar tiddlerFields = tiddlers[t],\n\t\t\t\t\tincomingRevision = tiddlerFields.revision + \&quot;\&quot;,\n\t\t\t\t\ttiddler = self.wiki.getTiddler(tiddlerFields.title),\n\t\t\t\t\ttiddlerInfo = self.tiddlerInfo[tiddlerFields.title],\n\t\t\t\t\tcurrRevision = tiddlerInfo ? tiddlerInfo.revision : null;\n\t\t\t\t// Ignore the incoming tiddler if it's the same as the revision we've already got\n\t\t\t\tif(currRevision !== incomingRevision) {\n\t\t\t\t\t// Do a full load if we've already got a fat version of the tiddler\n\t\t\t\t\tif(tiddler &amp;&amp; tiddler.fields.text !== undefined) {\n\t\t\t\t\t\t// Do a full load of this tiddler\n\t\t\t\t\t\tself.enqueueSyncTask({\n\t\t\t\t\t\t\ttype: \&quot;load\&quot;,\n\t\t\t\t\t\t\ttitle: tiddlerFields.title\n\t\t\t\t\t\t});\n\t\t\t\t\t} else {\n\t\t\t\t\t\t// Load the skinny version of the tiddler\n\t\t\t\t\t\tself.storeTiddler(tiddlerFields,false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t});\n\t}\n};\n\n/*\nSynchronise a set of changes to the server\n*/\nSyncer.prototype.syncToServer = function(changes) {\n\tvar self = this,\n\t\tnow = Date.now(),\n\t\tfilteredChanges = this.filterFn.call(this.wiki,function(callback) {\n\t\t\t$tw.utils.each(changes,function(change,title) {\n\t\t\t\tvar tiddler = self.wiki.getTiddler(title);\n\t\t\t\tcallback(tiddler,title);\n\t\t\t});\n\t\t});\n\t$tw.utils.each(changes,function(change,title,object) {\n\t\t// Process the change if it is a deletion of a tiddler we're already syncing, or is on the filtered change list\n\t\tif((change.deleted &amp;&amp; $tw.utils.hop(self.tiddlerInfo,title)) || filteredChanges.indexOf(title) !== -1) {\n\t\t\t// Queue a task to sync this tiddler\n\t\t\tself.enqueueSyncTask({\n\t\t\t\ttype: change.deleted ? \&quot;delete\&quot; : \&quot;save\&quot;,\n\t\t\t\ttitle: title\n\t\t\t});\n\t\t}\n\t});\n};\n\n/*\nLazily load a skinny tiddler if we can\n*/\nSyncer.prototype.handleLazyLoadEvent = function(title) {\n\t// Don't lazy load the same tiddler twice\n\tvar info = this.tiddlerInfo[title];\n\tif(!info || !info.hasBeenLazyLoaded) {\n\t\tthis.createTiddlerInfo(title);\n\t\tthis.tiddlerInfo[title].hasBeenLazyLoaded = true;\n\t\t// Queue up a sync task to load this tiddler\n\t\tthis.enqueueSyncTask({\n\t\t\ttype: \&quot;load\&quot;,\n\t\t\ttitle: title\n\t\t});\t\t\n\t}\n};\n\n/*\nDispay a password prompt and allow the user to login\n*/\nSyncer.prototype.handleLoginEvent = function() {\n\tvar self = this;\n\tthis.getStatus(function(err,isLoggedIn,username) {\n\t\tif(!isLoggedIn) {\n\t\t\t$tw.passwordPrompt.createPrompt({\n\t\t\t\tserviceName: $tw.language.getString(\&quot;LoginToTiddlySpace\&quot;),\n\t\t\t\tcallback: function(data) {\n\t\t\t\t\tself.login(data.username,data.password,function(err,isLoggedIn) {\n\t\t\t\t\t\tself.syncFromServer();\n\t\t\t\t\t});\n\t\t\t\t\treturn true; // Get rid of the password prompt\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t});\n};\n\n/*\nAttempt to login to TiddlyWeb.\n\tusername: username\n\tpassword: password\n\tcallback: invoked with arguments (err,isLoggedIn)\n*/\nSyncer.prototype.login = function(username,password,callback) {\n\tthis.logger.log(\&quot;Attempting to login as\&quot;,username);\n\tvar self = this;\n\tif(this.syncadaptor.login) {\n\t\tthis.syncadaptor.login(username,password,function(err) {\n\t\t\tif(err) {\n\t\t\t\treturn callback(err);\n\t\t\t}\n\t\t\tself.getStatus(function(err,isLoggedIn,username) {\n\t\t\t\tif(callback) {\n\t\t\t\t\tcallback(null,isLoggedIn);\n\t\t\t\t}\n\t\t\t});\n\t\t});\n\t} else {\n\t\tcallback(null,true);\n\t}\n};\n\n/*\nAttempt to log out of TiddlyWeb\n*/\nSyncer.prototype.handleLogoutEvent = function() {\n\tthis.logger.log(\&quot;Attempting to logout\&quot;);\n\tvar self = this;\n\tif(this.syncadaptor.logout) {\n\t\tthis.syncadaptor.logout(function(err) {\n\t\t\tif(err) {\n\t\t\t\tself.logger.alert(err);\n\t\t\t} else {\n\t\t\t\tself.getStatus();\n\t\t\t}\n\t\t});\n\t}\n};\n\n/*\nImmediately refresh from the server\n*/\nSyncer.prototype.handleRefreshEvent = function() {\n\tthis.syncFromServer();\n};\n\n/*\nQueue up a sync task. If there is already a pending task for the tiddler, just update the last modification time\n*/\nSyncer.prototype.enqueueSyncTask = function(task) {\n\tvar self = this,\n\t\tnow = Date.now();\n\t// Set the timestamps on this task\n\ttask.queueTime = now;\n\ttask.lastModificationTime = now;\n\t// Fill in some tiddlerInfo if the tiddler is one we haven't seen before\n\tthis.createTiddlerInfo(task.title);\n\t// Bail if this is a save and the tiddler is already at the changeCount that the server has\n\tif(task.type === \&quot;save\&quot; &amp;&amp; this.wiki.getChangeCount(task.title) &lt;= this.tiddlerInfo[task.title].changeCount) {\n\t\treturn;\n\t}\n\t// Check if this tiddler is already in the queue\n\tif($tw.utils.hop(this.taskQueue,task.title)) {\n\t\t// this.logger.log(\&quot;Re-queueing up sync task with type:\&quot;,task.type,\&quot;title:\&quot;,task.title);\n\t\tvar existingTask = this.taskQueue[task.title];\n\t\t// If so, just update the last modification time\n\t\texistingTask.lastModificationTime = task.lastModificationTime;\n\t\t// If the new task is a save then we upgrade the existing task to a save. Thus a pending load is turned into a save if the tiddler changes locally in the meantime. But a pending save is not modified to become a load\n\t\tif(task.type === \&quot;save\&quot; || task.type === \&quot;delete\&quot;) {\n\t\t\texistingTask.type = task.type;\n\t\t}\n\t} else {\n\t\t// this.logger.log(\&quot;Queuing up sync task with type:\&quot;,task.type,\&quot;title:\&quot;,task.title);\n\t\t// If it is not in the queue, insert it\n\t\tthis.taskQueue[task.title] = task;\n\t\tthis.updateDirtyStatus();\n\t}\n\t// Process the queue\n\t$tw.utils.nextTick(function() {self.processTaskQueue.call(self);});\n};\n\n/*\nReturn the number of tasks in progress\n*/\nSyncer.prototype.numTasksInProgress = function() {\n\treturn $tw.utils.count(this.taskInProgress);\n};\n\n/*\nReturn the number of tasks in the queue\n*/\nSyncer.prototype.numTasksInQueue = function() {\n\treturn $tw.utils.count(this.taskQueue);\n};\n\n/*\nTrigger a timeout if one isn't already outstanding\n*/\nSyncer.prototype.triggerTimeout = function() {\n\tvar self = this;\n\tif(!this.taskTimerId) {\n\t\tthis.taskTimerId = setTimeout(function() {\n\t\t\tself.taskTimerId = null;\n\t\t\tself.processTaskQueue.call(self);\n\t\t},self.taskTimerInterval);\n\t}\n};\n\n/*\nProcess the task queue, performing the next task if appropriate\n*/\nSyncer.prototype.processTaskQueue = function() {\n\tvar self = this;\n\t// Only process a task if the sync adaptor is fully initialised and we're not already performing a task. If we are already performing a task then we'll dispatch the next one when it completes\n\tif((!this.syncadaptor.isReady || this.syncadaptor.isReady()) &amp;&amp; this.numTasksInProgress() === 0) {\n\t\t// Choose the next task to perform\n\t\tvar task = this.chooseNextTask();\n\t\t// Perform the task if we had one\n\t\tif(task) {\n\t\t\t// Remove the task from the queue and add it to the in progress list\n\t\t\tdelete this.taskQueue[task.title];\n\t\t\tthis.taskInProgress[task.title] = task;\n\t\t\tthis.updateDirtyStatus();\n\t\t\t// Dispatch the task\n\t\t\tthis.dispatchTask(task,function(err) {\n\t\t\t\tif(err) {\n\t\t\t\t\tself.logger.alert(\&quot;Sync error while processing '\&quot; + task.title + \&quot;':\\n\&quot; + err);\n\t\t\t\t}\n\t\t\t\t// Mark that this task is no longer in progress\n\t\t\t\tdelete self.taskInProgress[task.title];\n\t\t\t\tself.updateDirtyStatus();\n\t\t\t\t// Process the next task\n\t\t\t\tself.processTaskQueue.call(self);\n\t\t\t});\n\t\t} else {\n\t\t\t// Make sure we've set a time if there wasn't a task to perform, but we've still got tasks in the queue\n\t\t\tif(this.numTasksInQueue() &gt; 0) {\n\t\t\t\tthis.triggerTimeout();\n\t\t\t}\n\t\t}\n\t}\n};\n\n/*\nChoose the next applicable task\n*/\nSyncer.prototype.chooseNextTask = function() {\n\tvar self = this,\n\t\tcandidateTask = null,\n\t\tnow = Date.now();\n\t// Select the best candidate task\n\t$tw.utils.each(this.taskQueue,function(task,title) {\n\t\t// Exclude the task if there's one of the same name in progress\n\t\tif($tw.utils.hop(self.taskInProgress,title)) {\n\t\t\treturn;\n\t\t}\n\t\t// Exclude the task if it is a save and the tiddler has been modified recently, but not hit the fallback time\n\t\tif(task.type === \&quot;save\&quot; &amp;&amp; (now - task.lastModificationTime) &lt; self.throttleInterval &amp;&amp;\n\t\t\t(now - task.queueTime) &lt; self.fallbackInterval) {\n\t\t\treturn;\n\t\t}\n\t\t// Exclude the task if it is newer than the current best candidate\n\t\tif(candidateTask &amp;&amp; candidateTask.queueTime &lt; task.queueTime) {\n\t\t\treturn;\n\t\t}\n\t\t// Now this is our best candidate\n\t\tcandidateTask = task;\n\t});\n\treturn candidateTask;\n};\n\n/*\nDispatch a task and invoke the callback\n*/\nSyncer.prototype.dispatchTask = function(task,callback) {\n\tvar self = this;\n\tif(task.type === \&quot;save\&quot;) {\n\t\tvar changeCount = this.wiki.getChangeCount(task.title),\n\t\t\ttiddler = this.wiki.getTiddler(task.title);\n\t\tthis.logger.log(\&quot;Dispatching 'save' task:\&quot;,task.title);\n\t\tif(tiddler) {\n\t\t\tthis.syncadaptor.saveTiddler(tiddler,function(err,adaptorInfo,revision) {\n\t\t\t\tif(err) {\n\t\t\t\t\treturn callback(err);\n\t\t\t\t}\n\t\t\t\t// Adjust the info stored about this tiddler\n\t\t\t\tself.tiddlerInfo[task.title] = {\n\t\t\t\t\tchangeCount: changeCount,\n\t\t\t\t\tadaptorInfo: adaptorInfo,\n\t\t\t\t\trevision: revision\n\t\t\t\t};\n\t\t\t\t// Invoke the callback\n\t\t\t\tcallback(null);\n\t\t\t},{\n\t\t\t\ttiddlerInfo: self.tiddlerInfo[task.title]\n\t\t\t});\n\t\t} else {\n\t\t\tthis.logger.log(\&quot; Not Dispatching 'save' task:\&quot;,task.title,\&quot;tiddler does not exist\&quot;);\n\t\t\treturn callback(null);\n\t\t}\n\t} else if(task.type === \&quot;load\&quot;) {\n\t\t// Load the tiddler\n\t\tthis.logger.log(\&quot;Dispatching 'load' task:\&quot;,task.title);\n\t\tthis.syncadaptor.loadTiddler(task.title,function(err,tiddlerFields) {\n\t\t\tif(err) {\n\t\t\t\treturn callback(err);\n\t\t\t}\n\t\t\t// Store the tiddler\n\t\t\tif(tiddlerFields) {\n\t\t\t\tself.storeTiddler(tiddlerFields,true);\n\t\t\t}\n\t\t\t// Invoke the callback\n\t\t\tcallback(null);\n\t\t});\n\t} else if(task.type === \&quot;delete\&quot;) {\n\t\t// Delete the tiddler\n\t\tthis.logger.log(\&quot;Dispatching 'delete' task:\&quot;,task.title);\n\t\tthis.syncadaptor.deleteTiddler(task.title,function(err) {\n\t\t\tif(err) {\n\t\t\t\treturn callback(err);\n\t\t\t}\n\t\t\tdelete self.tiddlerInfo[task.title];\n\t\t\t// Invoke the callback\n\t\t\tcallback(null);\n\t\t},{\n\t\t\ttiddlerInfo: self.tiddlerInfo[task.title]\n\t\t});\n\t}\n};\n\nexports.Syncer = Syncer;\n\n})();\n&quot;,
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/core/modules/syncer.js\ntype: application/javascript\nmodule-type: global\n\nThe syncer tracks changes to the store. If a syncadaptor is used then individual tiddlers are synchronised through it. If there is no syncadaptor then the entire wiki is saved via saver modules.\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\n/*\nDefaults\n*/\nSyncer.prototype.titleIsLoggedIn = \&quot;$:/status/IsLoggedIn\&quot;;\nSyncer.prototype.titleUserName = \&quot;$:/status/UserName\&quot;;\nSyncer.prototype.titleSyncFilter = \&quot;$:/config/SyncFilter\&quot;;\nSyncer.prototype.titleSavedNotification = \&quot;$:/language/Notifications/Save/Done\&quot;;\nSyncer.prototype.taskTimerInterval = 1 * 1000; // Interval for sync timer\nSyncer.prototype.throttleInterval = 1 * 1000; // Defer saving tiddlers if they've changed in the last 1s...\nSyncer.prototype.fallbackInterval = 10 * 1000; // Unless the task is older than 10s\nSyncer.prototype.pollTimerInterval = 60 * 1000; // Interval for polling for changes from the adaptor\n\n/*\nInstantiate the syncer with the following options:\nsyncadaptor: reference to syncadaptor to be used\nwiki: wiki to be synced\n*/\nfunction Syncer(options) {\n\tvar self = this;\n\tthis.wiki = options.wiki;\n\tthis.syncadaptor = options.syncadaptor;\n\tthis.disableUI = !!options.disableUI;\n\tthis.titleIsLoggedIn = options.titleIsLoggedIn || this.titleIsLoggedIn;\n\tthis.titleUserName = options.titleUserName || this.titleUserName;\n\tthis.titleSyncFilter = options.titleSyncFilter || this.titleSyncFilter;\n\tthis.titleSavedNotification = options.titleSavedNotification || this.titleSavedNotification;\n\tthis.taskTimerInterval = options.taskTimerInterval || this.taskTimerInterval;\n\tthis.throttleInterval = options.throttleInterval || this.throttleInterval;\n\tthis.fallbackInterval = options.fallbackInterval || this.fallbackInterval;\n\tthis.pollTimerInterval = options.pollTimerInterval || this.pollTimerInterval;\n\tthis.logging = \&quot;logging\&quot; in options ? options.logging : true;\n\t// Make a logger\n\tthis.logger = new $tw.utils.Logger(\&quot;syncer\&quot; + ($tw.browser ? \&quot;-browser\&quot; : \&quot;\&quot;) + ($tw.node ? \&quot;-server\&quot; : \&quot;\&quot;)  + (this.syncadaptor.name ? (\&quot;-\&quot; + this.syncadaptor.name) : \&quot;\&quot;),{\n\t\t\tcolour: \&quot;cyan\&quot;,\n\t\t\tenable: this.logging\n\t\t});\n\t// Compile the dirty tiddler filter\n\tthis.filterFn = this.wiki.compileFilter(this.wiki.getTiddlerText(this.titleSyncFilter));\n\t// Record information for known tiddlers\n\tthis.readTiddlerInfo();\n\t// Tasks are {type: \&quot;load\&quot;/\&quot;save\&quot;/\&quot;delete\&quot;, title:, queueTime:, lastModificationTime:}\n\tthis.taskQueue = {}; // Hashmap of tasks yet to be performed\n\tthis.taskInProgress = {}; // Hash of tasks in progress\n\tthis.taskTimerId = null; // Timer for task dispatch\n\tthis.pollTimerId = null; // Timer for polling server\n\t// Listen out for changes to tiddlers\n\tthis.wiki.addEventListener(\&quot;change\&quot;,function(changes) {\n\t\tself.syncToServer(changes);\n\t});\n\t// Browser event handlers\n\tif($tw.browser &amp;&amp; !this.disableUI) {\n\t\t// Set up our beforeunload handler\n\t\t$tw.addUnloadTask(function(event) {\n\t\t\tvar confirmationMessage;\n\t\t\tif(self.isDirty()) {\n\t\t\t\tconfirmationMessage = $tw.language.getString(\&quot;UnsavedChangesWarning\&quot;);\n\t\t\t\tevent.returnValue = confirmationMessage; // Gecko\n\t\t\t}\n\t\t\treturn confirmationMessage;\n\t\t});\n\t\t// Listen out for login/logout/refresh events in the browser\n\t\t$tw.rootWidget.addEventListener(\&quot;tm-login\&quot;,function() {\n\t\t\tself.handleLoginEvent();\n\t\t});\n\t\t$tw.rootWidget.addEventListener(\&quot;tm-logout\&quot;,function() {\n\t\t\tself.handleLogoutEvent();\n\t\t});\n\t\t$tw.rootWidget.addEventListener(\&quot;tm-server-refresh\&quot;,function() {\n\t\t\tself.handleRefreshEvent();\n\t\t});\n\t}\n\t// Listen out for lazyLoad events\n\tif(!this.disableUI) {\n\t\tthis.wiki.addEventListener(\&quot;lazyLoad\&quot;,function(title) {\n\t\t\tself.handleLazyLoadEvent(title);\n\t\t});\t\t\n\t}\n\t// Get the login status\n\tthis.getStatus(function(err,isLoggedIn) {\n\t\t// Do a sync from the server\n\t\tself.syncFromServer();\n\t});\n}\n\n/*\nRead (or re-read) the latest tiddler info from the store\n*/\nSyncer.prototype.readTiddlerInfo = function() {\n\t// Hashmap by title of {revision:,changeCount:,adaptorInfo:}\n\tthis.tiddlerInfo = {};\n\t// Record information for known tiddlers\n\tvar self = this,\n\t\ttiddlers = this.filterFn.call(this.wiki);\n\t$tw.utils.each(tiddlers,function(title) {\n\t\tvar tiddler = self.wiki.getTiddler(title);\n\t\tself.tiddlerInfo[title] = {\n\t\t\trevision: tiddler.fields.revision,\n\t\t\tadaptorInfo: self.syncadaptor &amp;&amp; self.syncadaptor.getTiddlerInfo(tiddler),\n\t\t\tchangeCount: self.wiki.getChangeCount(title),\n\t\t\thasBeenLazyLoaded: false\n\t\t};\n\t});\n};\n\n/*\nCreate an tiddlerInfo structure if it doesn't already exist\n*/\nSyncer.prototype.createTiddlerInfo = function(title) {\n\tif(!$tw.utils.hop(this.tiddlerInfo,title)) {\n\t\tthis.tiddlerInfo[title] = {\n\t\t\trevision: null,\n\t\t\tadaptorInfo: {},\n\t\t\tchangeCount: -1,\n\t\t\thasBeenLazyLoaded: false\n\t\t};\n\t}\n};\n\n/*\nChecks whether the wiki is dirty (ie the window shouldn't be closed)\n*/\nSyncer.prototype.isDirty = function() {\n\treturn (this.numTasksInQueue() &gt; 0) || (this.numTasksInProgress() &gt; 0);\n};\n\n/*\nUpdate the document body with the class \&quot;tc-dirty\&quot; if the wiki has unsaved/unsynced changes\n*/\nSyncer.prototype.updateDirtyStatus = function() {\n\tif($tw.browser &amp;&amp; !this.disableUI) {\n\t\t$tw.utils.toggleClass(document.body,\&quot;tc-dirty\&quot;,this.isDirty());\n\t}\n};\n\n/*\nSave an incoming tiddler in the store, and updates the associated tiddlerInfo\n*/\nSyncer.prototype.storeTiddler = function(tiddlerFields,hasBeenLazyLoaded) {\n\t// Save the tiddler\n\tvar tiddler = new $tw.Tiddler(this.wiki.getTiddler(tiddlerFields.title),tiddlerFields);\n\tthis.wiki.addTiddler(tiddler);\n\t// Save the tiddler revision and changeCount details\n\tthis.tiddlerInfo[tiddlerFields.title] = {\n\t\trevision: tiddlerFields.revision,\n\t\tadaptorInfo: this.syncadaptor.getTiddlerInfo(tiddler),\n\t\tchangeCount: this.wiki.getChangeCount(tiddlerFields.title),\n\t\thasBeenLazyLoaded: hasBeenLazyLoaded !== undefined ? hasBeenLazyLoaded : true\n\t};\n};\n\nSyncer.prototype.getStatus = function(callback) {\n\tvar self = this;\n\t// Check if the adaptor supports getStatus()\n\tif(this.syncadaptor &amp;&amp; this.syncadaptor.getStatus) {\n\t\t// Mark us as not logged in\n\t\tthis.wiki.addTiddler({title: this.titleIsLoggedIn,text: \&quot;no\&quot;});\n\t\t// Get login status\n\t\tthis.syncadaptor.getStatus(function(err,isLoggedIn,username) {\n\t\t\tif(err) {\n\t\t\t\tself.logger.alert(err);\n\t\t\t\treturn;\n\t\t\t}\n\t\t\t// Set the various status tiddlers\n\t\t\tself.wiki.addTiddler({title: self.titleIsLoggedIn,text: isLoggedIn ? \&quot;yes\&quot; : \&quot;no\&quot;});\n\t\t\tif(isLoggedIn) {\n\t\t\t\tself.wiki.addTiddler({title: self.titleUserName,text: username || \&quot;\&quot;});\n\t\t\t}\n\t\t\t// Invoke the callback\n\t\t\tif(callback) {\n\t\t\t\tcallback(err,isLoggedIn,username);\n\t\t\t}\n\t\t});\n\t} else {\n\t\tcallback(null,true,\&quot;UNAUTHENTICATED\&quot;);\n\t}\n};\n\n/*\nSynchronise from the server by reading the skinny tiddler list and queuing up loads for any tiddlers that we don't already have up to date\n*/\nSyncer.prototype.syncFromServer = function() {\n\tif(this.syncadaptor &amp;&amp; this.syncadaptor.getSkinnyTiddlers) {\n\t\tthis.logger.log(\&quot;Retrieving skinny tiddler list\&quot;);\n\t\tvar self = this;\n\t\tif(this.pollTimerId) {\n\t\t\tclearTimeout(this.pollTimerId);\n\t\t\tthis.pollTimerId = null;\n\t\t}\n\t\tthis.syncadaptor.getSkinnyTiddlers(function(err,tiddlers) {\n\t\t\t// Trigger the next sync\n\t\t\tself.pollTimerId = setTimeout(function() {\n\t\t\t\tself.pollTimerId = null;\n\t\t\t\tself.syncFromServer.call(self);\n\t\t\t},self.pollTimerInterval);\n\t\t\t// Check for errors\n\t\t\tif(err) {\n\t\t\t\tself.logger.alert($tw.language.getString(\&quot;Error/RetrievingSkinny\&quot;) + \&quot;:\&quot;,err);\n\t\t\t\treturn;\n\t\t\t}\n\t\t\t// Process each incoming tiddler\n\t\t\tfor(var t=0; t&lt;tiddlers.length; t++) {\n\t\t\t\t// Get the incoming tiddler fields, and the existing tiddler\n\t\t\t\tvar tiddlerFields = tiddlers[t],\n\t\t\t\t\tincomingRevision = tiddlerFields.revision + \&quot;\&quot;,\n\t\t\t\t\ttiddler = self.wiki.getTiddler(tiddlerFields.title),\n\t\t\t\t\ttiddlerInfo = self.tiddlerInfo[tiddlerFields.title],\n\t\t\t\t\tcurrRevision = tiddlerInfo ? tiddlerInfo.revision : null;\n\t\t\t\t// Ignore the incoming tiddler if it's the same as the revision we've already got\n\t\t\t\tif(currRevision !== incomingRevision) {\n\t\t\t\t\t// Do a full load if we've already got a fat version of the tiddler\n\t\t\t\t\tif(tiddler &amp;&amp; tiddler.fields.text !== undefined) {\n\t\t\t\t\t\t// Do a full load of this tiddler\n\t\t\t\t\t\tself.enqueueSyncTask({\n\t\t\t\t\t\t\ttype: \&quot;load\&quot;,\n\t\t\t\t\t\t\ttitle: tiddlerFields.title\n\t\t\t\t\t\t});\n\t\t\t\t\t} else {\n\t\t\t\t\t\t// Load the skinny version of the tiddler\n\t\t\t\t\t\tself.storeTiddler(tiddlerFields,false);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t});\n\t}\n};\n\n/*\nSynchronise a set of changes to the server\n*/\nSyncer.prototype.syncToServer = function(changes) {\n\tvar self = this,\n\t\tnow = Date.now(),\n\t\tfilteredChanges = this.filterFn.call(this.wiki,function(callback) {\n\t\t\t$tw.utils.each(changes,function(change,title) {\n\t\t\t\tvar tiddler = self.wiki.getTiddler(title);\n\t\t\t\tcallback(tiddler,title);\n\t\t\t});\n\t\t});\n\t$tw.utils.each(changes,function(change,title,object) {\n\t\t// Process the change if it is a deletion of a tiddler we're already syncing, or is on the filtered change list\n\t\tif((change.deleted &amp;&amp; $tw.utils.hop(self.tiddlerInfo,title)) || filteredChanges.indexOf(title) !== -1) {\n\t\t\t// Queue a task to sync this tiddler\n\t\t\tself.enqueueSyncTask({\n\t\t\t\ttype: change.deleted ? \&quot;delete\&quot; : \&quot;save\&quot;,\n\t\t\t\ttitle: title\n\t\t\t});\n\t\t}\n\t});\n};\n\n/*\nLazily load a skinny tiddler if we can\n*/\nSyncer.prototype.handleLazyLoadEvent = function(title) {\n\t// Don't lazy load the same tiddler twice\n\tvar info = this.tiddlerInfo[title];\n\tif(!info || !info.hasBeenLazyLoaded) {\n\t\t// Don't lazy load if the tiddler isn't included in the sync filter\n\t\tif(this.filterFn.call(this.wiki).indexOf(title) !== -1) {\n\t\t\tthis.createTiddlerInfo(title);\n\t\t\tthis.tiddlerInfo[title].hasBeenLazyLoaded = true;\n\t\t\t// Queue up a sync task to load this tiddler\n\t\t\tthis.enqueueSyncTask({\n\t\t\t\ttype: \&quot;load\&quot;,\n\t\t\t\ttitle: title\n\t\t\t});\n\t\t}\n\t}\n};\n\n/*\nDispay a password prompt and allow the user to login\n*/\nSyncer.prototype.handleLoginEvent = function() {\n\tvar self = this;\n\tthis.getStatus(function(err,isLoggedIn,username) {\n\t\tif(!isLoggedIn) {\n\t\t\t$tw.passwordPrompt.createPrompt({\n\t\t\t\tserviceName: $tw.language.getString(\&quot;LoginToTiddlySpace\&quot;),\n\t\t\t\tcallback: function(data) {\n\t\t\t\t\tself.login(data.username,data.password,function(err,isLoggedIn) {\n\t\t\t\t\t\tself.syncFromServer();\n\t\t\t\t\t});\n\t\t\t\t\treturn true; // Get rid of the password prompt\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t});\n};\n\n/*\nAttempt to login to TiddlyWeb.\n\tusername: username\n\tpassword: password\n\tcallback: invoked with arguments (err,isLoggedIn)\n*/\nSyncer.prototype.login = function(username,password,callback) {\n\tthis.logger.log(\&quot;Attempting to login as\&quot;,username);\n\tvar self = this;\n\tif(this.syncadaptor.login) {\n\t\tthis.syncadaptor.login(username,password,function(err) {\n\t\t\tif(err) {\n\t\t\t\treturn callback(err);\n\t\t\t}\n\t\t\tself.getStatus(function(err,isLoggedIn,username) {\n\t\t\t\tif(callback) {\n\t\t\t\t\tcallback(null,isLoggedIn);\n\t\t\t\t}\n\t\t\t});\n\t\t});\n\t} else {\n\t\tcallback(null,true);\n\t}\n};\n\n/*\nAttempt to log out of TiddlyWeb\n*/\nSyncer.prototype.handleLogoutEvent = function() {\n\tthis.logger.log(\&quot;Attempting to logout\&quot;);\n\tvar self = this;\n\tif(this.syncadaptor.logout) {\n\t\tthis.syncadaptor.logout(function(err) {\n\t\t\tif(err) {\n\t\t\t\tself.logger.alert(err);\n\t\t\t} else {\n\t\t\t\tself.getStatus();\n\t\t\t}\n\t\t});\n\t}\n};\n\n/*\nImmediately refresh from the server\n*/\nSyncer.prototype.handleRefreshEvent = function() {\n\tthis.syncFromServer();\n};\n\n/*\nQueue up a sync task. If there is already a pending task for the tiddler, just update the last modification time\n*/\nSyncer.prototype.enqueueSyncTask = function(task) {\n\tvar self = this,\n\t\tnow = Date.now();\n\t// Set the timestamps on this task\n\ttask.queueTime = now;\n\ttask.lastModificationTime = now;\n\t// Fill in some tiddlerInfo if the tiddler is one we haven't seen before\n\tthis.createTiddlerInfo(task.title);\n\t// Bail if this is a save and the tiddler is already at the changeCount that the server has\n\tif(task.type === \&quot;save\&quot; &amp;&amp; this.wiki.getChangeCount(task.title) &lt;= this.tiddlerInfo[task.title].changeCount) {\n\t\treturn;\n\t}\n\t// Check if this tiddler is already in the queue\n\tif($tw.utils.hop(this.taskQueue,task.title)) {\n\t\t// this.logger.log(\&quot;Re-queueing up sync task with type:\&quot;,task.type,\&quot;title:\&quot;,task.title);\n\t\tvar existingTask = this.taskQueue[task.title];\n\t\t// If so, just update the last modification time\n\t\texistingTask.lastModificationTime = task.lastModificationTime;\n\t\t// If the new task is a save then we upgrade the existing task to a save. Thus a pending load is turned into a save if the tiddler changes locally in the meantime. But a pending save is not modified to become a load\n\t\tif(task.type === \&quot;save\&quot; || task.type === \&quot;delete\&quot;) {\n\t\t\texistingTask.type = task.type;\n\t\t}\n\t} else {\n\t\t// this.logger.log(\&quot;Queuing up sync task with type:\&quot;,task.type,\&quot;title:\&quot;,task.title);\n\t\t// If it is not in the queue, insert it\n\t\tthis.taskQueue[task.title] = task;\n\t\tthis.updateDirtyStatus();\n\t}\n\t// Process the queue\n\t$tw.utils.nextTick(function() {self.processTaskQueue.call(self);});\n};\n\n/*\nReturn the number of tasks in progress\n*/\nSyncer.prototype.numTasksInProgress = function() {\n\treturn $tw.utils.count(this.taskInProgress);\n};\n\n/*\nReturn the number of tasks in the queue\n*/\nSyncer.prototype.numTasksInQueue = function() {\n\treturn $tw.utils.count(this.taskQueue);\n};\n\n/*\nTrigger a timeout if one isn't already outstanding\n*/\nSyncer.prototype.triggerTimeout = function() {\n\tvar self = this;\n\tif(!this.taskTimerId) {\n\t\tthis.taskTimerId = setTimeout(function() {\n\t\t\tself.taskTimerId = null;\n\t\t\tself.processTaskQueue.call(self);\n\t\t},self.taskTimerInterval);\n\t}\n};\n\n/*\nProcess the task queue, performing the next task if appropriate\n*/\nSyncer.prototype.processTaskQueue = function() {\n\tvar self = this;\n\t// Only process a task if the sync adaptor is fully initialised and we're not already performing a task. If we are already performing a task then we'll dispatch the next one when it completes\n\tif((!this.syncadaptor.isReady || this.syncadaptor.isReady()) &amp;&amp; this.numTasksInProgress() === 0) {\n\t\t// Choose the next task to perform\n\t\tvar task = this.chooseNextTask();\n\t\t// Perform the task if we had one\n\t\tif(task) {\n\t\t\t// Remove the task from the queue and add it to the in progress list\n\t\t\tdelete this.taskQueue[task.title];\n\t\t\tthis.taskInProgress[task.title] = task;\n\t\t\tthis.updateDirtyStatus();\n\t\t\t// Dispatch the task\n\t\t\tthis.dispatchTask(task,function(err) {\n\t\t\t\tif(err) {\n\t\t\t\t\tself.logger.alert(\&quot;Sync error while processing '\&quot; + task.title + \&quot;':\\n\&quot; + err);\n\t\t\t\t}\n\t\t\t\t// Mark that this task is no longer in progress\n\t\t\t\tdelete self.taskInProgress[task.title];\n\t\t\t\tself.updateDirtyStatus();\n\t\t\t\t// Process the next task\n\t\t\t\tself.processTaskQueue.call(self);\n\t\t\t});\n\t\t} else {\n\t\t\t// Make sure we've set a time if there wasn't a task to perform, but we've still got tasks in the queue\n\t\t\tif(this.numTasksInQueue() &gt; 0) {\n\t\t\t\tthis.triggerTimeout();\n\t\t\t}\n\t\t}\n\t}\n};\n\n/*\nChoose the next applicable task\n*/\nSyncer.prototype.chooseNextTask = function() {\n\tvar self = this,\n\t\tcandidateTask = null,\n\t\tnow = Date.now();\n\t// Select the best candidate task\n\t$tw.utils.each(this.taskQueue,function(task,title) {\n\t\t// Exclude the task if there's one of the same name in progress\n\t\tif($tw.utils.hop(self.taskInProgress,title)) {\n\t\t\treturn;\n\t\t}\n\t\t// Exclude the task if it is a save and the tiddler has been modified recently, but not hit the fallback time\n\t\tif(task.type === \&quot;save\&quot; &amp;&amp; (now - task.lastModificationTime) &lt; self.throttleInterval &amp;&amp;\n\t\t\t(now - task.queueTime) &lt; self.fallbackInterval) {\n\t\t\treturn;\n\t\t}\n\t\t// Exclude the task if it is newer than the current best candidate\n\t\tif(candidateTask &amp;&amp; candidateTask.queueTime &lt; task.queueTime) {\n\t\t\treturn;\n\t\t}\n\t\t// Now this is our best candidate\n\t\tcandidateTask = task;\n\t});\n\treturn candidateTask;\n};\n\n/*\nDispatch a task and invoke the callback\n*/\nSyncer.prototype.dispatchTask = function(task,callback) {\n\tvar self = this;\n\tif(task.type === \&quot;save\&quot;) {\n\t\tvar changeCount = this.wiki.getChangeCount(task.title),\n\t\t\ttiddler = this.wiki.getTiddler(task.title);\n\t\tthis.logger.log(\&quot;Dispatching 'save' task:\&quot;,task.title);\n\t\tif(tiddler) {\n\t\t\tthis.syncadaptor.saveTiddler(tiddler,function(err,adaptorInfo,revision) {\n\t\t\t\tif(err) {\n\t\t\t\t\treturn callback(err);\n\t\t\t\t}\n\t\t\t\t// Adjust the info stored about this tiddler\n\t\t\t\tself.tiddlerInfo[task.title] = {\n\t\t\t\t\tchangeCount: changeCount,\n\t\t\t\t\tadaptorInfo: adaptorInfo,\n\t\t\t\t\trevision: revision\n\t\t\t\t};\n\t\t\t\t// Invoke the callback\n\t\t\t\tcallback(null);\n\t\t\t},{\n\t\t\t\ttiddlerInfo: self.tiddlerInfo[task.title]\n\t\t\t});\n\t\t} else {\n\t\t\tthis.logger.log(\&quot; Not Dispatching 'save' task:\&quot;,task.title,\&quot;tiddler does not exist\&quot;);\n\t\t\treturn callback(null);\n\t\t}\n\t} else if(task.type === \&quot;load\&quot;) {\n\t\t// Load the tiddler\n\t\tthis.logger.log(\&quot;Dispatching 'load' task:\&quot;,task.title);\n\t\tthis.syncadaptor.loadTiddler(task.title,function(err,tiddlerFields) {\n\t\t\tif(err) {\n\t\t\t\treturn callback(err);\n\t\t\t}\n\t\t\t// Store the tiddler\n\t\t\tif(tiddlerFields) {\n\t\t\t\tself.storeTiddler(tiddlerFields,true);\n\t\t\t}\n\t\t\t// Invoke the callback\n\t\t\tcallback(null);\n\t\t});\n\t} else if(task.type === \&quot;delete\&quot;) {\n\t\t// Delete the tiddler\n\t\tthis.logger.log(\&quot;Dispatching 'delete' task:\&quot;,task.title);\n\t\tthis.syncadaptor.deleteTiddler(task.title,function(err) {\n\t\t\tif(err) {\n\t\t\t\treturn callback(err);\n\t\t\t}\n\t\t\tdelete self.tiddlerInfo[task.title];\n\t\t\t// Invoke the callback\n\t\t\tcallback(null);\n\t\t},{\n\t\t\ttiddlerInfo: self.tiddlerInfo[task.title]\n\t\t});\n\t}\n};\n\nexports.Syncer = Syncer;\n\n})();\n&quot;,
             &quot;type&quot;: &quot;application/javascript&quot;,
             &quot;module-type&quot;: &quot;global&quot;
         },
@@ -6146,7 +6232,11 @@ Error message and password prompt
         },
         &quot;$:/core/modules/widgets/reveal.js&quot;: {
             &quot;title&quot;: &quot;$:/core/modules/widgets/reveal.js&quot;,
+<<<<<<< HEAD
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/core/modules/widgets/reveal.js\ntype: application/javascript\nmodule-type: widget\n\nReveal widget\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\nvar Widget = require(\&quot;$:/core/modules/widgets/widget.js\&quot;).widget;\n\nvar RevealWidget = function(parseTreeNode,options) {\n\tthis.initialise(parseTreeNode,options);\n};\n\n/*\nInherit from the base widget class\n*/\nRevealWidget.prototype = new Widget();\n\n/*\nRender this widget into the DOM\n*/\nRevealWidget.prototype.render = function(parent,nextSibling) {\n\tthis.parentDomNode = parent;\n\tthis.computeAttributes();\n\tthis.execute();\n\tvar tag = this.parseTreeNode.isBlock ? \&quot;div\&quot; : \&quot;span\&quot;;\n\tif(this.revealTag &amp;&amp; $tw.config.htmlUnsafeElements.indexOf(this.revealTag) === -1) {\n\t\ttag = this.revealTag;\n\t}\n\tvar domNode = this.document.createElement(tag);\n\tvar classes = this[\&quot;class\&quot;].split(\&quot; \&quot;) || [];\n\tclasses.push(\&quot;tc-reveal\&quot;);\n\tdomNode.className = classes.join(\&quot; \&quot;);\n\tif(this.style) {\n\t\tdomNode.setAttribute(\&quot;style\&quot;,this.style);\n\t}\n\tparent.insertBefore(domNode,nextSibling);\n\tthis.renderChildren(domNode,null);\n\tif(!domNode.isTiddlyWikiFakeDom &amp;&amp; this.type === \&quot;popup\&quot; &amp;&amp; this.isOpen) {\n\t\tthis.positionPopup(domNode);\n\t\t$tw.utils.addClass(domNode,\&quot;tc-popup\&quot;); // Make sure that clicks don't dismiss popups within the revealed content\n\t}\n\tif(!this.isOpen) {\n\t\tdomNode.setAttribute(\&quot;hidden\&quot;,\&quot;true\&quot;);\n\t}\n\tthis.domNodes.push(domNode);\n};\n\nRevealWidget.prototype.positionPopup = function(domNode) {\n\tdomNode.style.position = \&quot;absolute\&quot;;\n\tdomNode.style.zIndex = \&quot;1000\&quot;;\n\tswitch(this.position) {\n\t\tcase \&quot;left\&quot;:\n\t\t\tdomNode.style.left = (this.popup.left - domNode.offsetWidth) + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = this.popup.top + \&quot;px\&quot;;\n\t\t\tbreak;\n\t\tcase \&quot;above\&quot;:\n\t\t\tdomNode.style.left = this.popup.left + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = (this.popup.top - domNode.offsetHeight) + \&quot;px\&quot;;\n\t\t\tbreak;\n\t\tcase \&quot;aboveright\&quot;:\n\t\t\tdomNode.style.left = (this.popup.left + this.popup.width) + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = (this.popup.top + this.popup.height - domNode.offsetHeight) + \&quot;px\&quot;;\n\t\t\tbreak;\n\t\tcase \&quot;right\&quot;:\n\t\t\tdomNode.style.left = (this.popup.left + this.popup.width) + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = this.popup.top + \&quot;px\&quot;;\n\t\t\tbreak;\n\t\tcase \&quot;belowleft\&quot;:\n\t\t\tdomNode.style.left = (this.popup.left + this.popup.width - domNode.offsetWidth) + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = (this.popup.top + this.popup.height) + \&quot;px\&quot;;\n\t\t\tbreak;\n\t\tdefault: // Below\n\t\t\tdomNode.style.left = this.popup.left + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = (this.popup.top + this.popup.height) + \&quot;px\&quot;;\n\t\t\tbreak;\n\t}\n};\n\n/*\nCompute the internal state of the widget\n*/\nRevealWidget.prototype.execute = function() {\n\t// Get our parameters\n\tthis.state = this.getAttribute(\&quot;state\&quot;);\n\tthis.revealTag = this.getAttribute(\&quot;tag\&quot;);\n\tthis.type = this.getAttribute(\&quot;type\&quot;);\n\tthis.text = this.getAttribute(\&quot;text\&quot;);\n\tthis.position = this.getAttribute(\&quot;position\&quot;);\n\tthis[\&quot;class\&quot;] = this.getAttribute(\&quot;class\&quot;,\&quot;\&quot;);\n\tthis.style = this.getAttribute(\&quot;style\&quot;,\&quot;\&quot;);\n\tthis[\&quot;default\&quot;] = this.getAttribute(\&quot;default\&quot;,\&quot;\&quot;);\n\tthis.animate = this.getAttribute(\&quot;animate\&quot;,\&quot;no\&quot;);\n\tthis.retain = this.getAttribute(\&quot;retain\&quot;,\&quot;no\&quot;);\n\tthis.openAnimation = this.animate === \&quot;no\&quot; ? undefined : \&quot;open\&quot;;\n\tthis.closeAnimation = this.animate === \&quot;no\&quot; ? undefined : \&quot;close\&quot;;\n\t// Compute the title of the state tiddler and read it\n\tthis.stateTitle = this.state;\n\tthis.readState();\n\t// Construct the child widgets\n\tvar childNodes = this.isOpen ? this.parseTreeNode.children : [];\n\tthis.hasChildNodes = this.isOpen;\n\tthis.makeChildWidgets(childNodes);\n};\n\n/*\nRead the state tiddler\n*/\nRevealWidget.prototype.readState = function() {\n\t// Read the information from the state tiddler\n\tvar state = this.stateTitle ? this.wiki.getTextReference(this.stateTitle,this[\&quot;default\&quot;],this.getVariable(\&quot;currentTiddler\&quot;)) : this[\&quot;default\&quot;];\n\tswitch(this.type) {\n\t\tcase \&quot;popup\&quot;:\n\t\t\tthis.readPopupState(state);\n\t\t\tbreak;\n\t\tcase \&quot;match\&quot;:\n\t\t\tthis.isOpen = !!(this.compareStateText(state) == 0);\n\t\t\tbreak;\n\t\tcase \&quot;nomatch\&quot;:\n\t\t\tthis.isOpen = !(this.compareStateText(state) == 0);\n\t\t\tbreak;\n\t\tcase \&quot;lt\&quot;:\n\t\t\tthis.isOpen = !!(this.compareStateText(state) &lt; 0);\n\t\t\tbreak;\n\t\tcase \&quot;gt\&quot;:\n\t\t\tthis.isOpen = !!(this.compareStateText(state) &gt; 0);\n\t\t\tbreak;\n\t\tcase \&quot;lteq\&quot;:\n\t\t\tthis.isOpen = !(this.compareStateText(state) &gt; 0);\n\t\t\tbreak;\n\t\tcase \&quot;gteq\&quot;:\n\t\t\tthis.isOpen = !(this.compareStateText(state) &lt; 0);\n\t\t\tbreak;\n\t}\n};\n\nRevealWidget.prototype.compareStateText = function(state) {\n\treturn state.localeCompare(this.text,undefined,{numeric: true,sensitivity: \&quot;case\&quot;});\n};\n\nRevealWidget.prototype.readPopupState = function(state) {\n\tvar popupLocationRegExp = /^\\((-?[0-9\\.E]+),(-?[0-9\\.E]+),(-?[0-9\\.E]+),(-?[0-9\\.E]+)\\)$/,\n\t\tmatch = popupLocationRegExp.exec(state);\n\t// Check if the state matches the location regexp\n\tif(match) {\n\t\t// If so, we're open\n\t\tthis.isOpen = true;\n\t\t// Get the location\n\t\tthis.popup = {\n\t\t\tleft: parseFloat(match[1]),\n\t\t\ttop: parseFloat(match[2]),\n\t\t\twidth: parseFloat(match[3]),\n\t\t\theight: parseFloat(match[4])\n\t\t};\n\t} else {\n\t\t// If not, we're closed\n\t\tthis.isOpen = false;\n\t}\n};\n\n/*\nSelectively refreshes the widget if needed. Returns true if the widget or any of its children needed re-rendering\n*/\nRevealWidget.prototype.refresh = function(changedTiddlers) {\n\tvar changedAttributes = this.computeAttributes();\n\tif(changedAttributes.state || changedAttributes.type || changedAttributes.text || changedAttributes.position || changedAttributes[\&quot;default\&quot;] || changedAttributes.animate) {\n\t\tthis.refreshSelf();\n\t\treturn true;\n\t} else {\n\t\tvar refreshed = false,\n\t\t\tcurrentlyOpen = this.isOpen;\n\t\tthis.readState();\n\t\tif(this.isOpen !== currentlyOpen) {\n\t\t\tif(this.retain === \&quot;yes\&quot;) {\n\t\t\t\tthis.updateState();\n\t\t\t} else {\n\t\t\t\tthis.refreshSelf();\n\t\t\t\trefreshed = true;\n\t\t\t}\n\t\t}\n\t\treturn this.refreshChildren(changedTiddlers) || refreshed;\n\t}\n};\n\n/*\nCalled by refresh() to dynamically show or hide the content\n*/\nRevealWidget.prototype.updateState = function() {\n\tvar self = this;\n\t// Read the current state\n\tthis.readState();\n\t// Construct the child nodes if needed\n\tvar domNode = this.domNodes[0];\n\tif(this.isOpen &amp;&amp; !this.hasChildNodes) {\n\t\tthis.hasChildNodes = true;\n\t\tthis.makeChildWidgets(this.parseTreeNode.children);\n\t\tthis.renderChildren(domNode,null);\n\t}\n\t// Animate our DOM node\n\tif(!domNode.isTiddlyWikiFakeDom &amp;&amp; this.type === \&quot;popup\&quot; &amp;&amp; this.isOpen) {\n\t\tthis.positionPopup(domNode);\n\t\t$tw.utils.addClass(domNode,\&quot;tc-popup\&quot;); // Make sure that clicks don't dismiss popups within the revealed content\n\n\t}\n\tif(this.isOpen) {\n\t\tdomNode.removeAttribute(\&quot;hidden\&quot;);\n        $tw.anim.perform(this.openAnimation,domNode);\n\t} else {\n\t\t$tw.anim.perform(this.closeAnimation,domNode,{callback: function() {\n\t\t\t//make sure that the state hasn't changed during the close animation\n\t\t\tself.readState()\n\t\t\tif(!self.isOpen) {\n\t\t\t\tdomNode.setAttribute(\&quot;hidden\&quot;,\&quot;true\&quot;);\n\t\t\t}\n        \t}});\n\t}\n};\n\nexports.reveal = RevealWidget;\n\n})();\n&quot;,
+=======
             &quot;text&quot;: &quot;/*\\\ntitle: $:/core/modules/widgets/reveal.js\ntype: application/javascript\nmodule-type: widget\n\nReveal widget\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\nvar Widget = require(\&quot;$:/core/modules/widgets/widget.js\&quot;).widget;\n\nvar RevealWidget = function(parseTreeNode,options) {\n\tthis.initialise(parseTreeNode,options);\n};\n\n/*\nInherit from the base widget class\n*/\nRevealWidget.prototype = new Widget();\n\n/*\nRender this widget into the DOM\n*/\nRevealWidget.prototype.render = function(parent,nextSibling) {\n\tthis.parentDomNode = parent;\n\tthis.computeAttributes();\n\tthis.execute();\n\tvar tag = this.parseTreeNode.isBlock ? \&quot;div\&quot; : \&quot;span\&quot;;\n\tif(this.revealTag &amp;&amp; $tw.config.htmlUnsafeElements.indexOf(this.revealTag) === -1) {\n\t\ttag = this.revealTag;\n\t}\n\tvar domNode = this.document.createElement(tag);\n\tvar classes = this[\&quot;class\&quot;].split(\&quot; \&quot;) || [];\n\tclasses.push(\&quot;tc-reveal\&quot;);\n\tdomNode.className = classes.join(\&quot; \&quot;);\n\tif(this.style) {\n\t\tdomNode.setAttribute(\&quot;style\&quot;,this.style);\n\t}\n\tparent.insertBefore(domNode,nextSibling);\n\tthis.renderChildren(domNode,null);\n\tif(!domNode.isTiddlyWikiFakeDom &amp;&amp; this.type === \&quot;popup\&quot; &amp;&amp; this.isOpen) {\n\t\tthis.positionPopup(domNode);\n\t\t$tw.utils.addClass(domNode,\&quot;tc-popup\&quot;); // Make sure that clicks don't dismiss popups within the revealed content\n\t}\n\tif(!this.isOpen) {\n\t\tdomNode.setAttribute(\&quot;hidden\&quot;,\&quot;true\&quot;);\n\t}\n\tthis.domNodes.push(domNode);\n};\n\nRevealWidget.prototype.positionPopup = function(domNode) {\n\tdomNode.style.position = \&quot;absolute\&quot;;\n\tdomNode.style.zIndex = \&quot;1000\&quot;;\n\tswitch(this.position) {\n\t\tcase \&quot;left\&quot;:\n\t\t\tdomNode.style.left = (this.popup.left - domNode.offsetWidth) + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = this.popup.top + \&quot;px\&quot;;\n\t\t\tbreak;\n\t\tcase \&quot;above\&quot;:\n\t\t\tdomNode.style.left = this.popup.left + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = (this.popup.top - domNode.offsetHeight) + \&quot;px\&quot;;\n\t\t\tbreak;\n\t\tcase \&quot;aboveright\&quot;:\n\t\t\tdomNode.style.left = (this.popup.left + this.popup.width) + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = (this.popup.top + this.popup.height - domNode.offsetHeight) + \&quot;px\&quot;;\n\t\t\tbreak;\n\t\tcase \&quot;right\&quot;:\n\t\t\tdomNode.style.left = (this.popup.left + this.popup.width) + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = this.popup.top + \&quot;px\&quot;;\n\t\t\tbreak;\n\t\tcase \&quot;belowleft\&quot;:\n\t\t\tdomNode.style.left = (this.popup.left + this.popup.width - domNode.offsetWidth) + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = (this.popup.top + this.popup.height) + \&quot;px\&quot;;\n\t\t\tbreak;\n\t\tdefault: // Below\n\t\t\tdomNode.style.left = this.popup.left + \&quot;px\&quot;;\n\t\t\tdomNode.style.top = (this.popup.top + this.popup.height) + \&quot;px\&quot;;\n\t\t\tbreak;\n\t}\n};\n\n/*\nCompute the internal state of the widget\n*/\nRevealWidget.prototype.execute = function() {\n\t// Get our parameters\n\tthis.state = this.getAttribute(\&quot;state\&quot;);\n\tthis.revealTag = this.getAttribute(\&quot;tag\&quot;);\n\tthis.type = this.getAttribute(\&quot;type\&quot;);\n\tthis.text = this.getAttribute(\&quot;text\&quot;);\n\tthis.position = this.getAttribute(\&quot;position\&quot;);\n\tthis[\&quot;class\&quot;] = this.getAttribute(\&quot;class\&quot;,\&quot;\&quot;);\n\tthis.style = this.getAttribute(\&quot;style\&quot;,\&quot;\&quot;);\n\tthis[\&quot;default\&quot;] = this.getAttribute(\&quot;default\&quot;,\&quot;\&quot;);\n\tthis.animate = this.getAttribute(\&quot;animate\&quot;,\&quot;no\&quot;);\n\tthis.retain = this.getAttribute(\&quot;retain\&quot;,\&quot;no\&quot;);\n\tthis.openAnimation = this.animate === \&quot;no\&quot; ? undefined : \&quot;open\&quot;;\n\tthis.closeAnimation = this.animate === \&quot;no\&quot; ? undefined : \&quot;close\&quot;;\n\t// Compute the title of the state tiddler and read it\n\tthis.stateTitle = this.state;\n\tthis.readState();\n\t// Construct the child widgets\n\tvar childNodes = this.isOpen ? this.parseTreeNode.children : [];\n\tthis.hasChildNodes = this.isOpen;\n\tthis.makeChildWidgets(childNodes);\n};\n\n/*\nRead the state tiddler\n*/\nRevealWidget.prototype.readState = function() {\n\t// Read the information from the state tiddler\n\tvar state = this.stateTitle ? this.wiki.getTextReference(this.stateTitle,this[\&quot;default\&quot;],this.getVariable(\&quot;currentTiddler\&quot;)) : this[\&quot;default\&quot;];\n\tswitch(this.type) {\n\t\tcase \&quot;popup\&quot;:\n\t\t\tthis.readPopupState(state);\n\t\t\tbreak;\n\t\tcase \&quot;match\&quot;:\n\t\t\tthis.isOpen = !!(this.compareStateText(state) == 0);\n\t\t\tbreak;\n\t\tcase \&quot;nomatch\&quot;:\n\t\t\tthis.isOpen = !(this.compareStateText(state) == 0);\n\t\t\tbreak;\n\t\tcase \&quot;lt\&quot;:\n\t\t\tthis.isOpen = !!(this.compareStateText(state) &lt; 0);\n\t\t\tbreak;\n\t\tcase \&quot;gt\&quot;:\n\t\t\tthis.isOpen = !!(this.compareStateText(state) &gt; 0);\n\t\t\tbreak;\n\t\tcase \&quot;lteq\&quot;:\n\t\t\tthis.isOpen = !(this.compareStateText(state) &gt; 0);\n\t\t\tbreak;\n\t\tcase \&quot;gteq\&quot;:\n\t\t\tthis.isOpen = !(this.compareStateText(state) &lt; 0);\n\t\t\tbreak;\n\t}\n};\n\nRevealWidget.prototype.compareStateText = function(state) {\n\treturn state.localeCompare(this.text,undefined,{numeric: true,sensitivity: \&quot;case\&quot;});\n};\n\nRevealWidget.prototype.readPopupState = function(state) {\n\tvar popupLocationRegExp = /^\\((-?[0-9\\.E]+),(-?[0-9\\.E]+),(-?[0-9\\.E]+),(-?[0-9\\.E]+)\\)$/,\n\t\tmatch = popupLocationRegExp.exec(state);\n\t// Check if the state matches the location regexp\n\tif(match) {\n\t\t// If so, we're open\n\t\tthis.isOpen = true;\n\t\t// Get the location\n\t\tthis.popup = {\n\t\t\tleft: parseFloat(match[1]),\n\t\t\ttop: parseFloat(match[2]),\n\t\t\twidth: parseFloat(match[3]),\n\t\t\theight: parseFloat(match[4])\n\t\t};\n\t} else {\n\t\t// If not, we're closed\n\t\tthis.isOpen = false;\n\t}\n};\n\n/*\nSelectively refreshes the widget if needed. Returns true if the widget or any of its children needed re-rendering\n*/\nRevealWidget.prototype.refresh = function(changedTiddlers) {\n\tvar changedAttributes = this.computeAttributes();\n\tif(changedAttributes.state || changedAttributes.type || changedAttributes.text || changedAttributes.position || changedAttributes[\&quot;default\&quot;] || changedAttributes.animate) {\n\t\tthis.refreshSelf();\n\t\treturn true;\n\t} else {\n\t\tvar refreshed = false,\n\t\t\tcurrentlyOpen = this.isOpen;\n\t\tthis.readState();\n\t\tif(this.isOpen !== currentlyOpen) {\n\t\t\tif(this.retain === \&quot;yes\&quot;) {\n\t\t\t\tthis.updateState();\n\t\t\t} else {\n\t\t\t\tthis.refreshSelf();\n\t\t\t\trefreshed = true;\n\t\t\t}\n\t\t}\n\t\treturn this.refreshChildren(changedTiddlers) || refreshed;\n\t}\n};\n\n/*\nCalled by refresh() to dynamically show or hide the content\n*/\nRevealWidget.prototype.updateState = function() {\n\t// Read the current state\n\tthis.readState();\n\t// Construct the child nodes if needed\n\tvar domNode = this.domNodes[0];\n\tif(this.isOpen &amp;&amp; !this.hasChildNodes) {\n\t\tthis.hasChildNodes = true;\n\t\tthis.makeChildWidgets(this.parseTreeNode.children);\n\t\tthis.renderChildren(domNode,null);\n\t}\n\t// Animate our DOM node\n\tif(!domNode.isTiddlyWikiFakeDom &amp;&amp; this.type === \&quot;popup\&quot; &amp;&amp; this.isOpen) {\n\t\tthis.positionPopup(domNode);\n\t\t$tw.utils.addClass(domNode,\&quot;tc-popup\&quot;); // Make sure that clicks don't dismiss popups within the revealed content\n\n\t}\n\tif(this.isOpen) {\n\t\tdomNode.removeAttribute(\&quot;hidden\&quot;);\n        $tw.anim.perform(this.openAnimation,domNode);\n\t} else {\n\t\t$tw.anim.perform(this.closeAnimation,domNode,{callback: function() {\n\t\t\tdomNode.setAttribute(\&quot;hidden\&quot;,\&quot;true\&quot;);\n        }});\n\t}\n};\n\nexports.reveal = RevealWidget;\n\n})();\n&quot;,
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
             &quot;type&quot;: &quot;application/javascript&quot;,
             &quot;module-type&quot;: &quot;widget&quot;
         },
@@ -6856,7 +6946,11 @@ Error message and password prompt
         },
         &quot;$:/state/showeditpreview&quot;: {
             &quot;title&quot;: &quot;$:/state/showeditpreview&quot;,
+<<<<<<< HEAD
+            &quot;text&quot;: &quot;no&quot;
+=======
             &quot;text&quot;: &quot;yes&quot;
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
         },
         &quot;$:/core/ui/EditTemplate/body/editor&quot;: {
             &quot;title&quot;: &quot;$:/core/ui/EditTemplate/body/editor&quot;,
@@ -7676,7 +7770,11 @@ Error message and password prompt
             &quot;tags&quot;: &quot;$:/tags/PageControls&quot;,
             &quot;caption&quot;: &quot;{{$:/core/images/new-journal-button}} {{$:/language/Buttons/NewJournal/Caption}}&quot;,
             &quot;description&quot;: &quot;{{$:/language/Buttons/NewJournal/Hint}}&quot;,
+<<<<<<< HEAD
+            &quot;text&quot;: &quot;\\define journalButton()\n&lt;$button tooltip={{$:/language/Buttons/NewJournal/Hint}} aria-label={{$:/language/Buttons/NewJournal/Caption}} class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;\n&lt;$wikify name=\&quot;journalTitle\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$reveal type=\&quot;nomatch\&quot; state=&lt;&lt;journalTitle&gt;&gt; text=\&quot;\&quot;&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;\n&lt;/$reveal&gt;\n&lt;$reveal type=\&quot;match\&quot; state=&lt;&lt;journalTitle&gt;&gt; text=\&quot;\&quot;&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt;\n&lt;/$reveal&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]\&quot;&gt;\n{{$:/core/images/new-journal-button}}\n&lt;/$list&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-text&gt;prefix[yes]]\&quot;&gt;\n&lt;span class=\&quot;tc-btn-text\&quot;&gt;&lt;$text text={{$:/language/Buttons/NewJournal/Caption}}/&gt;&lt;/span&gt;\n&lt;/$list&gt;\n&lt;/$wikify&gt;\n&lt;/$button&gt;\n\\end\n&lt;$set name=\&quot;journalTitleTemplate\&quot; value={{$:/config/NewJournal/Title}}&gt;\n&lt;$set name=\&quot;journalTags\&quot; value={{$:/config/NewJournal/Tags}}&gt;\n&lt;$set name=\&quot;journalText\&quot; value={{$:/config/NewJournal/Text}}&gt;\n&lt;&lt;journalButton&gt;&gt;\n&lt;/$set&gt;&lt;/$set&gt;&lt;/$set&gt;&quot;
+=======
             &quot;text&quot;: &quot;\\define journalButton()\n&lt;$button tooltip={{$:/language/Buttons/NewJournal/Hint}} aria-label={{$:/language/Buttons/NewJournal/Caption}} class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot; title=&lt;&lt;now \&quot;\&quot;\&quot;$(journalTitleTemplate)$ \&quot;\&quot;\&quot;&gt;&gt; tags=&lt;&lt;journalTags&gt;&gt; text=&lt;&lt;journalText&gt;&gt;/&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]\&quot;&gt;\n{{$:/core/images/new-journal-button}}\n&lt;/$list&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-text&gt;prefix[yes]]\&quot;&gt;\n&lt;span class=\&quot;tc-btn-text\&quot;&gt;&lt;$text text={{$:/language/Buttons/NewJournal/Caption}}/&gt;&lt;/span&gt;\n&lt;/$list&gt;\n&lt;/$button&gt;\n\\end\n&lt;$set name=\&quot;journalTitleTemplate\&quot; value={{$:/config/NewJournal/Title}}&gt;\n&lt;$set name=\&quot;journalTags\&quot; value={{$:/config/NewJournal/Tags}}&gt;\n&lt;$set name=\&quot;journalText\&quot; value={{$:/config/NewJournal/Text}}&gt;\n&lt;&lt;journalButton&gt;&gt;\n&lt;/$set&gt;&lt;/$set&gt;&lt;/$set&gt;&quot;
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
         },
         &quot;$:/core/ui/Buttons/new-tiddler&quot;: {
             &quot;title&quot;: &quot;$:/core/ui/Buttons/new-tiddler&quot;,
@@ -8044,7 +8142,11 @@ Error message and password prompt
             &quot;tags&quot;: &quot;$:/tags/ViewToolbar&quot;,
             &quot;caption&quot;: &quot;{{$:/core/images/new-journal-button}} {{$:/language/Buttons/NewJournalHere/Caption}}&quot;,
             &quot;description&quot;: &quot;{{$:/language/Buttons/NewJournalHere/Hint}}&quot;,
+<<<<<<< HEAD
+            &quot;text&quot;: &quot;\\whitespace trim\n\\define journalButtonTags()\n[[$(currentTiddlerTag)$]] $(journalTags)$\n\\end\n\\define journalButton()\n&lt;$button tooltip={{$:/language/Buttons/NewJournalHere/Hint}} aria-label={{$:/language/Buttons/NewJournalHere/Caption}} class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;\n&lt;$wikify name=\&quot;journalTitle\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=&lt;&lt;journalButtonTags&gt;&gt;/&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]\&quot;&gt;\n{{$:/core/images/new-journal-button}}\n&lt;/$list&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-text&gt;prefix[yes]]\&quot;&gt;\n&lt;span class=\&quot;tc-btn-text\&quot;&gt;\n&lt;$text text={{$:/language/Buttons/NewJournalHere/Caption}}/&gt;\n&lt;/span&gt;\n&lt;/$list&gt;\n&lt;/$wikify&gt;\n&lt;/$button&gt;\n\\end\n&lt;$set name=\&quot;journalTitleTemplate\&quot; value={{$:/config/NewJournal/Title}}&gt;\n&lt;$set name=\&quot;journalTags\&quot; value={{$:/config/NewJournal/Tags}}&gt;\n&lt;$set name=\&quot;currentTiddlerTag\&quot; value=&lt;&lt;currentTiddler&gt;&gt;&gt;\n&lt;&lt;journalButton&gt;&gt;\n&lt;/$set&gt;\n&lt;/$set&gt;\n&lt;/$set&gt;&quot;
+=======
             &quot;text&quot;: &quot;\\whitespace trim\n\\define journalButtonTags()\n[[$(currentTiddlerTag)$]] $(journalTags)$\n\\end\n\\define journalButton()\n&lt;$button tooltip={{$:/language/Buttons/NewJournalHere/Hint}} aria-label={{$:/language/Buttons/NewJournalHere/Caption}} class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot; title=&lt;&lt;now \&quot;\&quot;\&quot;$(journalTitleTemplate)$ \&quot;\&quot;\&quot;&gt;&gt; tags=&lt;&lt;journalButtonTags&gt;&gt;/&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]\&quot;&gt;\n{{$:/core/images/new-journal-button}}\n&lt;/$list&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-text&gt;prefix[yes]]\&quot;&gt;\n&lt;span class=\&quot;tc-btn-text\&quot;&gt;\n&lt;$text text={{$:/language/Buttons/NewJournalHere/Caption}}/&gt;\n&lt;/span&gt;\n&lt;/$list&gt;\n&lt;/$button&gt;\n\\end\n&lt;$set name=\&quot;journalTitleTemplate\&quot; value={{$:/config/NewJournal/Title}}&gt;\n&lt;$set name=\&quot;journalTags\&quot; value={{$:/config/NewJournal/Tags}}&gt;\n&lt;$set name=\&quot;currentTiddlerTag\&quot; value=&lt;&lt;currentTiddler&gt;&gt;&gt;\n&lt;&lt;journalButton&gt;&gt;\n&lt;/$set&gt;\n&lt;/$set&gt;\n&lt;/$set&gt;&quot;
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
         },
         &quot;$:/core/ui/Buttons/open-window&quot;: {
             &quot;title&quot;: &quot;$:/core/ui/Buttons/open-window&quot;,
@@ -8254,7 +8356,7 @@ Error message and password prompt
         &quot;$:/config/OfficialPluginLibrary&quot;: {
             &quot;title&quot;: &quot;$:/config/OfficialPluginLibrary&quot;,
             &quot;tags&quot;: &quot;$:/tags/PluginLibrary&quot;,
-            &quot;url&quot;: &quot;https://tiddlywiki.com/library/v5.1.15/index.html&quot;,
+            &quot;url&quot;: &quot;https://tiddlywiki.com/library/v5.1.17/index.html&quot;,
             &quot;caption&quot;: &quot;{{$:/language/OfficialPluginLibrary}}&quot;,
             &quot;text&quot;: &quot;{{$:/language/OfficialPluginLibrary/Hint}}\n&quot;
         },
@@ -8971,7 +9073,10 @@ Error message and password prompt
 # [[$:/view]]
 # [[Acknowledgement]]
 # [[Background Color]]
+<<<<<<< HEAD
+=======
 # [[beta]]
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 # [[bisect]]
 # [[Bisect_example_code]]
 # [[bisect.png]]
@@ -8981,17 +9086,26 @@ Error message and password prompt
 # [[Borderless Tables]]
 # [[Classic Note]]
 # [[Clean]]
+<<<<<<< HEAD
+# [[Colored Border Block]]
+# [[Colored Text]]
+=======
 # [[Color Selection and Manipulation]]
 # [[Colored Border Block]]
 # [[Colored Text]]
 # [[Create New Code]]
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 # [[Custom Styles]]
 # [[Documentation Style Guide]]
 # [[done]]
 # [[Fortran Code]]
+<<<<<<< HEAD
+# [[Fortran icon]]
+=======
 # [[Fortran Code Template]]
 # [[Fortran icon]]
 # [[fortran numbers]]
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 # [[fortran_logo.png]]
 # [[FOSS]]
 # [[Framedbox]]
@@ -9007,24 +9121,35 @@ Error message and password prompt
 # [[Mohammad]]
 # [[my_tiddlywiki_adjustment]]
 # [[myMacros]]
+<<<<<<< HEAD
+# [[New Tiddler from a Template]]
+=======
 # [[myMacros2]]
 # [[myMacros3]]
 # [[New Tiddler]]
 # [[New Tiddler from a Template]]
 # [[Note Macro Example]]
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 # [[Notebox]]
 # [[practice]]
 # [[Quick Start]]
 # [[Revision History]]
+<<<<<<< HEAD
+# [[Stylesheet Footnote]]
+=======
 # [[SampleCode]]
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 # [[StylesheetFrames]]
 # [[StylesheetFrames2]]
 # [[StylesheetNoteBox]]
 # [[StylesheetNoteClassic]]
 # [[StylesheetTables]]
+<<<<<<< HEAD
+=======
 # [[StylesheetTemp]]
 # [[StylesheetTemp_Custopm Style by tag]]
 # [[StylesheetTemp1]]
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 # [[StylesheetTiddlyFor]]
 # [[Syntax Highlighting]]
 # [[TableOfContents]]
@@ -9034,6 +9159,7 @@ Error message and password prompt
 # [[Tiddler with background color]]
 # [[tiddlyfor]]
 # [[TiddlyFor]]
+# [[tiddlyfor]]
 # [[TiddlyWiki]]
 # [[TiddlyWiki Tips and Tricks]]
 # [[TOC - Example 1]]
@@ -9045,13 +9171,20 @@ Error message and password prompt
 # [[TWLight]]
 # [[TWMinimal]]
 # [[TWZenburn]]
+<<<<<<< HEAD
+=======
 # [[Under Development]]
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 # [[Useful Links]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
+<<<<<<< HEAD
+<div author="JoaoBolila" core-version="&gt;=5.0.0" dependents="" description="Highlight.js: syntax highlighting" list="readme usage license" plugin-type="plugin" title="$:/plugins/tiddlywiki/highlight" type="application/json" version="5.1.17">
+=======
 <div author="JoaoBolila" core-version="&gt;=5.0.0" dependents="" description="Highlight.js: syntax highlighting" list="readme usage license" plugin-type="plugin" title="$:/plugins/tiddlywiki/highlight" type="application/json" version="5.1.16">
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/config/HighlightPlugin/TypeMappings/application/javascript&quot;: {
@@ -9123,7 +9256,11 @@ Error message and password prompt
 !function(e){var n=&quot;object&quot;==typeof window&amp;&amp;window||&quot;object&quot;==typeof self&amp;&amp;self;&quot;undefined&quot;!=typeof exports?e(exports):n&amp;&amp;(n.hljs=e({}),&quot;function&quot;==typeof define&amp;&amp;define.amd&amp;&amp;define([],function(){return n.hljs}))}(function(e){function n(e){return e.replace(/&amp;/g,&quot;&amp;amp;&quot;).replace(/&lt;/g,&quot;&amp;lt;&quot;).replace(/&gt;/g,&quot;&amp;gt;&quot;)}function t(e){return e.nodeName.toLowerCase()}function r(e,n){var t=e&amp;&amp;e.exec(n);return t&amp;&amp;0===t.index}function a(e){return k.test(e)}function i(e){var n,t,r,i,o=e.className+&quot; &quot;;if(o+=e.parentNode?e.parentNode.className:&quot;&quot;,t=B.exec(o))return w(t[1])?t[1]:&quot;no-highlight&quot;;for(o=o.split(/\s+/),n=0,r=o.length;r&gt;n;n++)if(i=o[n],a(i)||w(i))return i}function o(e){var n,t={},r=Array.prototype.slice.call(arguments,1);for(n in e)t[n]=e[n];return r.forEach(function(e){for(n in e)t[n]=e[n]}),t}function u(e){var n=[];return function r(e,a){for(var i=e.firstChild;i;i=i.nextSibling)3===i.nodeType?a+=i.nodeValue.length:1===i.nodeType&amp;&amp;(n.push({event:&quot;start&quot;,offset:a,node:i}),a=r(i,a),t(i).match(/br|hr|img|input/)||n.push({event:&quot;stop&quot;,offset:a,node:i}));return a}(e,0),n}function c(e,r,a){function i(){return e.length&amp;&amp;r.length?e[0].offset!==r[0].offset?e[0].offset&lt;r[0].offset?e:r:&quot;start&quot;===r[0].event?e:r:e.length?e:r}function o(e){function r(e){return&quot; &quot;+e.nodeName+'=&quot;'+n(e.value).replace('&quot;',&quot;&amp;quot;&quot;)+'&quot;'}s+=&quot;&lt;&quot;+t(e)+E.map.call(e.attributes,r).join(&quot;&quot;)+&quot;&gt;&quot;}function u(e){s+=&quot;&lt;/&quot;+t(e)+&quot;&gt;&quot;}function c(e){(&quot;start&quot;===e.event?o:u)(e.node)}for(var l=0,s=&quot;&quot;,f=[];e.length||r.length;){var g=i();if(s+=n(a.substring(l,g[0].offset)),l=g[0].offset,g===e){f.reverse().forEach(u);do c(g.splice(0,1)[0]),g=i();while(g===e&amp;&amp;g.length&amp;&amp;g[0].offset===l);f.reverse().forEach(o)}else&quot;start&quot;===g[0].event?f.push(g[0].node):f.pop(),c(g.splice(0,1)[0])}return s+n(a.substr(l))}function l(e){return e.v&amp;&amp;!e.cached_variants&amp;&amp;(e.cached_variants=e.v.map(function(n){return o(e,{v:null},n)})),e.cached_variants||e.eW&amp;&amp;[o(e)]||[e]}function s(e){function n(e){return e&amp;&amp;e.source||e}function t(t,r){return new RegExp(n(t),&quot;m&quot;+(e.cI?&quot;i&quot;:&quot;&quot;)+(r?&quot;g&quot;:&quot;&quot;))}function r(a,i){if(!a.compiled){if(a.compiled=!0,a.k=a.k||a.bK,a.k){var o={},u=function(n,t){e.cI&amp;&amp;(t=t.toLowerCase()),t.split(&quot; &quot;).forEach(function(e){var t=e.split(&quot;|&quot;);o[t[0]]=[n,t[1]?Number(t[1]):1]})};&quot;string&quot;==typeof a.k?u(&quot;keyword&quot;,a.k):x(a.k).forEach(function(e){u(e,a.k[e])}),a.k=o}a.lR=t(a.l||/\w+/,!0),i&amp;&amp;(a.bK&amp;&amp;(a.b=&quot;\\b(&quot;+a.bK.split(&quot; &quot;).join(&quot;|&quot;)+&quot;)\\b&quot;),a.b||(a.b=/\B|\b/),a.bR=t(a.b),a.e||a.eW||(a.e=/\B|\b/),a.e&amp;&amp;(a.eR=t(a.e)),a.tE=n(a.e)||&quot;&quot;,a.eW&amp;&amp;i.tE&amp;&amp;(a.tE+=(a.e?&quot;|&quot;:&quot;&quot;)+i.tE)),a.i&amp;&amp;(a.iR=t(a.i)),null==a.r&amp;&amp;(a.r=1),a.c||(a.c=[]),a.c=Array.prototype.concat.apply([],a.c.map(function(e){return l(&quot;self&quot;===e?a:e)})),a.c.forEach(function(e){r(e,a)}),a.starts&amp;&amp;r(a.starts,i);var c=a.c.map(function(e){return e.bK?&quot;\\.?(&quot;+e.b+&quot;)\\.?&quot;:e.b}).concat([a.tE,a.i]).map(n).filter(Boolean);a.t=c.length?t(c.join(&quot;|&quot;),!0):{exec:function(){return null}}}}r(e)}function f(e,t,a,i){function o(e,n){var t,a;for(t=0,a=n.c.length;a&gt;t;t++)if(r(n.c[t].bR,e))return n.c[t]}function u(e,n){if(r(e.eR,n)){for(;e.endsParent&amp;&amp;e.parent;)e=e.parent;return e}return e.eW?u(e.parent,n):void 0}function c(e,n){return!a&amp;&amp;r(n.iR,e)}function l(e,n){var t=N.cI?n[0].toLowerCase():n[0];return e.k.hasOwnProperty(t)&amp;&amp;e.k[t]}function p(e,n,t,r){var a=r?&quot;&quot;:I.classPrefix,i='&lt;span class=&quot;'+a,o=t?&quot;&quot;:C;return i+=e+'&quot;&gt;',i+n+o}function h(){var e,t,r,a;if(!E.k)return n(k);for(a=&quot;&quot;,t=0,E.lR.lastIndex=0,r=E.lR.exec(k);r;)a+=n(k.substring(t,r.index)),e=l(E,r),e?(B+=e[1],a+=p(e[0],n(r[0]))):a+=n(r[0]),t=E.lR.lastIndex,r=E.lR.exec(k);return a+n(k.substr(t))}function d(){var e=&quot;string&quot;==typeof E.sL;if(e&amp;&amp;!y[E.sL])return n(k);var t=e?f(E.sL,k,!0,x[E.sL]):g(k,E.sL.length?E.sL:void 0);return E.r&gt;0&amp;&amp;(B+=t.r),e&amp;&amp;(x[E.sL]=t.top),p(t.language,t.value,!1,!0)}function b(){L+=null!=E.sL?d():h(),k=&quot;&quot;}function v(e){L+=e.cN?p(e.cN,&quot;&quot;,!0):&quot;&quot;,E=Object.create(e,{parent:{value:E}})}function m(e,n){if(k+=e,null==n)return b(),0;var t=o(n,E);if(t)return t.skip?k+=n:(t.eB&amp;&amp;(k+=n),b(),t.rB||t.eB||(k=n)),v(t,n),t.rB?0:n.length;var r=u(E,n);if(r){var a=E;a.skip?k+=n:(a.rE||a.eE||(k+=n),b(),a.eE&amp;&amp;(k=n));do E.cN&amp;&amp;(L+=C),E.skip||(B+=E.r),E=E.parent;while(E!==r.parent);return r.starts&amp;&amp;v(r.starts,&quot;&quot;),a.rE?0:n.length}if(c(n,E))throw new Error('Illegal lexeme &quot;'+n+'&quot; for mode &quot;'+(E.cN||&quot;&lt;unnamed&gt;&quot;)+'&quot;');return k+=n,n.length||1}var N=w(e);if(!N)throw new Error('Unknown language: &quot;'+e+'&quot;');s(N);var R,E=i||N,x={},L=&quot;&quot;;for(R=E;R!==N;R=R.parent)R.cN&amp;&amp;(L=p(R.cN,&quot;&quot;,!0)+L);var k=&quot;&quot;,B=0;try{for(var M,j,O=0;;){if(E.t.lastIndex=O,M=E.t.exec(t),!M)break;j=m(t.substring(O,M.index),M[0]),O=M.index+j}for(m(t.substr(O)),R=E;R.parent;R=R.parent)R.cN&amp;&amp;(L+=C);return{r:B,value:L,language:e,top:E}}catch(T){if(T.message&amp;&amp;-1!==T.message.indexOf(&quot;Illegal&quot;))return{r:0,value:n(t)};throw T}}function g(e,t){t=t||I.languages||x(y);var r={r:0,value:n(e)},a=r;return t.filter(w).forEach(function(n){var t=f(n,e,!1);t.language=n,t.r&gt;a.r&amp;&amp;(a=t),t.r&gt;r.r&amp;&amp;(a=r,r=t)}),a.language&amp;&amp;(r.second_best=a),r}function p(e){return I.tabReplace||I.useBR?e.replace(M,function(e,n){return I.useBR&amp;&amp;&quot;\n&quot;===e?&quot;&lt;br&gt;&quot;:I.tabReplace?n.replace(/\t/g,I.tabReplace):&quot;&quot;}):e}function h(e,n,t){var r=n?L[n]:t,a=[e.trim()];return e.match(/\bhljs\b/)||a.push(&quot;hljs&quot;),-1===e.indexOf(r)&amp;&amp;a.push(r),a.join(&quot; &quot;).trim()}function d(e){var n,t,r,o,l,s=i(e);a(s)||(I.useBR?(n=document.createElementNS(&quot;http://www.w3.org/1999/xhtml&quot;,&quot;div&quot;),n.innerHTML=e.innerHTML.replace(/\n/g,&quot;&quot;).replace(/&lt;br[ \/]*&gt;/g,&quot;\n&quot;)):n=e,l=n.textContent,r=s?f(s,l,!0):g(l),t=u(n),t.length&amp;&amp;(o=document.createElementNS(&quot;http://www.w3.org/1999/xhtml&quot;,&quot;div&quot;),o.innerHTML=r.value,r.value=c(t,u(o),l)),r.value=p(r.value),e.innerHTML=r.value,e.className=h(e.className,s,r.language),e.result={language:r.language,re:r.r},r.second_best&amp;&amp;(e.second_best={language:r.second_best.language,re:r.second_best.r}))}function b(e){I=o(I,e)}function v(){if(!v.called){v.called=!0;var e=document.querySelectorAll(&quot;pre code&quot;);E.forEach.call(e,d)}}function m(){addEventListener(&quot;DOMContentLoaded&quot;,v,!1),addEventListener(&quot;load&quot;,v,!1)}function N(n,t){var r=y[n]=t(e);r.aliases&amp;&amp;r.aliases.forEach(function(e){L[e]=n})}function R(){return x(y)}function w(e){return e=(e||&quot;&quot;).toLowerCase(),y[e]||y[L[e]]}var E=[],x=Object.keys,y={},L={},k=/^(no-?highlight|plain|text)$/i,B=/\blang(?:uage)?-([\w-]+)\b/i,M=/((^(&lt;[^&gt;]+&gt;|\t|)+|(?:\n)))/gm,C=&quot;&lt;/span&gt;&quot;,I={classPrefix:&quot;hljs-&quot;,tabReplace:null,useBR:!1,languages:void 0};return e.highlight=f,e.highlightAuto=g,e.fixMarkup=p,e.highlightBlock=d,e.configure=b,e.initHighlighting=v,e.initHighlightingOnLoad=m,e.registerLanguage=N,e.listLanguages=R,e.getLanguage=w,e.inherit=o,e.IR=&quot;[a-zA-Z]\\w*&quot;,e.UIR=&quot;[a-zA-Z_]\\w*&quot;,e.NR=&quot;\\b\\d+(\\.\\d+)?&quot;,e.CNR=&quot;(-?)(\\b0[xX][a-fA-F0-9]+|(\\b\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?)&quot;,e.BNR=&quot;\\b(0b[01]+)&quot;,e.RSR=&quot;!|!=|!==|%|%=|&amp;|&amp;&amp;|&amp;=|\\*|\\*=|\\+|\\+=|,|-|-=|/=|/|:|;|&lt;&lt;|&lt;&lt;=|&lt;=|&lt;|===|==|=|&gt;&gt;&gt;=|&gt;&gt;=|&gt;=|&gt;&gt;&gt;|&gt;&gt;|&gt;|\\?|\\[|\\{|\\(|\\^|\\^=|\\||\\|=|\\|\\||~&quot;,e.BE={b:&quot;\\\\[\\s\\S]&quot;,r:0},e.ASM={cN:&quot;string&quot;,b:&quot;'&quot;,e:&quot;'&quot;,i:&quot;\\n&quot;,c:[e.BE]},e.QSM={cN:&quot;string&quot;,b:'&quot;',e:'&quot;',i:&quot;\\n&quot;,c:[e.BE]},e.PWM={b:/\b(a|an|the|are|I'm|isn't|don't|doesn't|won't|but|just|should|pretty|simply|enough|gonna|going|wtf|so|such|will|you|your|they|like|more)\b/},e.C=function(n,t,r){var a=e.inherit({cN:&quot;comment&quot;,b:n,e:t,c:[]},r||{});return a.c.push(e.PWM),a.c.push({cN:&quot;doctag&quot;,b:&quot;(?:TODO|FIXME|NOTE|BUG|XXX):&quot;,r:0}),a},e.CLCM=e.C(&quot;//&quot;,&quot;$&quot;),e.CBCM=e.C(&quot;/\\*&quot;,&quot;\\*/&quot;),e.HCM=e.C(&quot;#&quot;,&quot;$&quot;),e.NM={cN:&quot;number&quot;,b:e.NR,r:0},e.CNM={cN:&quot;number&quot;,b:e.CNR,r:0},e.BNM={cN:&quot;number&quot;,b:e.BNR,r:0},e.CSSNM={cN:&quot;number&quot;,b:e.NR+&quot;(%|em|ex|ch|rem|vw|vh|vmin|vmax|cm|mm|in|pt|pc|px|deg|grad|rad|turn|s|ms|Hz|kHz|dpi|dpcm|dppx)?&quot;,r:0},e.RM={cN:&quot;regexp&quot;,b:/\//,e:/\/[gimuy]*/,i:/\n/,c:[e.BE,{b:/\[/,e:/\]/,r:0,c:[e.BE]}]},e.TM={cN:&quot;title&quot;,b:e.IR,r:0},e.UTM={cN:&quot;title&quot;,b:e.UIR,r:0},e.METHOD_GUARD={b:&quot;\\.\\s*&quot;+e.UIR,r:0},e});hljs.registerLanguage(&quot;css&quot;,function(e){var c=&quot;[a-zA-Z-][a-zA-Z0-9_-]*&quot;,t={b:/[A-Z\_\.\-]+\s*:/,rB:!0,e:&quot;;&quot;,eW:!0,c:[{cN:&quot;attribute&quot;,b:/\S/,e:&quot;:&quot;,eE:!0,starts:{eW:!0,eE:!0,c:[{b:/[\w-]+\(/,rB:!0,c:[{cN:&quot;built_in&quot;,b:/[\w-]+/},{b:/\(/,e:/\)/,c:[e.ASM,e.QSM]}]},e.CSSNM,e.QSM,e.ASM,e.CBCM,{cN:&quot;number&quot;,b:&quot;#[0-9A-Fa-f]+&quot;},{cN:&quot;meta&quot;,b:&quot;!important&quot;}]}}]};return{cI:!0,i:/[=\/|'\$]/,c:[e.CBCM,{cN:&quot;selector-id&quot;,b:/#[A-Za-z0-9_-]+/},{cN:&quot;selector-class&quot;,b:/\.[A-Za-z0-9_-]+/},{cN:&quot;selector-attr&quot;,b:/\[/,e:/\]/,i:&quot;$&quot;},{cN:&quot;selector-pseudo&quot;,b:/:(:)?[a-zA-Z0-9\_\-\+\(\)&quot;'.]+/},{b:&quot;@(font-face|page)&quot;,l:&quot;[a-z-]+&quot;,k:&quot;font-face page&quot;},{b:&quot;@&quot;,e:&quot;[{;]&quot;,i:/:/,c:[{cN:&quot;keyword&quot;,b:/\w+/},{b:/\s/,eW:!0,eE:!0,r:0,c:[e.ASM,e.QSM,e.CSSNM]}]},{cN:&quot;selector-tag&quot;,b:c,r:0},{b:&quot;{&quot;,e:&quot;}&quot;,i:/\S/,c:[e.CBCM,t]}]}});hljs.registerLanguage(&quot;ini&quot;,function(e){var b={cN:&quot;string&quot;,c:[e.BE],v:[{b:&quot;'''&quot;,e:&quot;'''&quot;,r:10},{b:'&quot;&quot;&quot;',e:'&quot;&quot;&quot;',r:10},{b:'&quot;',e:'&quot;'},{b:&quot;'&quot;,e:&quot;'&quot;}]};return{aliases:[&quot;toml&quot;],cI:!0,i:/\S/,c:[e.C(&quot;;&quot;,&quot;$&quot;),e.HCM,{cN:&quot;section&quot;,b:/^\s*\[+/,e:/\]+/},{b:/^[a-z0-9\[\]_-]+\s*=\s*/,e:&quot;$&quot;,rB:!0,c:[{cN:&quot;attr&quot;,b:/[a-z0-9\[\]_-]+/},{b:/=/,eW:!0,r:0,c:[{cN:&quot;literal&quot;,b:/\bon|off|true|false|yes|no\b/},{cN:&quot;variable&quot;,v:[{b:/\$[\w\d&quot;][\w\d_]*/},{b:/\$\{(.*?)}/}]},b,{cN:&quot;number&quot;,b:/([\+\-]+)?[\d]+_[\d_]+/},e.NM]}]}]}});hljs.registerLanguage(&quot;ruby&quot;,function(e){var b=&quot;[a-zA-Z_]\\w*[!?=]?|[-+~]\\@|&lt;&lt;|&gt;&gt;|=~|===?|&lt;=&gt;|[&lt;&gt;]=?|\\*\\*|[-/+%^&amp;*~`|]|\\[\\]=?&quot;,r={keyword:&quot;and then defined module in return redo if BEGIN retry end for self when next until do begin unless END rescue else break undef not super class case require yield alias while ensure elsif or include attr_reader attr_writer attr_accessor&quot;,literal:&quot;true false nil&quot;},c={cN:&quot;doctag&quot;,b:&quot;@[A-Za-z]+&quot;},a={b:&quot;#&lt;&quot;,e:&quot;&gt;&quot;},s=[e.C(&quot;#&quot;,&quot;$&quot;,{c:[c]}),e.C(&quot;^\\=begin&quot;,&quot;^\\=end&quot;,{c:[c],r:10}),e.C(&quot;^__END__&quot;,&quot;\\n$&quot;)],n={cN:&quot;subst&quot;,b:&quot;#\\{&quot;,e:&quot;}&quot;,k:r},t={cN:&quot;string&quot;,c:[e.BE,n],v:[{b:/'/,e:/'/},{b:/&quot;/,e:/&quot;/},{b:/`/,e:/`/},{b:&quot;%[qQwWx]?\\(&quot;,e:&quot;\\)&quot;},{b:&quot;%[qQwWx]?\\[&quot;,e:&quot;\\]&quot;},{b:&quot;%[qQwWx]?{&quot;,e:&quot;}&quot;},{b:&quot;%[qQwWx]?&lt;&quot;,e:&quot;&gt;&quot;},{b:&quot;%[qQwWx]?/&quot;,e:&quot;/&quot;},{b:&quot;%[qQwWx]?%&quot;,e:&quot;%&quot;},{b:&quot;%[qQwWx]?-&quot;,e:&quot;-&quot;},{b:&quot;%[qQwWx]?\\|&quot;,e:&quot;\\|&quot;},{b:/\B\?(\\\d{1,3}|\\x[A-Fa-f0-9]{1,2}|\\u[A-Fa-f0-9]{4}|\\?\S)\b/},{b:/&lt;&lt;(-?)\w+$/,e:/^\s*\w+$/}]},i={cN:&quot;params&quot;,b:&quot;\\(&quot;,e:&quot;\\)&quot;,endsParent:!0,k:r},d=[t,a,{cN:&quot;class&quot;,bK:&quot;class module&quot;,e:&quot;$|;&quot;,i:/=/,c:[e.inherit(e.TM,{b:&quot;[A-Za-z_]\\w*(::\\w+)*(\\?|\\!)?&quot;}),{b:&quot;&lt;\\s*&quot;,c:[{b:&quot;(&quot;+e.IR+&quot;::)?&quot;+e.IR}]}].concat(s)},{cN:&quot;function&quot;,bK:&quot;def&quot;,e:&quot;$|;&quot;,c:[e.inherit(e.TM,{b:b}),i].concat(s)},{b:e.IR+&quot;::&quot;},{cN:&quot;symbol&quot;,b:e.UIR+&quot;(\\!|\\?)?:&quot;,r:0},{cN:&quot;symbol&quot;,b:&quot;:(?!\\s)&quot;,c:[t,{b:b}],r:0},{cN:&quot;number&quot;,b:&quot;(\\b0[0-7_]+)|(\\b0x[0-9a-fA-F_]+)|(\\b[1-9][0-9_]*(\\.[0-9_]+)?)|[0_]\\b&quot;,r:0},{b:&quot;(\\$\\W)|((\\$|\\@\\@?)(\\w+))&quot;},{cN:&quot;params&quot;,b:/\|/,e:/\|/,k:r},{b:&quot;(&quot;+e.RSR+&quot;|unless)\\s*&quot;,k:&quot;unless&quot;,c:[a,{cN:&quot;regexp&quot;,c:[e.BE,n],i:/\n/,v:[{b:&quot;/&quot;,e:&quot;/[a-z]*&quot;},{b:&quot;%r{&quot;,e:&quot;}[a-z]*&quot;},{b:&quot;%r\\(&quot;,e:&quot;\\)[a-z]*&quot;},{b:&quot;%r!&quot;,e:&quot;![a-z]*&quot;},{b:&quot;%r\\[&quot;,e:&quot;\\][a-z]*&quot;}]}].concat(s),r:0}].concat(s);n.c=d,i.c=d;var l=&quot;[&gt;?]&gt;&quot;,o=&quot;[\\w#]+\\(\\w+\\):\\d+:\\d+&gt;&quot;,u=&quot;(\\w+-)?\\d+\\.\\d+\\.\\d(p\\d+)?[^&gt;]+&gt;&quot;,w=[{b:/^\s*=&gt;/,starts:{e:&quot;$&quot;,c:d}},{cN:&quot;meta&quot;,b:&quot;^(&quot;+l+&quot;|&quot;+o+&quot;|&quot;+u+&quot;)&quot;,starts:{e:&quot;$&quot;,c:d}}];return{aliases:[&quot;rb&quot;,&quot;gemspec&quot;,&quot;podspec&quot;,&quot;thor&quot;,&quot;irb&quot;],k:r,i:/\/\*/,c:s.concat(w).concat(d)}});hljs.registerLanguage(&quot;julia&quot;,function(e){var r={keyword:&quot;in isa where baremodule begin break catch ccall const continue do else elseif end export false finally for function global if import importall let local macro module quote return true try using while type immutable abstract bitstype typealias &quot;,literal:&quot;true false ARGS C_NULL DevNull ENDIAN_BOM ENV I Inf Inf16 Inf32 Inf64 InsertionSort JULIA_HOME LOAD_PATH MergeSort NaN NaN16 NaN32 NaN64 PROGRAM_FILE QuickSort RoundDown RoundFromZero RoundNearest RoundNearestTiesAway RoundNearestTiesUp RoundToZero RoundUp STDERR STDIN STDOUT VERSION catalan e|0 eu|0 eulergamma golden im nothing pi γ π φ &quot;,built_in:&quot;ANY AbstractArray AbstractChannel AbstractFloat AbstractMatrix AbstractRNG AbstractSerializer AbstractSet AbstractSparseArray AbstractSparseMatrix AbstractSparseVector AbstractString AbstractUnitRange AbstractVecOrMat AbstractVector Any ArgumentError Array AssertionError Associative Base64DecodePipe Base64EncodePipe Bidiagonal BigFloat BigInt BitArray BitMatrix BitVector Bool BoundsError BufferStream CachingPool CapturedException CartesianIndex CartesianRange Cchar Cdouble Cfloat Channel Char Cint Cintmax_t Clong Clonglong ClusterManager Cmd CodeInfo Colon Complex Complex128 Complex32 Complex64 CompositeException Condition ConjArray ConjMatrix ConjVector Cptrdiff_t Cshort Csize_t Cssize_t Cstring Cuchar Cuint Cuintmax_t Culong Culonglong Cushort Cwchar_t Cwstring DataType Date DateFormat DateTime DenseArray DenseMatrix DenseVecOrMat DenseVector Diagonal Dict DimensionMismatch Dims DirectIndexString Display DivideError DomainError EOFError EachLine Enum Enumerate ErrorException Exception ExponentialBackOff Expr Factorization FileMonitor Float16 Float32 Float64 Function Future GlobalRef GotoNode HTML Hermitian IO IOBuffer IOContext IOStream IPAddr IPv4 IPv6 IndexCartesian IndexLinear IndexStyle InexactError InitError Int Int128 Int16 Int32 Int64 Int8 IntSet Integer InterruptException InvalidStateException Irrational KeyError LabelNode LinSpace LineNumberNode LoadError LowerTriangular MIME Matrix MersenneTwister Method MethodError MethodTable Module NTuple NewvarNode NullException Nullable Number ObjectIdDict OrdinalRange OutOfMemoryError OverflowError Pair ParseError PartialQuickSort PermutedDimsArray Pipe PollingFileWatcher ProcessExitedException Ptr QuoteNode RandomDevice Range RangeIndex Rational RawFD ReadOnlyMemoryError Real ReentrantLock Ref Regex RegexMatch RemoteChannel RemoteException RevString RoundingMode RowVector SSAValue SegmentationFault SerializationState Set SharedArray SharedMatrix SharedVector Signed SimpleVector Slot SlotNumber SparseMatrixCSC SparseVector StackFrame StackOverflowError StackTrace StepRange StepRangeLen StridedArray StridedMatrix StridedVecOrMat StridedVector String SubArray SubString SymTridiagonal Symbol Symmetric SystemError TCPSocket Task Text TextDisplay Timer Tridiagonal Tuple Type TypeError TypeMapEntry TypeMapLevel TypeName TypeVar TypedSlot UDPSocket UInt UInt128 UInt16 UInt32 UInt64 UInt8 UndefRefError UndefVarError UnicodeError UniformScaling Union UnionAll UnitRange Unsigned UpperTriangular Val Vararg VecElement VecOrMat Vector VersionNumber Void WeakKeyDict WeakRef WorkerConfig WorkerPool &quot;},t=&quot;[A-Za-z_\\u00A1-\\uFFFF][A-Za-z_0-9\\u00A1-\\uFFFF]*&quot;,a={l:t,k:r,i:/&lt;\//},n={cN:&quot;number&quot;,b:/(\b0x[\d_]*(\.[\d_]*)?|0x\.\d[\d_]*)p[-+]?\d+|\b0[box][a-fA-F0-9][a-fA-F0-9_]*|(\b\d[\d_]*(\.[\d_]*)?|\.\d[\d_]*)([eEfF][-+]?\d+)?/,r:0},o={cN:&quot;string&quot;,b:/'(.|\\[xXuU][a-zA-Z0-9]+)'/},i={cN:&quot;subst&quot;,b:/\$\(/,e:/\)/,k:r},l={cN:&quot;variable&quot;,b:&quot;\\$&quot;+t},c={cN:&quot;string&quot;,c:[e.BE,i,l],v:[{b:/\w*&quot;&quot;&quot;/,e:/&quot;&quot;&quot;\w*/,r:10},{b:/\w*&quot;/,e:/&quot;\w*/}]},s={cN:&quot;string&quot;,c:[e.BE,i,l],b:&quot;`&quot;,e:&quot;`&quot;},d={cN:&quot;meta&quot;,b:&quot;@&quot;+t},u={cN:&quot;comment&quot;,v:[{b:&quot;#=&quot;,e:&quot;=#&quot;,r:10},{b:&quot;#&quot;,e:&quot;$&quot;}]};return a.c=[n,o,c,s,d,u,e.HCM,{cN:&quot;keyword&quot;,b:&quot;\\b(((abstract|primitive)\\s+)type|(mutable\\s+)?struct)\\b&quot;},{b:/&lt;:/}],i.c=a.c,a});hljs.registerLanguage(&quot;xml&quot;,function(s){var e=&quot;[A-Za-z0-9\\._:-]+&quot;,t={eW:!0,i:/&lt;/,r:0,c:[{cN:&quot;attr&quot;,b:e,r:0},{b:/=\s*/,r:0,c:[{cN:&quot;string&quot;,endsParent:!0,v:[{b:/&quot;/,e:/&quot;/},{b:/'/,e:/'/},{b:/[^\s&quot;'=&lt;&gt;`]+/}]}]}]};return{aliases:[&quot;html&quot;,&quot;xhtml&quot;,&quot;rss&quot;,&quot;atom&quot;,&quot;xjb&quot;,&quot;xsd&quot;,&quot;xsl&quot;,&quot;plist&quot;],cI:!0,c:[{cN:&quot;meta&quot;,b:&quot;&lt;!DOCTYPE&quot;,e:&quot;&gt;&quot;,r:10,c:[{b:&quot;\\[&quot;,e:&quot;\\]&quot;}]},s.C(&quot;&lt;!--&quot;,&quot;--&gt;&quot;,{r:10}),{b:&quot;&lt;\\!\\[CDATA\\[&quot;,e:&quot;\\]\\]&gt;&quot;,r:10},{b:/&lt;\?(php)?/,e:/\?&gt;/,sL:&quot;php&quot;,c:[{b:&quot;/\\*&quot;,e:&quot;\\*/&quot;,skip:!0}]},{cN:&quot;tag&quot;,b:&quot;&lt;style(?=\\s|&gt;|$)&quot;,e:&quot;&gt;&quot;,k:{name:&quot;style&quot;},c:[t],starts:{e:&quot;&lt;/style&gt;&quot;,rE:!0,sL:[&quot;css&quot;,&quot;xml&quot;]}},{cN:&quot;tag&quot;,b:&quot;&lt;script(?=\\s|&gt;|$)&quot;,e:&quot;&gt;&quot;,k:{name:&quot;script&quot;},c:[t],starts:{e:&quot;&lt;/script&gt;&quot;,rE:!0,sL:[&quot;actionscript&quot;,&quot;javascript&quot;,&quot;handlebars&quot;,&quot;xml&quot;]}},{cN:&quot;meta&quot;,v:[{b:/&lt;\?xml/,e:/\?&gt;/,r:10},{b:/&lt;\?\w+/,e:/\?&gt;/}]},{cN:&quot;tag&quot;,b:&quot;&lt;/?&quot;,e:&quot;/?&gt;&quot;,c:[{cN:&quot;name&quot;,b:/[^\/&gt;&lt;\s]+/,r:0},t]}]}});hljs.registerLanguage(&quot;markdown&quot;,function(e){return{aliases:[&quot;md&quot;,&quot;mkdown&quot;,&quot;mkd&quot;],c:[{cN:&quot;section&quot;,v:[{b:&quot;^#{1,6}&quot;,e:&quot;$&quot;},{b:&quot;^.+?\\n[=-]{2,}$&quot;}]},{b:&quot;&lt;&quot;,e:&quot;&gt;&quot;,sL:&quot;xml&quot;,r:0},{cN:&quot;bullet&quot;,b:&quot;^([*+-]|(\\d+\\.))\\s+&quot;},{cN:&quot;strong&quot;,b:&quot;[*_]{2}.+?[*_]{2}&quot;},{cN:&quot;emphasis&quot;,v:[{b:&quot;\\*.+?\\*&quot;},{b:&quot;_.+?_&quot;,r:0}]},{cN:&quot;quote&quot;,b:&quot;^&gt;\\s+&quot;,e:&quot;$&quot;},{cN:&quot;code&quot;,v:[{b:&quot;^```w*s*$&quot;,e:&quot;^```s*$&quot;},{b:&quot;`.+?`&quot;},{b:&quot;^( {4}|	)&quot;,e:&quot;$&quot;,r:0}]},{b:&quot;^[-\\*]{3,}&quot;,e:&quot;$&quot;},{b:&quot;\\[.+?\\][\\(\\[].*?[\\)\\]]&quot;,rB:!0,c:[{cN:&quot;string&quot;,b:&quot;\\[&quot;,e:&quot;\\]&quot;,eB:!0,rE:!0,r:0},{cN:&quot;link&quot;,b:&quot;\\]\\(&quot;,e:&quot;\\)&quot;,eB:!0,eE:!0},{cN:&quot;symbol&quot;,b:&quot;\\]\\[&quot;,e:&quot;\\]&quot;,eB:!0,eE:!0}],r:10},{b:/^\[[^\n]+\]:/,rB:!0,c:[{cN:&quot;symbol&quot;,b:/\[/,e:/\]/,eB:!0,eE:!0},{cN:&quot;link&quot;,b:/:\s*/,e:/$/,eB:!0}]}]}});hljs.registerLanguage(&quot;scilab&quot;,function(e){var s=[e.CNM,{cN:&quot;string&quot;,b:&quot;'|\&quot;&quot;,e:&quot;'|\&quot;&quot;,c:[e.BE,{b:&quot;''&quot;}]}];return{aliases:[&quot;sci&quot;],l:/%?\w+/,k:{keyword:&quot;abort break case clear catch continue do elseif else endfunction end for function global if pause return resume select try then while&quot;,literal:&quot;%f %F %t %T %pi %eps %inf %nan %e %i %z %s&quot;,built_in:&quot;abs and acos asin atan ceil cd chdir clearglobal cosh cos cumprod deff disp error exec execstr exists exp eye gettext floor fprintf fread fsolve imag isdef isempty isinfisnan isvector lasterror length load linspace list listfiles log10 log2 log max min msprintf mclose mopen ones or pathconvert poly printf prod pwd rand real round sinh sin size gsort sprintf sqrt strcat strcmps tring sum system tanh tan type typename warning zeros matrix&quot;},i:'(&quot;|#|/\\*|\\s+/\\w+)',c:[{cN:&quot;function&quot;,bK:&quot;function&quot;,e:&quot;$&quot;,c:[e.UTM,{cN:&quot;params&quot;,b:&quot;\\(&quot;,e:&quot;\\)&quot;}]},{b:&quot;[a-zA-Z_][a-zA-Z_0-9]*('+[\\.']*|[\\.']+)&quot;,e:&quot;&quot;,r:0},{b:&quot;\\[&quot;,e:&quot;\\]'*[\\.']*&quot;,r:0,c:s},e.C(&quot;//&quot;,&quot;$&quot;)].concat(s)}});hljs.registerLanguage(&quot;json&quot;,function(e){var i={literal:&quot;true false null&quot;},n=[e.QSM,e.CNM],r={e:&quot;,&quot;,eW:!0,eE:!0,c:n,k:i},t={b:&quot;{&quot;,e:&quot;}&quot;,c:[{cN:&quot;attr&quot;,b:/&quot;/,e:/&quot;/,c:[e.BE],i:&quot;\\n&quot;},e.inherit(r,{b:/:/})],i:&quot;\\S&quot;},c={b:&quot;\\[&quot;,e:&quot;\\]&quot;,c:[e.inherit(r)],i:&quot;\\S&quot;};return n.splice(n.length,0,t,c),{c:n,k:i,i:&quot;\\S&quot;}});hljs.registerLanguage(&quot;r&quot;,function(e){var r=&quot;([a-zA-Z]|\\.[a-zA-Z.])[a-zA-Z0-9._]*&quot;;return{c:[e.HCM,{b:r,l:r,k:{keyword:&quot;function if in break next repeat else for return switch while try tryCatch stop warning require library attach detach source setMethod setGeneric setGroupGeneric setClass ...&quot;,literal:&quot;NULL NA TRUE FALSE T F Inf NaN NA_integer_|10 NA_real_|10 NA_character_|10 NA_complex_|10&quot;},r:0},{cN:&quot;number&quot;,b:&quot;0[xX][0-9a-fA-F]+[Li]?\\b&quot;,r:0},{cN:&quot;number&quot;,b:&quot;\\d+(?:[eE][+\\-]?\\d*)?L\\b&quot;,r:0},{cN:&quot;number&quot;,b:&quot;\\d+\\.(?!\\d)(?:i\\b)?&quot;,r:0},{cN:&quot;number&quot;,b:&quot;\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d*)?i?\\b&quot;,r:0},{cN:&quot;number&quot;,b:&quot;\\.\\d+(?:[eE][+\\-]?\\d*)?i?\\b&quot;,r:0},{b:&quot;`&quot;,e:&quot;`&quot;,r:0},{cN:&quot;string&quot;,c:[e.BE],v:[{b:'&quot;',e:'&quot;'},{b:&quot;'&quot;,e:&quot;'&quot;}]}]}});hljs.registerLanguage(&quot;tex&quot;,function(c){var e={cN:&quot;tag&quot;,b:/\\/,r:0,c:[{cN:&quot;name&quot;,v:[{b:/[a-zA-Zа-яА-я]+[*]?/},{b:/[^a-zA-Zа-яА-я0-9]/}],starts:{eW:!0,r:0,c:[{cN:&quot;string&quot;,v:[{b:/\[/,e:/\]/},{b:/\{/,e:/\}/}]},{b:/\s*=\s*/,eW:!0,r:0,c:[{cN:&quot;number&quot;,b:/-?\d*\.?\d+(pt|pc|mm|cm|in|dd|cc|ex|em)?/}]}]}}]};return{c:[e,{cN:&quot;formula&quot;,c:[e],r:0,v:[{b:/\$\$/,e:/\$\$/},{b:/\$/,e:/\$/}]},c.C(&quot;%&quot;,&quot;$&quot;,{r:0})]}});hljs.registerLanguage(&quot;cpp&quot;,function(t){var e={cN:&quot;keyword&quot;,b:&quot;\\b[a-z\\d_]*_t\\b&quot;},r={cN:&quot;string&quot;,v:[{b:'(u8?|U)?L?&quot;',e:'&quot;',i:&quot;\\n&quot;,c:[t.BE]},{b:'(u8?|U)?R&quot;',e:'&quot;',c:[t.BE]},{b:&quot;'\\\\?.&quot;,e:&quot;'&quot;,i:&quot;.&quot;}]},s={cN:&quot;number&quot;,v:[{b:&quot;\\b(0b[01']+)&quot;},{b:&quot;(-?)\\b([\\d']+(\\.[\\d']*)?|\\.[\\d']+)(u|U|l|L|ul|UL|f|F|b|B)&quot;},{b:&quot;(-?)(\\b0[xX][a-fA-F0-9']+|(\\b[\\d']+(\\.[\\d']*)?|\\.[\\d']+)([eE][-+]?[\\d']+)?)&quot;}],r:0},i={cN:&quot;meta&quot;,b:/#\s*[a-z]+\b/,e:/$/,k:{&quot;meta-keyword&quot;:&quot;if else elif endif define undef warning error line pragma ifdef ifndef include&quot;},c:[{b:/\\\n/,r:0},t.inherit(r,{cN:&quot;meta-string&quot;}),{cN:&quot;meta-string&quot;,b:/&lt;[^\n&gt;]*&gt;/,e:/$/,i:&quot;\\n&quot;},t.CLCM,t.CBCM]},a=t.IR+&quot;\\s*\\(&quot;,c={keyword:&quot;int float while private char catch import module export virtual operator sizeof dynamic_cast|10 typedef const_cast|10 const for static_cast|10 union namespace unsigned long volatile static protected bool template mutable if public friend do goto auto void enum else break extern using asm case typeid short reinterpret_cast|10 default double register explicit signed typename try this switch continue inline delete alignof constexpr decltype noexcept static_assert thread_local restrict _Bool complex _Complex _Imaginary atomic_bool atomic_char atomic_schar atomic_uchar atomic_short atomic_ushort atomic_int atomic_uint atomic_long atomic_ulong atomic_llong atomic_ullong new throw return and or not&quot;,built_in:&quot;std string cin cout cerr clog stdin stdout stderr stringstream istringstream ostringstream auto_ptr deque list queue stack vector map set bitset multiset multimap unordered_set unordered_map unordered_multiset unordered_multimap array shared_ptr abort abs acos asin atan2 atan calloc ceil cosh cos exit exp fabs floor fmod fprintf fputs free frexp fscanf isalnum isalpha iscntrl isdigit isgraph islower isprint ispunct isspace isupper isxdigit tolower toupper labs ldexp log10 log malloc realloc memchr memcmp memcpy memset modf pow printf putchar puts scanf sinh sin snprintf sprintf sqrt sscanf strcat strchr strcmp strcpy strcspn strlen strncat strncmp strncpy strpbrk strrchr strspn strstr tanh tan vfprintf vprintf vsprintf endl initializer_list unique_ptr&quot;,literal:&quot;true false nullptr NULL&quot;},n=[e,t.CLCM,t.CBCM,s,r];return{aliases:[&quot;c&quot;,&quot;cc&quot;,&quot;h&quot;,&quot;c++&quot;,&quot;h++&quot;,&quot;hpp&quot;],k:c,i:&quot;&lt;/&quot;,c:n.concat([i,{b:&quot;\\b(deque|list|queue|stack|vector|map|set|bitset|multiset|multimap|unordered_map|unordered_set|unordered_multiset|unordered_multimap|array)\\s*&lt;&quot;,e:&quot;&gt;&quot;,k:c,c:[&quot;self&quot;,e]},{b:t.IR+&quot;::&quot;,k:c},{v:[{b:/=/,e:/;/},{b:/\(/,e:/\)/},{bK:&quot;new throw return else&quot;,e:/;/}],k:c,c:n.concat([{b:/\(/,e:/\)/,k:c,c:n.concat([&quot;self&quot;]),r:0}]),r:0},{cN:&quot;function&quot;,b:&quot;(&quot;+t.IR+&quot;[\\*&amp;\\s]+)+&quot;+a,rB:!0,e:/[{;=]/,eE:!0,k:c,i:/[^\w\s\*&amp;]/,c:[{b:a,rB:!0,c:[t.TM],r:0},{cN:&quot;params&quot;,b:/\(/,e:/\)/,k:c,r:0,c:[t.CLCM,t.CBCM,r,s,e]},t.CLCM,t.CBCM,i]},{cN:&quot;class&quot;,bK:&quot;class struct&quot;,e:/[{;:]/,c:[{b:/&lt;/,e:/&gt;/,c:[&quot;self&quot;]},t.TM]}]),exports:{preprocessor:i,strings:r,k:c}}});hljs.registerLanguage(&quot;php&quot;,function(e){var c={b:&quot;\\$+[a-zA-Z_-ÿ][a-zA-Z0-9_-ÿ]*&quot;},i={cN:&quot;meta&quot;,b:/&lt;\?(php)?|\?&gt;/},t={cN:&quot;string&quot;,c:[e.BE,i],v:[{b:'b&quot;',e:'&quot;'},{b:&quot;b'&quot;,e:&quot;'&quot;},e.inherit(e.ASM,{i:null}),e.inherit(e.QSM,{i:null})]},a={v:[e.BNM,e.CNM]};return{aliases:[&quot;php3&quot;,&quot;php4&quot;,&quot;php5&quot;,&quot;php6&quot;],cI:!0,k:&quot;and include_once list abstract global private echo interface as static endswitch array null if endwhile or const for endforeach self var while isset public protected exit foreach throw elseif include __FILE__ empty require_once do xor return parent clone use __CLASS__ __LINE__ else break print eval new catch __METHOD__ case exception default die require __FUNCTION__ enddeclare final try switch continue endfor endif declare unset true false trait goto instanceof insteadof __DIR__ __NAMESPACE__ yield finally&quot;,c:[e.HCM,e.C(&quot;//&quot;,&quot;$&quot;,{c:[i]}),e.C(&quot;/\\*&quot;,&quot;\\*/&quot;,{c:[{cN:&quot;doctag&quot;,b:&quot;@[A-Za-z]+&quot;}]}),e.C(&quot;__halt_compiler.+?;&quot;,!1,{eW:!0,k:&quot;__halt_compiler&quot;,l:e.UIR}),{cN:&quot;string&quot;,b:/&lt;&lt;&lt;['&quot;]?\w+['&quot;]?$/,e:/^\w+;?$/,c:[e.BE,{cN:&quot;subst&quot;,v:[{b:/\$\w+/},{b:/\{\$/,e:/\}/}]}]},i,{cN:&quot;keyword&quot;,b:/\$this\b/},c,{b:/(::|-&gt;)+[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/},{cN:&quot;function&quot;,bK:&quot;function&quot;,e:/[;{]/,eE:!0,i:&quot;\\$|\\[|%&quot;,c:[e.UTM,{cN:&quot;params&quot;,b:&quot;\\(&quot;,e:&quot;\\)&quot;,c:[&quot;self&quot;,c,e.CBCM,t,a]}]},{cN:&quot;class&quot;,bK:&quot;class interface&quot;,e:&quot;{&quot;,eE:!0,i:/[:\(\$&quot;]/,c:[{bK:&quot;extends implements&quot;},e.UTM]},{bK:&quot;namespace&quot;,e:&quot;;&quot;,i:/[\.']/,c:[e.UTM]},{bK:&quot;use&quot;,e:&quot;;&quot;,c:[e.UTM]},{b:&quot;=&gt;&quot;},t,a]}});hljs.registerLanguage(&quot;javascript&quot;,function(e){var r=&quot;[A-Za-z$_][0-9A-Za-z$_]*&quot;,t={keyword:&quot;in of if for while finally var new function do return void else break catch instanceof with throw case default try this switch continue typeof delete let yield const export super debugger as async await static import from as&quot;,literal:&quot;true false null undefined NaN Infinity&quot;,built_in:&quot;eval isFinite isNaN parseFloat parseInt decodeURI decodeURIComponent encodeURI encodeURIComponent escape unescape Object Function Boolean Error EvalError InternalError RangeError ReferenceError StopIteration SyntaxError TypeError URIError Number Math Date String RegExp Array Float32Array Float64Array Int16Array Int32Array Int8Array Uint16Array Uint32Array Uint8Array Uint8ClampedArray ArrayBuffer DataView JSON Intl arguments require module console window document Symbol Set Map WeakSet WeakMap Proxy Reflect Promise&quot;},a={cN:&quot;number&quot;,v:[{b:&quot;\\b(0[bB][01]+)&quot;},{b:&quot;\\b(0[oO][0-7]+)&quot;},{b:e.CNR}],r:0},n={cN:&quot;subst&quot;,b:&quot;\\$\\{&quot;,e:&quot;\\}&quot;,k:t,c:[]},c={cN:&quot;string&quot;,b:&quot;`&quot;,e:&quot;`&quot;,c:[e.BE,n]};n.c=[e.ASM,e.QSM,c,a,e.RM];var s=n.c.concat([e.CBCM,e.CLCM]);return{aliases:[&quot;js&quot;,&quot;jsx&quot;],k:t,c:[{cN:&quot;meta&quot;,r:10,b:/^\s*['&quot;]use (strict|asm)['&quot;]/},{cN:&quot;meta&quot;,b:/^#!/,e:/$/},e.ASM,e.QSM,c,e.CLCM,e.CBCM,a,{b:/[{,]\s*/,r:0,c:[{b:r+&quot;\\s*:&quot;,rB:!0,r:0,c:[{cN:&quot;attr&quot;,b:r,r:0}]}]},{b:&quot;(&quot;+e.RSR+&quot;|\\b(case|return|throw)\\b)\\s*&quot;,k:&quot;return throw case&quot;,c:[e.CLCM,e.CBCM,e.RM,{cN:&quot;function&quot;,b:&quot;(\\(.*?\\)|&quot;+r+&quot;)\\s*=&gt;&quot;,rB:!0,e:&quot;\\s*=&gt;&quot;,c:[{cN:&quot;params&quot;,v:[{b:r},{b:/\(\s*\)/},{b:/\(/,e:/\)/,eB:!0,eE:!0,k:t,c:s}]}]},{b:/&lt;/,e:/(\/\w+|\w+\/)&gt;/,sL:&quot;xml&quot;,c:[{b:/&lt;\w+\s*\/&gt;/,skip:!0},{b:/&lt;\w+/,e:/(\/\w+|\w+\/)&gt;/,skip:!0,c:[{b:/&lt;\w+\s*\/&gt;/,skip:!0},&quot;self&quot;]}]}],r:0},{cN:&quot;function&quot;,bK:&quot;function&quot;,e:/\{/,eE:!0,c:[e.inherit(e.TM,{b:r}),{cN:&quot;params&quot;,b:/\(/,e:/\)/,eB:!0,eE:!0,c:s}],i:/\[|%/},{b:/\$[(.]/},e.METHOD_GUARD,{cN:&quot;class&quot;,bK:&quot;class&quot;,e:/[{;=]/,eE:!0,i:/[:&quot;\[\]]/,c:[{bK:&quot;extends&quot;},e.UTM]},{bK:&quot;constructor&quot;,e:/\{/,eE:!0}],i:/#(?!!)/}});hljs.registerLanguage(&quot;bash&quot;,function(e){var t={cN:&quot;variable&quot;,v:[{b:/\$[\w\d#@][\w\d_]*/},{b:/\$\{(.*?)}/}]},s={cN:&quot;string&quot;,b:/&quot;/,e:/&quot;/,c:[e.BE,t,{cN:&quot;variable&quot;,b:/\$\(/,e:/\)/,c:[e.BE]}]},a={cN:&quot;string&quot;,b:/'/,e:/'/};return{aliases:[&quot;sh&quot;,&quot;zsh&quot;],l:/\b-?[a-z\._]+\b/,k:{keyword:&quot;if then else elif fi for while in do done case esac function&quot;,literal:&quot;true false&quot;,built_in:&quot;break cd continue eval exec exit export getopts hash pwd readonly return shift test times trap umask unset alias bind builtin caller command declare echo enable help let local logout mapfile printf read readarray source type typeset ulimit unalias set shopt autoload bg bindkey bye cap chdir clone comparguments compcall compctl compdescribe compfiles compgroups compquote comptags comptry compvalues dirs disable disown echotc echoti emulate fc fg float functions getcap getln history integer jobs kill limit log noglob popd print pushd pushln rehash sched setcap setopt stat suspend ttyctl unfunction unhash unlimit unsetopt vared wait whence where which zcompile zformat zftp zle zmodload zparseopts zprof zpty zregexparse zsocket zstyle ztcp&quot;,_:&quot;-ne -eq -lt -gt -f -d -e -s -l -a&quot;},c:[{cN:&quot;meta&quot;,b:/^#![^\n]+sh\s*$/,r:10},{cN:&quot;function&quot;,b:/\w[\w\d_]*\s*\(\s*\)\s*\{/,rB:!0,c:[e.inherit(e.TM,{b:/\w[\w\d_]*/})],r:0},e.HCM,s,a,t]}});hljs.registerLanguage(&quot;matlab&quot;,function(e){var a=[e.CNM,{cN:&quot;string&quot;,b:&quot;'&quot;,e:&quot;'&quot;,c:[e.BE,{b:&quot;''&quot;}]}],s={r:0,c:[{b:/'['\.]*/}]};return{k:{keyword:&quot;break case catch classdef continue else elseif end enumerated events for function global if methods otherwise parfor persistent properties return spmd switch try while&quot;,built_in:&quot;sin sind sinh asin asind asinh cos cosd cosh acos acosd acosh tan tand tanh atan atand atan2 atanh sec secd sech asec asecd asech csc cscd csch acsc acscd acsch cot cotd coth acot acotd acoth hypot exp expm1 log log1p log10 log2 pow2 realpow reallog realsqrt sqrt nthroot nextpow2 abs angle complex conj imag real unwrap isreal cplxpair fix floor ceil round mod rem sign airy besselj bessely besselh besseli besselk beta betainc betaln ellipj ellipke erf erfc erfcx erfinv expint gamma gammainc gammaln psi legendre cross dot factor isprime primes gcd lcm rat rats perms nchoosek factorial cart2sph cart2pol pol2cart sph2cart hsv2rgb rgb2hsv zeros ones eye repmat rand randn linspace logspace freqspace meshgrid accumarray size length ndims numel disp isempty isequal isequalwithequalnans cat reshape diag blkdiag tril triu fliplr flipud flipdim rot90 find sub2ind ind2sub bsxfun ndgrid permute ipermute shiftdim circshift squeeze isscalar isvector ans eps realmax realmin pi i inf nan isnan isinf isfinite j why compan gallery hadamard hankel hilb invhilb magic pascal rosser toeplitz vander wilkinson&quot;},i:'(//|&quot;|#|/\\*|\\s+/\\w+)',c:[{cN:&quot;function&quot;,bK:&quot;function&quot;,e:&quot;$&quot;,c:[e.UTM,{cN:&quot;params&quot;,v:[{b:&quot;\\(&quot;,e:&quot;\\)&quot;},{b:&quot;\\[&quot;,e:&quot;\\]&quot;}]}]},{b:/[a-zA-Z_][a-zA-Z_0-9]*'['\.]*/,rB:!0,r:0,c:[{b:/[a-zA-Z_][a-zA-Z_0-9]*/,r:0},s.c[0]]},{b:&quot;\\[&quot;,e:&quot;\\]&quot;,c:a,r:0,starts:s},{b:&quot;\\{&quot;,e:/}/,c:a,r:0,starts:s},{b:/\)/,r:0,starts:s},e.C(&quot;^\\s*\\%\\{\\s*$&quot;,&quot;^\\s*\\%\\}\\s*$&quot;),e.C(&quot;\\%&quot;,&quot;$&quot;)].concat(a)}});hljs.registerLanguage(&quot;excel&quot;,function(E){return{aliases:[&quot;xlsx&quot;,&quot;xls&quot;],cI:!0,l:/[a-zA-Z][\w\.]*/,k:{built_in:&quot;ABS ACCRINT ACCRINTM ACOS ACOSH ACOT ACOTH AGGREGATE ADDRESS AMORDEGRC AMORLINC AND ARABIC AREAS ASC ASIN ASINH ATAN ATAN2 ATANH AVEDEV AVERAGE AVERAGEA AVERAGEIF AVERAGEIFS BAHTTEXT BASE BESSELI BESSELJ BESSELK BESSELY BETADIST BETA.DIST BETAINV BETA.INV BIN2DEC BIN2HEX BIN2OCT BINOMDIST BINOM.DIST BINOM.DIST.RANGE BINOM.INV BITAND BITLSHIFT BITOR BITRSHIFT BITXOR CALL CEILING CEILING.MATH CEILING.PRECISE CELL CHAR CHIDIST CHIINV CHITEST CHISQ.DIST CHISQ.DIST.RT CHISQ.INV CHISQ.INV.RT CHISQ.TEST CHOOSE CLEAN CODE COLUMN COLUMNS COMBIN COMBINA COMPLEX CONCAT CONCATENATE CONFIDENCE CONFIDENCE.NORM CONFIDENCE.T CONVERT CORREL COS COSH COT COTH COUNT COUNTA COUNTBLANK COUNTIF COUNTIFS COUPDAYBS COUPDAYS COUPDAYSNC COUPNCD COUPNUM COUPPCD COVAR COVARIANCE.P COVARIANCE.S CRITBINOM CSC CSCH CUBEKPIMEMBER CUBEMEMBER CUBEMEMBERPROPERTY CUBERANKEDMEMBER CUBESET CUBESETCOUNT CUBEVALUE CUMIPMT CUMPRINC DATE DATEDIF DATEVALUE DAVERAGE DAY DAYS DAYS360 DB DBCS DCOUNT DCOUNTA DDB DEC2BIN DEC2HEX DEC2OCT DECIMAL DEGREES DELTA DEVSQ DGET DISC DMAX DMIN DOLLAR DOLLARDE DOLLARFR DPRODUCT DSTDEV DSTDEVP DSUM DURATION DVAR DVARP EDATE EFFECT ENCODEURL EOMONTH ERF ERF.PRECISE ERFC ERFC.PRECISE ERROR.TYPE EUROCONVERT EVEN EXACT EXP EXPON.DIST EXPONDIST FACT FACTDOUBLE FALSE|0 F.DIST FDIST F.DIST.RT FILTERXML FIND FINDB F.INV F.INV.RT FINV FISHER FISHERINV FIXED FLOOR FLOOR.MATH FLOOR.PRECISE FORECAST FORECAST.ETS FORECAST.ETS.CONFINT FORECAST.ETS.SEASONALITY FORECAST.ETS.STAT FORECAST.LINEAR FORMULATEXT FREQUENCY F.TEST FTEST FV FVSCHEDULE GAMMA GAMMA.DIST GAMMADIST GAMMA.INV GAMMAINV GAMMALN GAMMALN.PRECISE GAUSS GCD GEOMEAN GESTEP GETPIVOTDATA GROWTH HARMEAN HEX2BIN HEX2DEC HEX2OCT HLOOKUP HOUR HYPERLINK HYPGEOM.DIST HYPGEOMDIST IF|0 IFERROR IFNA IFS IMABS IMAGINARY IMARGUMENT IMCONJUGATE IMCOS IMCOSH IMCOT IMCSC IMCSCH IMDIV IMEXP IMLN IMLOG10 IMLOG2 IMPOWER IMPRODUCT IMREAL IMSEC IMSECH IMSIN IMSINH IMSQRT IMSUB IMSUM IMTAN INDEX INDIRECT INFO INT INTERCEPT INTRATE IPMT IRR ISBLANK ISERR ISERROR ISEVEN ISFORMULA ISLOGICAL ISNA ISNONTEXT ISNUMBER ISODD ISREF ISTEXT ISO.CEILING ISOWEEKNUM ISPMT JIS KURT LARGE LCM LEFT LEFTB LEN LENB LINEST LN LOG LOG10 LOGEST LOGINV LOGNORM.DIST LOGNORMDIST LOGNORM.INV LOOKUP LOWER MATCH MAX MAXA MAXIFS MDETERM MDURATION MEDIAN MID MIDBs MIN MINIFS MINA MINUTE MINVERSE MIRR MMULT MOD MODE MODE.MULT MODE.SNGL MONTH MROUND MULTINOMIAL MUNIT N NA NEGBINOM.DIST NEGBINOMDIST NETWORKDAYS NETWORKDAYS.INTL NOMINAL NORM.DIST NORMDIST NORMINV NORM.INV NORM.S.DIST NORMSDIST NORM.S.INV NORMSINV NOT NOW NPER NPV NUMBERVALUE OCT2BIN OCT2DEC OCT2HEX ODD ODDFPRICE ODDFYIELD ODDLPRICE ODDLYIELD OFFSET OR PDURATION PEARSON PERCENTILE.EXC PERCENTILE.INC PERCENTILE PERCENTRANK.EXC PERCENTRANK.INC PERCENTRANK PERMUT PERMUTATIONA PHI PHONETIC PI PMT POISSON.DIST POISSON POWER PPMT PRICE PRICEDISC PRICEMAT PROB PRODUCT PROPER PV QUARTILE QUARTILE.EXC QUARTILE.INC QUOTIENT RADIANS RAND RANDBETWEEN RANK.AVG RANK.EQ RANK RATE RECEIVED REGISTER.ID REPLACE REPLACEB REPT RIGHT RIGHTB ROMAN ROUND ROUNDDOWN ROUNDUP ROW ROWS RRI RSQ RTD SEARCH SEARCHB SEC SECH SECOND SERIESSUM SHEET SHEETS SIGN SIN SINH SKEW SKEW.P SLN SLOPE SMALL SQL.REQUEST SQRT SQRTPI STANDARDIZE STDEV STDEV.P STDEV.S STDEVA STDEVP STDEVPA STEYX SUBSTITUTE SUBTOTAL SUM SUMIF SUMIFS SUMPRODUCT SUMSQ SUMX2MY2 SUMX2PY2 SUMXMY2 SWITCH SYD T TAN TANH TBILLEQ TBILLPRICE TBILLYIELD T.DIST T.DIST.2T T.DIST.RT TDIST TEXT TEXTJOIN TIME TIMEVALUE T.INV T.INV.2T TINV TODAY TRANSPOSE TREND TRIM TRIMMEAN TRUE|0 TRUNC T.TEST TTEST TYPE UNICHAR UNICODE UPPER VALUE VAR VAR.P VAR.S VARA VARP VARPA VDB VLOOKUP WEBSERVICE WEEKDAY WEEKNUM WEIBULL WEIBULL.DIST WORKDAY WORKDAY.INTL XIRR XNPV XOR YEAR YEARFRAC YIELD YIELDDISC YIELDMAT Z.TEST ZTEST&quot;},c:[{b:/^=/,e:/[^=]/,rE:!0,i:/=/,r:10},{cN:&quot;symbol&quot;,b:/\b[A-Z]{1,2}\d+\b/,e:/[^\d]/,eE:!0,r:0},{cN:&quot;symbol&quot;,b:/[A-Z]{0,2}\d*:[A-Z]{0,2}\d*/,r:0},E.BE,E.QSM,{cN:&quot;number&quot;,b:E.NR+&quot;(%)?&quot;,r:0},E.C(/\bN\(/,/\)/,{eB:!0,eE:!0,i:/\n/})]}});hljs.registerLanguage(&quot;sql&quot;,function(e){var t=e.C(&quot;--&quot;,&quot;$&quot;);return{cI:!0,i:/[&lt;&gt;{}*#]/,c:[{bK:&quot;begin end start commit rollback savepoint lock alter create drop rename call delete do handler insert load replace select truncate update set show pragma grant merge describe use explain help declare prepare execute deallocate release unlock purge reset change stop analyze cache flush optimize repair kill install uninstall checksum restore check backup revoke comment&quot;,e:/;/,eW:!0,l:/[\w\.]+/,k:{keyword:&quot;abort abs absolute acc acce accep accept access accessed accessible account acos action activate add addtime admin administer advanced advise aes_decrypt aes_encrypt after agent aggregate ali alia alias allocate allow alter always analyze ancillary and any anydata anydataset anyschema anytype apply archive archived archivelog are as asc ascii asin assembly assertion associate asynchronous at atan atn2 attr attri attrib attribu attribut attribute attributes audit authenticated authentication authid authors auto autoallocate autodblink autoextend automatic availability avg backup badfile basicfile before begin beginning benchmark between bfile bfile_base big bigfile bin binary_double binary_float binlog bit_and bit_count bit_length bit_or bit_xor bitmap blob_base block blocksize body both bound buffer_cache buffer_pool build bulk by byte byteordermark bytes cache caching call calling cancel capacity cascade cascaded case cast catalog category ceil ceiling chain change changed char_base char_length character_length characters characterset charindex charset charsetform charsetid check checksum checksum_agg child choose chr chunk class cleanup clear client clob clob_base clone close cluster_id cluster_probability cluster_set clustering coalesce coercibility col collate collation collect colu colum column column_value columns columns_updated comment commit compact compatibility compiled complete composite_limit compound compress compute concat concat_ws concurrent confirm conn connec connect connect_by_iscycle connect_by_isleaf connect_by_root connect_time connection consider consistent constant constraint constraints constructor container content contents context contributors controlfile conv convert convert_tz corr corr_k corr_s corresponding corruption cos cost count count_big counted covar_pop covar_samp cpu_per_call cpu_per_session crc32 create creation critical cross cube cume_dist curdate current current_date current_time current_timestamp current_user cursor curtime customdatum cycle data database databases datafile datafiles datalength date_add date_cache date_format date_sub dateadd datediff datefromparts datename datepart datetime2fromparts day day_to_second dayname dayofmonth dayofweek dayofyear days db_role_change dbtimezone ddl deallocate declare decode decompose decrement decrypt deduplicate def defa defau defaul default defaults deferred defi defin define degrees delayed delegate delete delete_all delimited demand dense_rank depth dequeue des_decrypt des_encrypt des_key_file desc descr descri describ describe descriptor deterministic diagnostics difference dimension direct_load directory disable disable_all disallow disassociate discardfile disconnect diskgroup distinct distinctrow distribute distributed div do document domain dotnet double downgrade drop dumpfile duplicate duration each edition editionable editions element ellipsis else elsif elt empty enable enable_all enclosed encode encoding encrypt end end-exec endian enforced engine engines enqueue enterprise entityescaping eomonth error errors escaped evalname evaluate event eventdata events except exception exceptions exchange exclude excluding execu execut execute exempt exists exit exp expire explain export export_set extended extent external external_1 external_2 externally extract failed failed_login_attempts failover failure far fast feature_set feature_value fetch field fields file file_name_convert filesystem_like_logging final finish first first_value fixed flash_cache flashback floor flush following follows for forall force form forma format found found_rows freelist freelists freepools fresh from from_base64 from_days ftp full function general generated get get_format get_lock getdate getutcdate global global_name globally go goto grant grants greatest group group_concat group_id grouping grouping_id groups gtid_subtract guarantee guard handler hash hashkeys having hea head headi headin heading heap help hex hierarchy high high_priority hosts hour http id ident_current ident_incr ident_seed identified identity idle_time if ifnull ignore iif ilike ilm immediate import in include including increment index indexes indexing indextype indicator indices inet6_aton inet6_ntoa inet_aton inet_ntoa infile initial initialized initially initrans inmemory inner innodb input insert install instance instantiable instr interface interleaved intersect into invalidate invisible is is_free_lock is_ipv4 is_ipv4_compat is_not is_not_null is_used_lock isdate isnull isolation iterate java join json json_exists keep keep_duplicates key keys kill language large last last_day last_insert_id last_value lax lcase lead leading least leaves left len lenght length less level levels library like like2 like4 likec limit lines link list listagg little ln load load_file lob lobs local localtime localtimestamp locate locator lock locked log log10 log2 logfile logfiles logging logical logical_reads_per_call logoff logon logs long loop low low_priority lower lpad lrtrim ltrim main make_set makedate maketime managed management manual map mapping mask master master_pos_wait match matched materialized max maxextents maximize maxinstances maxlen maxlogfiles maxloghistory maxlogmembers maxsize maxtrans md5 measures median medium member memcompress memory merge microsecond mid migration min minextents minimum mining minus minute minvalue missing mod mode model modification modify module monitoring month months mount move movement multiset mutex name name_const names nan national native natural nav nchar nclob nested never new newline next nextval no no_write_to_binlog noarchivelog noaudit nobadfile nocheck nocompress nocopy nocycle nodelay nodiscardfile noentityescaping noguarantee nokeep nologfile nomapping nomaxvalue nominimize nominvalue nomonitoring none noneditionable nonschema noorder nopr nopro noprom nopromp noprompt norely noresetlogs noreverse normal norowdependencies noschemacheck noswitch not nothing notice notrim novalidate now nowait nth_value nullif nulls num numb numbe nvarchar nvarchar2 object ocicoll ocidate ocidatetime ociduration ociinterval ociloblocator ocinumber ociref ocirefcursor ocirowid ocistring ocitype oct octet_length of off offline offset oid oidindex old on online only opaque open operations operator optimal optimize option optionally or oracle oracle_date oradata ord ordaudio orddicom orddoc order ordimage ordinality ordvideo organization orlany orlvary out outer outfile outline output over overflow overriding package pad parallel parallel_enable parameters parent parse partial partition partitions pascal passing password password_grace_time password_lock_time password_reuse_max password_reuse_time password_verify_function patch path patindex pctincrease pctthreshold pctused pctversion percent percent_rank percentile_cont percentile_disc performance period period_add period_diff permanent physical pi pipe pipelined pivot pluggable plugin policy position post_transaction pow power pragma prebuilt precedes preceding precision prediction prediction_cost prediction_details prediction_probability prediction_set prepare present preserve prior priority private private_sga privileges procedural procedure procedure_analyze processlist profiles project prompt protection public publishingservername purge quarter query quick quiesce quota quotename radians raise rand range rank raw read reads readsize rebuild record records recover recovery recursive recycle redo reduced ref reference referenced references referencing refresh regexp_like register regr_avgx regr_avgy regr_count regr_intercept regr_r2 regr_slope regr_sxx regr_sxy reject rekey relational relative relaylog release release_lock relies_on relocate rely rem remainder rename repair repeat replace replicate replication required reset resetlogs resize resource respect restore restricted result result_cache resumable resume retention return returning returns reuse reverse revoke right rlike role roles rollback rolling rollup round row row_count rowdependencies rowid rownum rows rtrim rules safe salt sample save savepoint sb1 sb2 sb4 scan schema schemacheck scn scope scroll sdo_georaster sdo_topo_geometry search sec_to_time second section securefile security seed segment select self sequence sequential serializable server servererror session session_user sessions_per_user set sets settings sha sha1 sha2 share shared shared_pool short show shrink shutdown si_averagecolor si_colorhistogram si_featurelist si_positionalcolor si_stillimage si_texture siblings sid sign sin size size_t sizes skip slave sleep smalldatetimefromparts smallfile snapshot some soname sort soundex source space sparse spfile split sql sql_big_result sql_buffer_result sql_cache sql_calc_found_rows sql_small_result sql_variant_property sqlcode sqldata sqlerror sqlname sqlstate sqrt square standalone standby start starting startup statement static statistics stats_binomial_test stats_crosstab stats_ks_test stats_mode stats_mw_test stats_one_way_anova stats_t_test_ stats_t_test_indep stats_t_test_one stats_t_test_paired stats_wsr_test status std stddev stddev_pop stddev_samp stdev stop storage store stored str str_to_date straight_join strcmp strict string struct stuff style subdate subpartition subpartitions substitutable substr substring subtime subtring_index subtype success sum suspend switch switchoffset switchover sync synchronous synonym sys sys_xmlagg sysasm sysaux sysdate sysdatetimeoffset sysdba sysoper system system_user sysutcdatetime table tables tablespace tan tdo template temporary terminated tertiary_weights test than then thread through tier ties time time_format time_zone timediff timefromparts timeout timestamp timestampadd timestampdiff timezone_abbr timezone_minute timezone_region to to_base64 to_date to_days to_seconds todatetimeoffset trace tracking transaction transactional translate translation treat trigger trigger_nestlevel triggers trim truncate try_cast try_convert try_parse type ub1 ub2 ub4 ucase unarchived unbounded uncompress under undo unhex unicode uniform uninstall union unique unix_timestamp unknown unlimited unlock unpivot unrecoverable unsafe unsigned until untrusted unusable unused update updated upgrade upped upper upsert url urowid usable usage use use_stored_outlines user user_data user_resources users using utc_date utc_timestamp uuid uuid_short validate validate_password_strength validation valist value values var var_samp varcharc vari varia variab variabl variable variables variance varp varraw varrawc varray verify version versions view virtual visible void wait wallet warning warnings week weekday weekofyear wellformed when whene whenev wheneve whenever where while whitespace with within without work wrapped xdb xml xmlagg xmlattributes xmlcast xmlcolattval xmlelement xmlexists xmlforest xmlindex xmlnamespaces xmlpi xmlquery xmlroot xmlschema xmlserialize xmltable xmltype xor year year_to_month years yearweek&quot;,literal:&quot;true false null&quot;,built_in:&quot;array bigint binary bit blob boolean char character date dec decimal float int int8 integer interval number numeric real record serial serial8 smallint text varchar varying void&quot;},c:[{cN:&quot;string&quot;,b:&quot;'&quot;,e:&quot;'&quot;,c:[e.BE,{b:&quot;''&quot;}]},{cN:&quot;string&quot;,b:'&quot;',e:'&quot;',c:[e.BE,{b:'&quot;&quot;'}]},{cN:&quot;string&quot;,b:&quot;`&quot;,e:&quot;`&quot;,c:[e.BE]},e.CNM,e.CBCM,t]},e.CBCM,t]}});hljs.registerLanguage(&quot;perl&quot;,function(e){var t=&quot;getpwent getservent quotemeta msgrcv scalar kill dbmclose undef lc ma syswrite tr send umask sysopen shmwrite vec qx utime local oct semctl localtime readpipe do return format read sprintf dbmopen pop getpgrp not getpwnam rewinddir qqfileno qw endprotoent wait sethostent bless s|0 opendir continue each sleep endgrent shutdown dump chomp connect getsockname die socketpair close flock exists index shmgetsub for endpwent redo lstat msgctl setpgrp abs exit select print ref gethostbyaddr unshift fcntl syscall goto getnetbyaddr join gmtime symlink semget splice x|0 getpeername recv log setsockopt cos last reverse gethostbyname getgrnam study formline endhostent times chop length gethostent getnetent pack getprotoent getservbyname rand mkdir pos chmod y|0 substr endnetent printf next open msgsnd readdir use unlink getsockopt getpriority rindex wantarray hex system getservbyport endservent int chr untie rmdir prototype tell listen fork shmread ucfirst setprotoent else sysseek link getgrgid shmctl waitpid unpack getnetbyname reset chdir grep split require caller lcfirst until warn while values shift telldir getpwuid my getprotobynumber delete and sort uc defined srand accept package seekdir getprotobyname semop our rename seek if q|0 chroot sysread setpwent no crypt getc chown sqrt write setnetent setpriority foreach tie sin msgget map stat getlogin unless elsif truncate exec keys glob tied closedirioctl socket readlink eval xor readline binmode setservent eof ord bind alarm pipe atan2 getgrent exp time push setgrent gt lt or ne m|0 break given say state when&quot;,r={cN:&quot;subst&quot;,b:&quot;[$@]\\{&quot;,e:&quot;\\}&quot;,k:t},s={b:&quot;-&gt;{&quot;,e:&quot;}&quot;},n={v:[{b:/\$\d/},{b:/[\$%@](\^\w\b|#\w+(::\w+)*|{\w+}|\w+(::\w*)*)/},{b:/[\$%@][^\s\w{]/,r:0}]},i=[e.BE,r,n],o=[n,e.HCM,e.C(&quot;^\\=\\w&quot;,&quot;\\=cut&quot;,{eW:!0}),s,{cN:&quot;string&quot;,c:i,v:[{b:&quot;q[qwxr]?\\s*\\(&quot;,e:&quot;\\)&quot;,r:5},{b:&quot;q[qwxr]?\\s*\\[&quot;,e:&quot;\\]&quot;,r:5},{b:&quot;q[qwxr]?\\s*\\{&quot;,e:&quot;\\}&quot;,r:5},{b:&quot;q[qwxr]?\\s*\\|&quot;,e:&quot;\\|&quot;,r:5},{b:&quot;q[qwxr]?\\s*\\&lt;&quot;,e:&quot;\\&gt;&quot;,r:5},{b:&quot;qw\\s+q&quot;,e:&quot;q&quot;,r:5},{b:&quot;'&quot;,e:&quot;'&quot;,c:[e.BE]},{b:'&quot;',e:'&quot;'},{b:&quot;`&quot;,e:&quot;`&quot;,c:[e.BE]},{b:&quot;{\\w+}&quot;,c:[],r:0},{b:&quot;-?\\w+\\s*\\=\\&gt;&quot;,c:[],r:0}]},{cN:&quot;number&quot;,b:&quot;(\\b0[0-7_]+)|(\\b0x[0-9a-fA-F_]+)|(\\b[1-9][0-9_]*(\\.[0-9_]+)?)|[0_]\\b&quot;,r:0},{b:&quot;(\\/\\/|&quot;+e.RSR+&quot;|\\b(split|return|print|reverse|grep)\\b)\\s*&quot;,k:&quot;split return print reverse grep&quot;,r:0,c:[e.HCM,{cN:&quot;regexp&quot;,b:&quot;(s|tr|y)/(\\\\.|[^/])*/(\\\\.|[^/])*/[a-z]*&quot;,r:10},{cN:&quot;regexp&quot;,b:&quot;(m|qr)?/&quot;,e:&quot;/[a-z]*&quot;,c:[e.BE],r:0}]},{cN:&quot;function&quot;,bK:&quot;sub&quot;,e:&quot;(\\s*\\(.*?\\))?[;{]&quot;,eE:!0,r:5,c:[e.TM]},{b:&quot;-\\w\\b&quot;,r:0},{b:&quot;^__DATA__$&quot;,e:&quot;^__END__$&quot;,sL:&quot;mojolicious&quot;,c:[{b:&quot;^@@.*&quot;,e:&quot;$&quot;,cN:&quot;comment&quot;}]}];return r.c=o,s.c=o,{aliases:[&quot;pl&quot;,&quot;pm&quot;],l:/[\w\.]+/,k:t,c:o}});hljs.registerLanguage(&quot;python&quot;,function(e){var r={keyword:&quot;and elif is global as in if from raise for except finally print import pass return exec else break not with class assert yield try while continue del or def lambda async await nonlocal|10 None True False&quot;,built_in:&quot;Ellipsis NotImplemented&quot;},b={cN:&quot;meta&quot;,b:/^(&gt;&gt;&gt;|\.\.\.) /},c={cN:&quot;subst&quot;,b:/\{/,e:/\}/,k:r,i:/#/},a={cN:&quot;string&quot;,c:[e.BE],v:[{b:/(u|b)?r?'''/,e:/'''/,c:[b],r:10},{b:/(u|b)?r?&quot;&quot;&quot;/,e:/&quot;&quot;&quot;/,c:[b],r:10},{b:/(fr|rf|f)'''/,e:/'''/,c:[b,c]},{b:/(fr|rf|f)&quot;&quot;&quot;/,e:/&quot;&quot;&quot;/,c:[b,c]},{b:/(u|r|ur)'/,e:/'/,r:10},{b:/(u|r|ur)&quot;/,e:/&quot;/,r:10},{b:/(b|br)'/,e:/'/},{b:/(b|br)&quot;/,e:/&quot;/},{b:/(fr|rf|f)'/,e:/'/,c:[c]},{b:/(fr|rf|f)&quot;/,e:/&quot;/,c:[c]},e.ASM,e.QSM]},s={cN:&quot;number&quot;,r:0,v:[{b:e.BNR+&quot;[lLjJ]?&quot;},{b:&quot;\\b(0o[0-7]+)[lLjJ]?&quot;},{b:e.CNR+&quot;[lLjJ]?&quot;}]},i={cN:&quot;params&quot;,b:/\(/,e:/\)/,c:[&quot;self&quot;,b,s,a]};return c.c=[a,s,b],{aliases:[&quot;py&quot;,&quot;gyp&quot;],k:r,i:/(&lt;\/|-&gt;|\?)|=&gt;/,c:[b,s,a,e.HCM,{v:[{cN:&quot;function&quot;,bK:&quot;def&quot;},{cN:&quot;class&quot;,bK:&quot;class&quot;}],e:/:/,i:/[${=;\n,]/,c:[e.UTM,i,{b:/-&gt;/,eW:!0,k:&quot;None&quot;}]},{cN:&quot;meta&quot;,b:/^[\t ]*@/,e:/$/},{b:/\b(print|exec)\(/}]}});hljs.registerLanguage(&quot;http&quot;,function(e){var t=&quot;HTTP/[0-9\\.]+&quot;;return{aliases:[&quot;https&quot;],i:&quot;\\S&quot;,c:[{b:&quot;^&quot;+t,e:&quot;$&quot;,c:[{cN:&quot;number&quot;,b:&quot;\\b\\d{3}\\b&quot;}]},{b:&quot;^[A-Z]+ (.*?) &quot;+t+&quot;$&quot;,rB:!0,e:&quot;$&quot;,c:[{cN:&quot;string&quot;,b:&quot; &quot;,e:&quot; &quot;,eB:!0,eE:!0},{b:t},{cN:&quot;keyword&quot;,b:&quot;[A-Z]+&quot;}]},{cN:&quot;attribute&quot;,b:&quot;^\\w&quot;,e:&quot;: &quot;,eE:!0,i:&quot;\\n|\\s|=&quot;,starts:{e:&quot;$&quot;,r:0}},{b:&quot;\\n\\n&quot;,starts:{sL:[],eW:!0}}]}});hljs.registerLanguage(&quot;dos&quot;,function(e){var r=e.C(/^\s*@?rem\b/,/$/,{r:10}),t={cN:&quot;symbol&quot;,b:&quot;^\\s*[A-Za-z._?][A-Za-z0-9_$#@~.?]*(:|\\s+label)&quot;,r:0};return{aliases:[&quot;bat&quot;,&quot;cmd&quot;],cI:!0,i:/\/\*/,k:{keyword:&quot;if else goto for in do call exit not exist errorlevel defined equ neq lss leq gtr geq&quot;,built_in:&quot;prn nul lpt3 lpt2 lpt1 con com4 com3 com2 com1 aux shift cd dir echo setlocal endlocal set pause copy append assoc at attrib break cacls cd chcp chdir chkdsk chkntfs cls cmd color comp compact convert date dir diskcomp diskcopy doskey erase fs find findstr format ftype graftabl help keyb label md mkdir mode more move path pause print popd pushd promt rd recover rem rename replace restore rmdir shiftsort start subst time title tree type ver verify vol ping net ipconfig taskkill xcopy ren del&quot;},c:[{cN:&quot;variable&quot;,b:/%%[^ ]|%[^ ]+?%|![^ ]+?!/},{cN:&quot;function&quot;,b:t.b,e:&quot;goto:eof&quot;,c:[e.inherit(e.TM,{b:&quot;([_a-zA-Z]\\w*\\.)*([_a-zA-Z]\\w*:)?[_a-zA-Z]\\w*&quot;}),r]},{cN:&quot;number&quot;,b:&quot;\\b\\d+&quot;,r:0},r]}});hljs.registerLanguage(&quot;diff&quot;,function(e){return{aliases:[&quot;patch&quot;],c:[{cN:&quot;meta&quot;,r:10,v:[{b:/^@@ +\-\d+,\d+ +\+\d+,\d+ +@@$/},{b:/^\*\*\* +\d+,\d+ +\*\*\*\*$/},{b:/^\-\-\- +\d+,\d+ +\-\-\-\-$/}]},{cN:&quot;comment&quot;,v:[{b:/Index: /,e:/$/},{b:/={3,}/,e:/$/},{b:/^\-{3}/,e:/$/},{b:/^\*{3} /,e:/$/},{b:/^\+{3}/,e:/$/},{b:/\*{5}/,e:/\*{5}$/}]},{cN:&quot;addition&quot;,b:&quot;^\\+&quot;,e:&quot;$&quot;},{cN:&quot;deletion&quot;,b:&quot;^\\-&quot;,e:&quot;$&quot;},{cN:&quot;addition&quot;,b:&quot;^\\!&quot;,e:&quot;$&quot;}]}});hljs.registerLanguage(&quot;makefile&quot;,function(e){var i={cN:&quot;variable&quot;,v:[{b:&quot;\\$\\(&quot;+e.UIR+&quot;\\)&quot;,c:[e.BE]},{b:/\$[@%&lt;?\^\+\*]/}]},r={cN:&quot;string&quot;,b:/&quot;/,e:/&quot;/,c:[e.BE,i]},a={cN:&quot;variable&quot;,b:/\$\([\w-]+\s/,e:/\)/,k:{built_in:&quot;subst patsubst strip findstring filter filter-out sort word wordlist firstword lastword dir notdir suffix basename addsuffix addprefix join wildcard realpath abspath error warning shell origin flavor foreach if or and call eval file value&quot;},c:[i]},n={b:&quot;^&quot;+e.UIR+&quot;\\s*[:+?]?=&quot;,i:&quot;\\n&quot;,rB:!0,c:[{b:&quot;^&quot;+e.UIR,e:&quot;[:+?]?=&quot;,eE:!0}]},t={cN:&quot;meta&quot;,b:/^\.PHONY:/,e:/$/,k:{&quot;meta-keyword&quot;:&quot;.PHONY&quot;},l:/[\.\w]+/},l={cN:&quot;section&quot;,b:/^[^\s]+:/,e:/$/,c:[i]};return{aliases:[&quot;mk&quot;,&quot;mak&quot;],k:&quot;define endef undefine ifdef ifndef ifeq ifneq else endif include -include sinclude override export unexport private vpath&quot;,l:/[\w-]+/,c:[e.HCM,i,r,a,n,t,l]}});hljs.registerLanguage(&quot;cmake&quot;,function(e){return{aliases:[&quot;cmake.in&quot;],cI:!0,k:{keyword:&quot;add_custom_command add_custom_target add_definitions add_dependencies add_executable add_library add_subdirectory add_test aux_source_directory break build_command cmake_minimum_required cmake_policy configure_file create_test_sourcelist define_property else elseif enable_language enable_testing endforeach endfunction endif endmacro endwhile execute_process export find_file find_library find_package find_path find_program fltk_wrap_ui foreach function get_cmake_property get_directory_property get_filename_component get_property get_source_file_property get_target_property get_test_property if include include_directories include_external_msproject include_regular_expression install link_directories load_cache load_command macro mark_as_advanced message option output_required_files project qt_wrap_cpp qt_wrap_ui remove_definitions return separate_arguments set set_directory_properties set_property set_source_files_properties set_target_properties set_tests_properties site_name source_group string target_link_libraries try_compile try_run unset variable_watch while build_name exec_program export_library_dependencies install_files install_programs install_targets link_libraries make_directory remove subdir_depends subdirs use_mangled_mesa utility_source variable_requires write_file qt5_use_modules qt5_use_package qt5_wrap_cpp on off true false and or equal less greater strless strgreater strequal matches&quot;},c:[{cN:&quot;variable&quot;,b:&quot;\\${&quot;,e:&quot;}&quot;},e.HCM,e.QSM,e.NM]}});hljs.registerLanguage(&quot;powershell&quot;,function(e){var t={b:&quot;`[\\s\\S]&quot;,r:0},o={cN:&quot;variable&quot;,v:[{b:/\$[\w\d][\w\d_:]*/}]},r={cN:&quot;literal&quot;,b:/\$(null|true|false)\b/},n={cN:&quot;string&quot;,v:[{b:/&quot;/,e:/&quot;/},{b:/@&quot;/,e:/^&quot;@/}],c:[t,o,{cN:&quot;variable&quot;,b:/\$[A-z]/,e:/[^A-z]/}]},a={cN:&quot;string&quot;,v:[{b:/'/,e:/'/},{b:/@'/,e:/^'@/}]},i={cN:&quot;doctag&quot;,v:[{b:/\.(synopsis|description|example|inputs|outputs|notes|link|component|role|functionality)/},{b:/\.(parameter|forwardhelptargetname|forwardhelpcategory|remotehelprunspace|externalhelp)\s+\S+/}]},s=e.inherit(e.C(null,null),{v:[{b:/#/,e:/$/},{b:/&lt;#/,e:/#&gt;/}],c:[i]});return{aliases:[&quot;ps&quot;],l:/-?[A-z\.\-]+/,cI:!0,k:{keyword:&quot;if else foreach return function do while until elseif begin for trap data dynamicparam end break throw param continue finally in switch exit filter try process catch&quot;,built_in:&quot;Add-Computer Add-Content Add-History Add-JobTrigger Add-Member Add-PSSnapin Add-Type Checkpoint-Computer Clear-Content Clear-EventLog Clear-History Clear-Host Clear-Item Clear-ItemProperty Clear-Variable Compare-Object Complete-Transaction Connect-PSSession Connect-WSMan Convert-Path ConvertFrom-Csv ConvertFrom-Json ConvertFrom-SecureString ConvertFrom-StringData ConvertTo-Csv ConvertTo-Html ConvertTo-Json ConvertTo-SecureString ConvertTo-Xml Copy-Item Copy-ItemProperty Debug-Process Disable-ComputerRestore Disable-JobTrigger Disable-PSBreakpoint Disable-PSRemoting Disable-PSSessionConfiguration Disable-WSManCredSSP Disconnect-PSSession Disconnect-WSMan Disable-ScheduledJob Enable-ComputerRestore Enable-JobTrigger Enable-PSBreakpoint Enable-PSRemoting Enable-PSSessionConfiguration Enable-ScheduledJob Enable-WSManCredSSP Enter-PSSession Exit-PSSession Export-Alias Export-Clixml Export-Console Export-Counter Export-Csv Export-FormatData Export-ModuleMember Export-PSSession ForEach-Object Format-Custom Format-List Format-Table Format-Wide Get-Acl Get-Alias Get-AuthenticodeSignature Get-ChildItem Get-Command Get-ComputerRestorePoint Get-Content Get-ControlPanelItem Get-Counter Get-Credential Get-Culture Get-Date Get-Event Get-EventLog Get-EventSubscriber Get-ExecutionPolicy Get-FormatData Get-Host Get-HotFix Get-Help Get-History Get-IseSnippet Get-Item Get-ItemProperty Get-Job Get-JobTrigger Get-Location Get-Member Get-Module Get-PfxCertificate Get-Process Get-PSBreakpoint Get-PSCallStack Get-PSDrive Get-PSProvider Get-PSSession Get-PSSessionConfiguration Get-PSSnapin Get-Random Get-ScheduledJob Get-ScheduledJobOption Get-Service Get-TraceSource Get-Transaction Get-TypeData Get-UICulture Get-Unique Get-Variable Get-Verb Get-WinEvent Get-WmiObject Get-WSManCredSSP Get-WSManInstance Group-Object Import-Alias Import-Clixml Import-Counter Import-Csv Import-IseSnippet Import-LocalizedData Import-PSSession Import-Module Invoke-AsWorkflow Invoke-Command Invoke-Expression Invoke-History Invoke-Item Invoke-RestMethod Invoke-WebRequest Invoke-WmiMethod Invoke-WSManAction Join-Path Limit-EventLog Measure-Command Measure-Object Move-Item Move-ItemProperty New-Alias New-Event New-EventLog New-IseSnippet New-Item New-ItemProperty New-JobTrigger New-Object New-Module New-ModuleManifest New-PSDrive New-PSSession New-PSSessionConfigurationFile New-PSSessionOption New-PSTransportOption New-PSWorkflowExecutionOption New-PSWorkflowSession New-ScheduledJobOption New-Service New-TimeSpan New-Variable New-WebServiceProxy New-WinEvent New-WSManInstance New-WSManSessionOption Out-Default Out-File Out-GridView Out-Host Out-Null Out-Printer Out-String Pop-Location Push-Location Read-Host Receive-Job Register-EngineEvent Register-ObjectEvent Register-PSSessionConfiguration Register-ScheduledJob Register-WmiEvent Remove-Computer Remove-Event Remove-EventLog Remove-Item Remove-ItemProperty Remove-Job Remove-JobTrigger Remove-Module Remove-PSBreakpoint Remove-PSDrive Remove-PSSession Remove-PSSnapin Remove-TypeData Remove-Variable Remove-WmiObject Remove-WSManInstance Rename-Computer Rename-Item Rename-ItemProperty Reset-ComputerMachinePassword Resolve-Path Restart-Computer Restart-Service Restore-Computer Resume-Job Resume-Service Save-Help Select-Object Select-String Select-Xml Send-MailMessage Set-Acl Set-Alias Set-AuthenticodeSignature Set-Content Set-Date Set-ExecutionPolicy Set-Item Set-ItemProperty Set-JobTrigger Set-Location Set-PSBreakpoint Set-PSDebug Set-PSSessionConfiguration Set-ScheduledJob Set-ScheduledJobOption Set-Service Set-StrictMode Set-TraceSource Set-Variable Set-WmiInstance Set-WSManInstance Set-WSManQuickConfig Show-Command Show-ControlPanelItem Show-EventLog Sort-Object Split-Path Start-Job Start-Process Start-Service Start-Sleep Start-Transaction Start-Transcript Stop-Computer Stop-Job Stop-Process Stop-Service Stop-Transcript Suspend-Job Suspend-Service Tee-Object Test-ComputerSecureChannel Test-Connection Test-ModuleManifest Test-Path Test-PSSessionConfigurationFile Trace-Command Unblock-File Undo-Transaction Unregister-Event Unregister-PSSessionConfiguration Unregister-ScheduledJob Update-FormatData Update-Help Update-List Update-TypeData Use-Transaction Wait-Event Wait-Job Wait-Process Where-Object Write-Debug Write-Error Write-EventLog Write-Host Write-Output Write-Progress Write-Verbose Write-Warning Add-MDTPersistentDrive Disable-MDTMonitorService Enable-MDTMonitorService Get-MDTDeploymentShareStatistics Get-MDTMonitorData Get-MDTOperatingSystemCatalog Get-MDTPersistentDrive Import-MDTApplication Import-MDTDriver Import-MDTOperatingSystem Import-MDTPackage Import-MDTTaskSequence New-MDTDatabase Remove-MDTMonitorData Remove-MDTPersistentDrive Restore-MDTPersistentDrive Set-MDTMonitorData Test-MDTDeploymentShare Test-MDTMonitorData Update-MDTDatabaseSchema Update-MDTDeploymentShare Update-MDTLinkedDS Update-MDTMedia Update-MDTMedia Add-VamtProductKey Export-VamtData Find-VamtManagedMachine Get-VamtConfirmationId Get-VamtProduct Get-VamtProductKey Import-VamtData Initialize-VamtData Install-VamtConfirmationId Install-VamtProductActivation Install-VamtProductKey Update-VamtProduct&quot;,nomarkup:&quot;-ne -eq -lt -gt -ge -le -not -like -notlike -match -notmatch -contains -notcontains -in -notin -replace&quot;},c:[t,e.NM,n,a,r,o,s]}});hljs.registerLanguage(&quot;shell&quot;,function(s){return{aliases:[&quot;console&quot;],c:[{cN:&quot;meta&quot;,b:&quot;^\\s{0,3}[\\w\\d\\[\\]()@-]*[&gt;%$#]&quot;,starts:{e:&quot;$&quot;,sL:&quot;bash&quot;}}]}});hljs.registerLanguage(&quot;fortran&quot;,function(e){var t={cN:&quot;params&quot;,b:&quot;\\(&quot;,e:&quot;\\)&quot;},n={literal:&quot;.false. .true. .and. .or. .not. .le. .eq. .ge. .gt. .lt.&quot;,keyword:&quot;access action advance allocatable allocate apostrophe assign assignment associate asynchronous backspace bind blank blockdata call case character class close common complex contains continue cycle data deallocate decimal delim default dimension direct do dowhile double doubleprecision else elseif elsewhere encoding end endassociate endblockdata enddo endfile endforall endfunction endif endinterface endmodule endprocedure endprogram endselect endsubroutine endtype endwhere entry eor equivalence err errmsg exist exit external final file flush fmt forall form format formatted function go goto id if implicit in include inout integer inquire intent interface intrinsic iomsg iolength iostat kind len logical module named namelist nextrec nml none nullify number only open opened operator optional out pad parameter pass nopass pause pending pointer pos position precision print private program protected public quote read readwrite real rec recl recursive result return rewind save select selectcase selecttype sequential stat status stop stream subroutine target then to type unformatted unit use value volatile wait where while write procedure elemental pure sequence import is null new_line block abstract delegate static reference round deferred decorate extends generic non_overridable enum endenum enumerator typealias submodule endsubmodule concurrent contiguous re im endblock non_intrinsic codimension contiguous impure critical endcritical lock unlock error sync all memory images&quot;,built_in:&quot;abs achar acos acosd adjustl adjustr aimag aimax0 aimin0 aint ajmax0 ajmin0 akmax0 akmin0 all allocated alog alog10 amax0 amax1 amin0 amin1 amod anint any asin asind associated atan atan2 atan2d atand bitest bitl bitlr bitrl bjtest bit_size bktest break btest cabs ccos cdabs cdcos cdexp cdlog cdsin cdsqrt ceiling cexp char clog cmplx conjg cos cosd cosh count cpu_time cshift csin csqrt dabs dacos dacosd dasin dasind datan datan2 datan2d datand date date_and_time dble dcmplx dconjg dcos dcosd dcosh dcotan ddim dexp dfloat dflotk dfloti dflotj digits dim dimag dint dlog dlog10 dmax1 dmin1 dmod dnint dot_product dprod dreal dsign dsin dsind dsinh dsqrt dtan dtand dtanh eoshift epsilon errsns exp exponent float floati floatj floatk floor fraction free huge iabs iachar iand ibclr ibits ibset ichar idate idim idint idnint ieor ifix iiabs iiand iibclr iibits iibset iidim iidint iidnnt iieor iifix iint iior iiqint iiqnnt iishft iishftc iisign ilen imax0 imax1 imin0 imin1 imod index inint inot int int1 int2 int4 int8 iqint iqnint ior ishft ishftc isign isnan izext jiand jibclr jibits jibset jidim jidint jidnnt jieor jifix jint jior jiqint jiqnnt jishft jishftc jisign jmax0 jmax1 jmin0 jmin1 jmod jnint jnot jzext kiabs kiand kibclr kibits kibset kidim kidint kidnnt kieor kifix kind kint kior kishft kishftc kisign kmax0 kmax1 kmin0 kmin1 kmod knint knot kzext lbound leadz len len_trim lenlge lge lgt lle llt log log10 logical lshift malloc matmul max max0 max1 maxexponent maxloc maxval merge min min0 min1 minexponent minloc minval mod modulo mvbits nearest nint not nworkers number_of_processors pack popcnt poppar precision present product radix random random_number random_seed range real repeat reshape rrspacing rshift scale scan secnds selected_int_kind selected_real_kind set_exponent shape sign sin sind sinh size sizeof sngl snglq spacing spread sqrt sum system_clock tan tand tanh tiny transfer transpose trim ubound unpack verify command_argument_count get_command get_command_argument get_environment_variable is_iostat_end is_iostat_eor move_alloc extends_type_of same_type_as selected_char_kind acosh asinh atanh c_sizeof bessel_j0 bessel_j1 bessel_jn bessel_y0 bessel_y1 bessel_yn erf hypot log_gamma trailz gamma bge bgt ble blt dshiftl dshiftr maskl maskr shifta shiftl shiftr merge_bits iall iany iparity storage_size parity norm2 erfc erfc_scaled execute_command_line findloc ucobound lcobound num_images this_image image_index atomic_define atomic_ref rank is_contiguous cdabs cdcos cdexp cdlog cdsin cdsqrt cotan cotand dcmplx dconjg dcotan dcotand decode dimag dll_export dll_import doublecomplex dreal dvchk encode find flen getcharqq getcl getdat gettim hfix ibchng identifier imag int1 int2 int4 int8 int16 int32 int64 intc intrup invalop iostat_msg isha ishc ishl jfix lacfar locking locnear map nargs nbreak ndperr ndpexc offset ovefl peekcharqq precfill prompt qabs qacos qacosd qasin qasind qatan qatand qatan2 qcmplx qconjg qcos qcosd qcosh qdim qexp qext qextd qfloat qimag qlog qlog10 qmax1 qmin1 qmod qreal qsign qsin qsind qsinh qsqrt qtan qtand qtanh ran rand randu real32 real64 real128 rewrite segment setdat settim system timer undfl union val virtual volatile zabs zcos zexp zlog zsin zsqrt character_kinds integer_kinds logical_kinds real_kinds c_associated c_f_pointer c_f_procpointer c_funloc c_loc c_int c_short c_long c_long_long c_signed_char c_size_t c_int8_t c_int16_t c_int32_t c_int64_t c_int128_t c_int_least8_t c_int_least16_t c_int_least32_t c_int_least64_t c_int_least128_t c_int_fast8_t c_int_fast16_t c_int_fast32_t c_int_fast64_t c_int_fast128_t c_intmax_t c_intptr_t c_float c_double c_long_double c_float_complex c_double_complex c_long_double_complex c_bool c_char c_ptr c_funptr c_null_funptr c_null_ptr c_new_line c_null_char c_alert c_backspace c_form_feed c_carriage_return c_horizontal_tab c_vertical_tab atomic_int_kind atomic_logical_kind compiler_options compiler_version iostat_inquire_internal_unit lock_type stat_locked stat_locked_other_image stat_stopped_image stat_unlocked character_storage_size error_unit file_storage_size input_unit iostat_end iostat_eor numeric_storage_size output_unit&quot;};return{cI:!0,aliases:[&quot;f90&quot;,&quot;f95&quot;],k:n,i:/\/\*/,c:[e.inherit(e.ASM,{cN:&quot;string&quot;,r:0}),e.inherit(e.QSM,{cN:&quot;string&quot;,r:0}),{cN:&quot;function&quot;,bK:&quot;subroutine function program module submodule&quot;,i:&quot;[${=\\n]&quot;,c:[e.UTM,t]},e.C(&quot;!&quot;,&quot;$&quot;,{r:0}),{cN:&quot;number&quot;,b:&quot;(?=\\b|\\+|\\-|\\.)[+-]?(?:\\.|\\d+\\.?)\\d*([de][+-]?\\d+)?(_[a-z\\d]+)?\\b&quot;,r:0}]}});
 exports.hljs = hljs;</pre>
 </div>
+<<<<<<< HEAD
+<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="KaTeX: mathematical typography" list="readme usage" plugin-type="plugin" title="$:/plugins/tiddlywiki/katex" type="application/json" version="5.1.17">
+=======
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="KaTeX: mathematical typography" list="readme usage" plugin-type="plugin" title="$:/plugins/tiddlywiki/katex" type="application/json" version="5.1.16">
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/plugins/tiddlywiki/katex/katex.min.css&quot;: {
@@ -9285,6 +9422,13 @@ exports.hljs = hljs;</pre>
 </div>
 <div created="20170629064806301" creator="Mohammad" modified="20180426200311444" modifier="Mohammad" title="$:/SiteSubtitle">
 <pre>fortran wiki and notes, TW &lt;&lt;version&gt;&gt;</pre>
+<<<<<<< HEAD
+</div>
+<div created="20170625112208426" creator="Mohammad" modified="20180426200244920" modifier="Mohammad" title="$:/SiteTitle">
+<pre>TiddlyFor</pre>
+</div>
+<div created="20180830075204689" creator="Mohammad" modified="20180830082453461" modifier="Mohammad" title="$:/state/tab/sidebar--1835078512">
+=======
 </div>
 <div created="20170625112208426" creator="Mohammad" modified="20180426200244920" modifier="Mohammad" title="$:/SiteTitle">
 <pre>TiddlyFor</pre>
@@ -9293,6 +9437,7 @@ exports.hljs = hljs;</pre>
 <pre>yes</pre>
 </div>
 <div created="20180426192214802" creator="Mohammad" modified="20180426200345424" modifier="Mohammad" title="$:/state/tab/sidebar--1835078512">
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
 <div created="20170629064829266" creator="M" modified="20170629064831314" modifier="Mohamma" title="$:/status/UserName">
@@ -9301,9 +9446,12 @@ exports.hljs = hljs;</pre>
 <div list="Home ToDo" title="$:/StoryList">
 <pre></pre>
 </div>
+<<<<<<< HEAD
+=======
 <div created="20180426192546589" creator="Mohammad" modified="20180426193657694" modifier="Mohammad" title="$:/temp/delete-filter">
 <pre></pre>
 </div>
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -9317,7 +9465,11 @@ exports.hljs = hljs;</pre>
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
+<<<<<<< HEAD
+            &quot;text&quot;: &quot;file:///D:/Github/repo/TiddlyFor/TiddlyFor.html&quot;
+=======
             &quot;text&quot;: &quot;file:///C:/TW/TiddlyFor/TiddlyFor.html&quot;
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -9337,7 +9489,11 @@ exports.hljs = hljs;</pre>
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
+<<<<<<< HEAD
+            &quot;text&quot;: &quot;/D:/Github/repo/TiddlyFor/TiddlyFor.html&quot;
+=======
             &quot;text&quot;: &quot;/C:/TW/TiddlyFor/TiddlyFor.html&quot;
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -9358,13 +9514,21 @@ exports.hljs = hljs;</pre>
     }
 }</pre>
 </div>
+<<<<<<< HEAD
+<div created="20180830075019379" creator="Mohammad" modified="20180830075932401" modifier="Mohammad" title="$:/temp/search">
+=======
 <div created="20180426192850544" creator="Mohammad" modified="20180426193146889" modifier="Mohammad" title="$:/temp/search">
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <pre></pre>
 </div>
 <div created="20170625123241078" creator="Mohammad" modified="20180414070617124" modifier="Mohammad" title="$:/theme">
 <pre>$:/themes/tiddlywiki/snowwhite</pre>
 </div>
+<<<<<<< HEAD
+<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/snowwhite" description="Hides the ability to edit tiddlers" name="ReadOnly" plugin-type="theme" title="$:/themes/tiddlywiki/readonly" type="application/json" version="5.1.17">
+=======
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/snowwhite" description="Hides the ability to edit tiddlers" name="ReadOnly" plugin-type="theme" title="$:/themes/tiddlywiki/readonly" type="application/json" version="5.1.16">
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/themes/tiddlywiki/readonly/styles.tid&quot;: {
@@ -9375,7 +9539,11 @@ exports.hljs = hljs;</pre>
     }
 }</pre>
 </div>
+<<<<<<< HEAD
+<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.17">
+=======
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.16">
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/themes/tiddlywiki/snowwhite/base&quot;: {
@@ -9386,7 +9554,11 @@ exports.hljs = hljs;</pre>
     }
 }</pre>
 </div>
+<<<<<<< HEAD
+<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="Basic theme" name="Vanilla" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/vanilla" type="application/json" version="5.1.17">
+=======
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="Basic theme" name="Vanilla" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/vanilla" type="application/json" version="5.1.16">
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/themes/tiddlywiki/vanilla/themetweaks&quot;: {
@@ -9501,6 +9673,125 @@ Modified by:
 Mohammad Rahmani
 Apr 20, 2018
 */
+<<<<<<< HEAD
+=======
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
+  font-size: 0.90em;  /* smaller font */
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-tag {
+  color: #e3ceab;
+  font-weight: normal;
+}
+
+.hljs-template-tag {
+  color: #dcdcdc;
+}
+
+.hljs-number {
+  color: #8cd0d3;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute {
+  color: #efdcbc;
+}
+
+.hljs-literal {
+  color: #efefaf;
+}
+
+.hljs-subst {
+  color: #8f8f8f;
+}
+
+.hljs-title,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-section,
+.hljs-type {
+  color: #efef8f;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #dca3a3;
+}
+
+.hljs-deletion,
+.hljs-string,
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #cc9393;
+}
+
+.hljs-addition,
+.hljs-comment,
+.hljs-quote,
+.hljs-meta {
+  color: #7f9f7f;
+  font-style:normal;
+}
+
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</pre>
+</div>
+<div created="20180408173556575" creator="Mohammad" modified="20180426192239194" modifier="Mohammad" title="$:/view">
+<pre>classic</pre>
+</div>
+<div created="20180416160914637" creator="Mohammad" modified="20180416162148390" modifier="Mohammad" tags="info tiddlyfor" title="Acknowledgement">
+<pre>This TiddlyWiki edition would not exist without the help, time and efforts of these people:
+
+|tblNoborder|k
+|[[Jeremy Ruston|https://github.com/Jermolene]]|The creator of TiddlyWiki|
+|[[Tobias Beer|https://github.com/tobibeer]]|Developer|
+</pre>
+</div>
+<div created="20180412174301426" creator="Mohammad" modified="20180413034625521" modifier="Mohammad" tags="tiddlyfor markup tutorial" title="Background Color">
+<pre>!! Background color macro
+''bc'' macro changes the background color of text
+
+* ''Syntax''
+
+```
+ &lt;&lt;bc &quot;Easy to learn&quot;&gt;&gt;
+ &lt;&lt;bc &quot;Wealth of numerical libraries&quot; &quot;lightgreen&quot;&gt;&gt;
+ &lt;&lt;bc &quot;Parallel computing&quot; &quot;lightblue&quot;&gt;&gt;
+ &lt;&lt;bc &quot;''High performance computing''&quot; &quot;#FBE1D2&quot;&gt;&gt;
+```
+
+* ''Output''
+&quot;&quot;&quot;
+ &lt;&lt;bc &quot;Easy to learn&quot;&gt;&gt;
+ &lt;&lt;bc &quot;Wealth of numerical libraries&quot; &quot;cyan&quot;&gt;&gt;
+ &lt;&lt;bc &quot;Parallel computing&quot; &quot;lightblue&quot;&gt;&gt;
+ &lt;&lt;bc &quot;''High performance''&quot; &quot;#FBE1D2&quot;&gt;&gt;
+&quot;&quot;&quot;</pre>
+</div>
+<div color="#0000ff" created="20180414170059300" creator="Mohammad" modified="20180414170059300" modifier="Mohammad" title="bisect">
+<pre></pre>
+</div>
+<div created="20180406104645591" creator="Mohammad" modified="20180406104758939" modifier="Mohammad" tags="bisect" title="Bisect_example_code">
+<pre>This is the code for solving the problem in [[Bisection example]].
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 
 .hljs {
   display: block;
@@ -9969,6 +10260,76 @@ For more info look at:
 <div created="20180412180435295" creator="Mohammad" modified="20180414113621808" modifier="Mohammad" tags="tiddlyfor markup tutorial" title="Colored Border Block">
 <pre>!! Block with colored left border
 *''Syntax''
+<<<<<<< HEAD
+
+```
+@@.linered
+This is a block&lt;br&gt;
+with colored border!
+@@
+
+@@.linegreen
+This is a block&lt;br&gt;
+with colored border!
+@@
+
+@@.lineblue
+This is a block&lt;br&gt;
+with colored border!
+@@
+
+@@.lineyellow
+This is a block&lt;br&gt;
+with colored border!
+@@
+
+```
+
+*''Output''
+@@.linered
+This is a long text! &lt;&lt;.lorem&gt;&gt;
+@@
+
+@@.linegreen
+This is a block&lt;br&gt;
+with colored border!
+@@
+
+@@.lineblue
+This is a block&lt;br&gt;
+with colored border!
+@@
+
+@@.lineyellow
+This is a block&lt;br&gt;
+with colored border!
+@@</pre>
+</div>
+<div created="20180412171511225" creator="Mohammad" modified="20180413034757428" modifier="Mohammad" tags="tiddlyfor markup tutorial" title="Colored Text">
+<pre>!! Text color macro
+
+''fc'' macro changes the text color (foreground color)
+
+''Syntax''
+
+```
+&lt;&lt;fc &quot;Easy to learn&quot; &quot;red&quot;&gt;&gt;
+&lt;&lt;fc &quot;Wealth of numerical libraries&quot; &quot;green&quot;&gt;&gt;
+&lt;&lt;fc &quot;Parallel computing&quot; &quot;blue&quot;&gt;&gt;
+&lt;&lt;fc &quot;''High performance computing''&quot; &quot;#5C2583&quot;&gt;&gt;
+```
+* ''Output''
+&quot;&quot;&quot;
+ &lt;&lt;fc &quot;Easy to learn&quot; &quot;red&quot;&gt;&gt;
+ &lt;&lt;fc &quot;Wealth of numerical libraries&quot; &quot;green&quot;&gt;&gt;
+ &lt;&lt;fc &quot;Parallel computing&quot; &quot;blue&quot;&gt;&gt;
+ &lt;&lt;fc &quot;''High performance''&quot; &quot;#5C2583&quot;&gt;&gt;
+&quot;&quot;&quot;</pre>
+</div>
+<div created="20170629192216159" creator="Mohammad" modified="20180413033734453" modifier="Mohammad" tags="tiddlyfor markup tutorial" title="Custom Styles">
+<pre>Several custom stylesheet has been defined in [[myStylesheet]] and can be invoked in Wikitext using the followos
+=======
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 
 ```
 @@.linered
@@ -10314,16 +10675,28 @@ Here are some example
 @@.lineblue  ''Syntax'' @@
 
 ```
+<<<<<<< HEAD
+=======
 $$
 S = \oint_{\Omega} f(x, \delta) dx d\delta
 $$`
 ```
 
 @@.linegreen ''Result'' @@
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
+$$
+S = \oint_{\Omega} f(x, \delta) dx d\delta
+$$`
+```
+
+<<<<<<< HEAD
+@@.linegreen ''Result'' @@
 $$
 S = \oint_{\Omega} f(x, \delta) dx d\delta
 $$
 
+=======
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 !!!.purplecls Example 2
 
  Aligned equations
@@ -10415,7 +10788,11 @@ vertical-align: unset;
     vertical-align: middle;
 }</pre>
 </div>
+<<<<<<< HEAD
+<div created="20170629183034888" creator="Mohammad" modified="20180830075526691" modifier="Mohammad" tags="macro tiddlyfor $:/tags/Macro" title="myMacros">
+=======
 <div created="20170629183034888" creator="Mohammad" modified="20180426192750697" modifier="Mohammad" tags="macro tiddlyfor $:/tags/Macro" title="myMacros">
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <pre>\define footnote(text:&quot;&quot; title:&quot;Footnotes&quot;)
 ---
 !!!! $title$
@@ -10423,6 +10800,7 @@ vertical-align: unset;
 $text$
 @@
 \end
+<<<<<<< HEAD
 
 \define fc(text, fgc:&quot;red&quot;)
 @@color:$fgc$;
@@ -10432,8 +10810,24 @@ $text$
 
 \define bc(text, bgc:&quot;yellow&quot;)
 @@background-color:$bgc$;
+=======
+
+\define fc(text, fgc:&quot;red&quot;)
+@@color:$fgc$;
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 $text$
 @@
+\end
+
+<<<<<<< HEAD
+\define .lorem()
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+=======
+\define bc(text, bgc:&quot;yellow&quot;)
+@@background-color:$bgc$;
+$text$
+@@
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 \end
 
 !! User defined macros
@@ -10442,6 +10836,10 @@ This tiddler contains the user defined macros. Edit to see the code.
 * footnote
 * fc
 * bc
+<<<<<<< HEAD
+* .lorem create a dummy text
+=======
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 </pre>
 </div>
 <div created="20180415045825568" creator="Mohammad" modified="20180415061645078" modifier="Mohammad" tags="markup tutorial tiddlyfor" title="New Tiddler from a Template">
@@ -10616,9 +11014,16 @@ This is an example of  ''yellowbox''.
 &lt;&lt;&lt;
 </pre>
 </div>
+<<<<<<< HEAD
+<div created="20180408175412927" creator="Mohammad" modified="20180830075143595" modifier="Mohammad" tags="" title="Revision History">
+<pre>|Revision |Date |Remarks |h
+|!0.6 |08-30-2018|TW Core was updated to 5.1.17|
+|!0.5 |04-25-2018|TW Core was updated to 5.1.16&lt;br&gt;New theme (Readonly mode) to prevent TiddlyFor editting&lt;br&gt;New colored edit button as traffic-light&lt;br&gt;New custom stylesheet for colored-border block&lt;br&gt;New custom classes for tables&lt;br&gt;New macros: fc, bc &lt;br&gt;`Highlight.js` plugin updated&lt;br&gt;[[KaTex|$:/plugins/tiddlywiki/katex]] plugin updated&lt;br&gt;Footnote macro updated&lt;br&gt;|
+=======
 <div created="20180408175412927" creator="Mohammad" modified="20180426192342284" modifier="Mohammad" tags="" title="Revision History">
 <pre>|Revision |Date |Remarks |h
 |!0.5 |04-25-2018|TW Core was updated to 5.1.16&lt;br&gt;New theme (Readonly mode) to prevent TiddlyFor editting&lt;br&gt;New colored edit button as traffic-light&lt;br&gt;New custom stylesheet for colored-border block&lt;br&gt;New custom classes for tables&lt;br&gt;New macros: fc, bc &lt;br&gt;Highlight.js plugin updated&lt;br&gt;[[KaTex|$:/plugins/tiddlywiki/katex]] plugin updated&lt;br&gt;Footnote macro updated&lt;br&gt;|
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 |!0.4 |04-08-2018|TW Core was updated to 5.1.15&lt;br&gt; Julia and CMake are added to syntax highlight|
 |!0.3 |04-06-2018|Embeded all icons as URI data|
 |!0.2 |07-07-2017|Moved to TiddlyWiki 5|
@@ -11070,7 +11475,10 @@ zoom: 1;
 filter: alpha(opacity=100);
 opacity: 1;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 
 
 /* RTL Setting */
@@ -11082,6 +11490,18 @@ direction: rtl;
 font-family: &quot;Segoe UI&quot;, tahoma;
 }
 
+<<<<<<< HEAD
+/* RTL Setting */
+.tc-tagged-RTL .tc-title,
+.tc-tagged-RTL .tc-subtitle,
+.tc-tagged-RTL .tc-tags-wrapper,
+.tc-tagged-RTL .tc-tiddler-body{
+direction: rtl;
+font-family: &quot;Segoe UI&quot;, tahoma;
+}
+
+=======
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 </pre>
 </div>
 <div created="20170820051104983" creator="Mohammad" modified="20180419192446235" modifier="Mohammad" tags="tiddlyfor markup tutorial" title="Syntax Highlighting">
@@ -11390,6 +11810,12 @@ Hover the mouse to see the color change
 </pre>
 </div>
 <div color="#8000ff" created="20170629075343884" creator="Mohammad" icon="$:/core/images/timestamp-on" modified="20180414170040457" modifier="Mohammad" title="task">
+<<<<<<< HEAD
+<pre></pre>
+</div>
+<div color="#d8d8d8" created="20180413191843172" creator="Mohammad" icon="$:/favicon.ico" modified="20180413195258666" modifier="Mohammad" title="tiddlyfor">
+=======
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 <pre></pre>
 </div>
 <div created="20180406110857746" creator="Mohammad" modified="20180413032310544" modifier="Mohammad" tags="info" title="TiddlyFor">
@@ -11413,9 +11839,12 @@ Its main feature is:
 * TiddlyFor can be customized through plugins
 * Different themes (styles) for syntax highlighting can be used see highligh.js plugin
 * Syntax highlighting for several scientific languages and some common language is available in TiddlyFor. Other language can be simply added! See the highlight plugin.</pre>
+<<<<<<< HEAD
+=======
 </div>
 <div color="#d8d8d8" created="20180413191843172" creator="Mohammad" icon="$:/favicon.ico" modified="20180413195258666" modifier="Mohammad" title="tiddlyfor">
 <pre></pre>
+>>>>>>> 03e4d165e622bd0b9961a92689b5a07887a234f1
 </div>
 <div created="20180406111223185" creator="Mohammad" modified="20180414115823836" modifier="Mohammad" tags="info" title="TiddlyWiki">
 <pre>From [[TiddlyWiki.com|https://tiddlywiki.com/]]:
@@ -12153,8 +12582,8 @@ $tw.utils.error = function(err) {
 		var dm = $tw.utils.domMaker,
 			heading = dm("h1",{text: errHeading}),
 			prompt = dm("div",{text: promptMsg, "class": "tc-error-prompt"}),
-			message = dm("div",{text: err}),
-			button = dm("button",{text: ( $tw.language == undefined ? "close" : $tw.language.getString("Buttons/Close/Caption") )}),
+			message = dm("div",{text: err, "class":"tc-error-message"}),
+			button = dm("div",{children: [dm("button",{text: ( $tw.language == undefined ? "close" : $tw.language.getString("Buttons/Close/Caption") )})], "class": "tc-error-prompt"}),
 			form = dm("form",{children: [heading,prompt,message,button], "class": "tc-error-form"});
 		document.body.insertBefore(form,document.body.firstChild);
 		form.addEventListener("submit",function(event) {
@@ -13299,8 +13728,7 @@ $tw.Wiki.prototype.deserializeTiddlers = function(type,text,srcFields,options) {
 /*
 Register the built in tiddler deserializer modules
 */
-$tw.modules.define("$:/boot/tiddlerdeserializer/js","tiddlerdeserializer",{
-	"application/javascript": function(text,fields) {
+var deserializeHeaderComment = function(text,fields) {
 		var headerCommentRegExp = new RegExp($tw.config.jsModuleHeaderRegExpString,"mg"),
 			match = headerCommentRegExp.exec(text);
 		fields.text = text;
@@ -13308,7 +13736,12 @@ $tw.modules.define("$:/boot/tiddlerdeserializer/js","tiddlerdeserializer",{
 			fields = $tw.utils.parseFields(match[1].split(/\r?\n\r?\n/mg)[0],fields);
 		}
 		return [fields];
-	}
+	};
+$tw.modules.define("$:/boot/tiddlerdeserializer/js","tiddlerdeserializer",{
+	"application/javascript": deserializeHeaderComment
+});
+$tw.modules.define("$:/boot/tiddlerdeserializer/css","tiddlerdeserializer",{
+	"text/css": deserializeHeaderComment
 });
 $tw.modules.define("$:/boot/tiddlerdeserializer/tid","tiddlerdeserializer",{
 	"application/x-tiddler": function(text,fields) {

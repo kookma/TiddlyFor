@@ -20,7 +20,9 @@ TiddlyFor is a single file, self-contained wiki for fortran programmer but can b
 * Refined to be suitable for research and education
 
 ## How to use (and install)
-No installation is requird. Simply go to https://github.com/kookma/TiddlyFor/releases and download from the latest release the html file (for example TiddlyFor-5.1.17.html) open it in your favorite browser!
+No installation is requird. Simply go to https://github.com/kookma/TiddlyFor/releases and download from the latest release the html file (for example index.html) open it in your favorite browser!
+
+You can also open https://kookma.github.io/TiddlyFor/index.html and save a copy.
 
 * For more help see [TiddlyWiki](http://tiddlywiki.com)
 * For editing the contents, it is recommneded to use TiddlyDesktop or similar, or use on Node.js. See [TiddlyWiki](http://tiddlywiki.com) for more details
